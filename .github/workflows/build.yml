@@ -1,0 +1,64 @@
+name: Build Social Feeds
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # Daily at 2 PM UTC (9 AM EST)
+  workflow_dispatch:
+
+jobs:
+  build-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Mark repo safe for git
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate AI-powered RSS content
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          BRAND: "ScalePilot"
+          SITE_URL: "https://scalepilot.com/"
+        run: python build_rss.py
+
+      - name: Generate platform-specific feeds
+        run: |
+          python scripts/make_li_feed.py
+          python scripts/make_x_feed.py
+          python scripts/make_fb_feed.py
+
+      - name: Run health check
+        run: python health_check.py
+        continue-on-error: true
+
+      - name: Commit and push feeds
+        run: |
+          git config user.name "scalepilot-bot"
+          git config user.email "scalepilot-bot@users.noreply.github.com"
+          branch=$(git rev-parse --abbrev-ref HEAD)
+          git pull --rebase --autostash origin "$branch"
+
+          git add feeds/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Build/Update social feeds [skip ci]"
+            git push origin "$branch"
+            echo "Feeds updated successfully"
+          else
+            echo "No changes to commit"
+          fi
