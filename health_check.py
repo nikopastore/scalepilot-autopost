@@ -152,22 +152,22 @@ class HealthCheck:
         logger.info("Starting health checks...")
 
         # File existence checks
-        self.check_file_exists("feeds/master_feed.xml", "Master RSS Feed")
+        self.check_file_exists("feeds/rss.xml", "Main AI-Generated RSS Feed")
         self.check_file_exists("feeds/rss_li.xml", "LinkedIn Feed")
         self.check_file_exists("feeds/rss_x.xml", "X Feed")
         self.check_file_exists("feeds/rss_fb.xml", "Facebook Feed")
 
         # RSS validation
-        if os.path.exists("feeds/master_feed.xml"):
-            self.check_rss_valid("feeds/master_feed.xml")
-            self.check_recent_feed("feeds/master_feed.xml", max_hours=48)
+        if os.path.exists("feeds/rss.xml"):
+            self.check_rss_valid("feeds/rss.xml")
+            self.check_recent_feed("feeds/rss.xml", max_hours=48)
 
         # File size checks (prevent runaway growth)
-        self.check_file_size("feeds/master_feed.xml", max_mb=10, description="Master Feed")
+        self.check_file_size("feeds/rss.xml", max_mb=10, description="Main Feed")
 
         # Environment checks (only in CI/CD)
         if os.getenv("CI"):
-            self.check_env_var("BUFFER_TOKEN")
+            self.check_env_var("OPENAI_API_KEY")
 
         # Summary
         total = len(self.checks)
