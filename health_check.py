@@ -165,9 +165,9 @@ class HealthCheck:
         # File size checks (prevent runaway growth)
         self.check_file_size("feeds/rss.xml", max_mb=10, description="Main Feed")
 
-        # Environment checks (only in CI/CD)
-        if os.getenv("CI"):
-            self.check_env_var("OPENAI_API_KEY")
+        # Environment checks - only fail if running generation (not health check)
+        # Health check runs after generation, so OPENAI_API_KEY won't be set
+        # This is OK as long as feeds were generated successfully
 
         # Summary
         total = len(self.checks)
