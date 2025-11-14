@@ -1,0 +1,126 @@
+{
+  "competitor_landscape": {
+    "direct_competitors": [
+      {
+        "name": "Buffer",
+        "positioning": "Social media scheduling and analytics",
+        "strengths": ["Easy to use", "Multi-platform support", "Good analytics"],
+        "weaknesses": ["Manual content creation", "No AI generation", "Expensive for teams"],
+        "pricing": "$6-12/month per channel",
+        "our_advantage": "We generate the content FOR you, not just schedule it"
+      },
+      {
+        "name": "Hootsuite",
+        "positioning": "Enterprise social media management",
+        "strengths": ["Comprehensive features", "Team collaboration", "Brand monitoring"],
+        "weaknesses": ["Complex interface", "Expensive", "Overkill for SMBs"],
+        "pricing": "$99+/month",
+        "our_advantage": "Built for SMBs, not enterprises. 10x cheaper, infinitely simpler"
+      },
+      {
+        "name": "Later",
+        "positioning": "Visual content scheduling (Instagram focus)",
+        "strengths": ["Visual planning", "Instagram first", "User-friendly"],
+        "weaknesses": ["Manual content creation", "Limited to visual platforms"],
+        "pricing": "$18-80/month",
+        "our_advantage": "AI-generated text content, works across all platforms"
+      },
+      {
+        "name": "SocialBee",
+        "positioning": "Content categorization and recycling",
+        "strengths": ["Content categories", "Evergreen recycling", "RSS support"],
+        "weaknesses": ["Still manual creation", "Complex category system"],
+        "pricing": "$29-79/month",
+        "our_advantage": "Fully automated AI generation, no manual work needed"
+      }
+    ],
+
+    "ai_content_competitors": [
+      {
+        "name": "Jasper",
+        "positioning": "AI content creation for marketing",
+        "strengths": ["High-quality output", "Many templates", "Brand voice"],
+        "weaknesses": ["Expensive", "Still requires manual prompting", "No automation"],
+        "pricing": "$49-125/month",
+        "our_advantage": "Fully automated - runs on schedule without manual prompts"
+      },
+      {
+        "name": "Copy.ai",
+        "positioning": "AI copywriting assistant",
+        "strengths": ["Easy to use", "Good for one-off content"],
+        "weaknesses": ["No scheduling", "No analytics", "Manual workflow"],
+        "pricing": "$36-186/month",
+        "our_advantage": "End-to-end automation from generation to posting to analytics"
+      },
+      {
+        "name": "ChatGPT (manual use)",
+        "positioning": "General AI assistant",
+        "strengths": ["Powerful", "Flexible", "Cheap"],
+        "weaknesses": ["Completely manual", "No memory", "No scheduling"],
+        "pricing": "$20/month",
+        "our_advantage": "Automated system with quality gates, scheduling, and analytics"
+      }
+    ],
+
+    "automation_competitors": [
+      {
+        "name": "Zapier",
+        "positioning": "Workflow automation platform",
+        "strengths": ["Connects everything", "Powerful", "Popular"],
+        "weaknesses": ["Complex setup", "No content generation", "Task limits"],
+        "pricing": "$20-50+/month",
+        "our_advantage": "Pre-built for social media content - works out of the box"
+      },
+      {
+        "name": "Make (Integromat)",
+        "positioning": "Visual automation builder",
+        "strengths": ["Visual builder", "Powerful logic", "Unlimited workflows"],
+        "weaknesses": ["Steep learning curve", "No AI content built-in"],
+        "pricing": "$9-29+/month",
+        "our_advantage": "No-code setup, AI content included"
+      }
+    ]
+  },
+
+  "market_positioning": {
+    "our_unique_position": "The only AI content automation built specifically for SMBs that generates, optimizes, and distributes social content automatically",
+
+    "positioning_statements": [
+      "Buffer + Jasper + Analytics = ScalePilot (at 1/10th the price)",
+      "Set it up once, get consistent content forever",
+      "AI that actually understands small business challenges",
+      "Not a tool - a complete content system"
+    ],
+
+    "key_messages": [
+      "Stop manually creating social content",
+      "AI-powered, not AI-spammed",
+      "Built for SMBs, not enterprises",
+      "One setup, infinite content",
+      "Quality over quantity, always"
+    ]
+  },
+
+  "content_angles": {
+    "vs_manual_posting": {
+      "hook": "Still manually posting to social media in 2025?",
+      "pain": "You're spending 10+ hours/week on something AI can do in 10 seconds",
+      "solution": "ScalePilot generates, optimizes, and posts automatically"
+    },
+    "vs_scheduling_tools": {
+      "hook": "Buffer and Hootsuite solve the WRONG problem",
+      "pain": "Scheduling is easy. Creating GOOD content is the hard part",
+      "solution": "We generate the content, not just schedule it"
+    },
+    "vs_ai_assistants": {
+      "hook": "ChatGPT is powerful, but you still need to use it every day",
+      "pain": "Prompting AI daily is just another task on your plate",
+      "solution": "ScalePilot runs automatically - no daily prompting needed"
+    },
+    "vs_agencies": {
+      "hook": "Agencies cost $2000+/month. We cost less than your Netflix subscription",
+      "pain": "You want consistent content but can't afford an agency",
+      "solution": "AI-powered content at agency quality, solopreneur prices"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "product_name": "ScalePilot",
+  "tagline": "AI-powered automation for small business growth",
+  "core_value_proposition": "We help SMBs automate repetitive tasks and scale efficiently using AI",
+
+  "features": {
+    "current": [
+      {
+        "name": "AI Content Automation",
+        "description": "Automated social media content generation for LinkedIn, Twitter, and Facebook",
+        "benefit": "Save 10+ hours per week on content creation",
+        "use_case": "Marketing teams, solopreneurs, small agencies"
+      },
+      {
+        "name": "RSS Feed Distribution",
+        "description": "Platform-optimized RSS feeds for seamless social media integration",
+        "benefit": "Set it and forget it - content flows automatically to your channels",
+        "use_case": "Busy business owners who want consistent presence"
+      },
+      {
+        "name": "Smart Quality Gates",
+        "description": "AI ensures brand-consistent voice and eliminates low-quality content",
+        "benefit": "Professional, on-brand content every time",
+        "use_case": "Businesses that care about brand reputation"
+      },
+      {
+        "name": "Duplicate Detection",
+        "description": "Never post repetitive content - AI tracks and prevents duplicates",
+        "benefit": "Keep your audience engaged with fresh content",
+        "use_case": "Long-term content strategies"
+      },
+      {
+        "name": "Performance Analytics",
+        "description": "Track what's working and optimize over time",
+        "benefit": "Data-driven content decisions",
+        "use_case": "Growth-focused businesses"
+      }
+    ],
+
+    "coming_soon": [
+      {
+        "name": "Multi-brand Management",
+        "description": "Manage content for multiple brands from one dashboard",
+        "benefit": "Scale your content operations across portfolios",
+        "use_case": "Agencies, holding companies"
+      },
+      {
+        "name": "Industry-specific Templates",
+        "description": "Pre-built content strategies for different verticals",
+        "benefit": "Faster setup with proven templates",
+        "use_case": "New users, vertical specialists"
+      },
+      {
+        "name": "A/B Testing Engine",
+        "description": "Test different content styles automatically",
+        "benefit": "Discover what resonates with your audience",
+        "use_case": "Data-driven marketers"
+      }
+    ]
+  },
+
+  "differentiators": [
+    "Built specifically for SMBs, not enterprises",
+    "No complex setup - works with existing tools (Buffer, Zapier, etc.)",
+    "Quality-first approach (not quantity spam)",
+    "GitHub-based for full transparency and control",
+    "One-time setup, runs forever"
+  ],
+
+  "target_audience": {
+    "primary": [
+      "Small business owners (1-50 employees)",
+      "Solopreneurs and freelancers",
+      "Marketing managers at SMBs",
+      "Operations managers looking to automate"
+    ],
+    "pain_points": [
+      "No time for consistent content creation",
+      "Can't afford full-time marketing team",
+      "Tried scheduling tools but still manual work",
+      "Want AI but don't know where to start",
+      "Afraid AI content sounds robotic"
+    ],
+    "goals": [
+      "Consistent social media presence",
+      "Generate leads organically",
+      "Build thought leadership",
+      "Save time on repetitive tasks",
+      "Scale without hiring"
+    ]
+  }
+}
