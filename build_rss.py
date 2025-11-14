@@ -228,7 +228,7 @@ def quality_gate(x_line: str, rules: dict) -> tuple:
     if rules.get("enforce_second_person", False):
         if not re.search(r"\b(you|your)\b", x_line, re.I):
             # allow templates starting with 'Use:' that quote 1st person
-            if not re.search(r"Use:\s*[\""]", x_line):
+            if not re.search(r'Use:\s*["\']', x_line):
                 return False, "missing second-person signal"
     # First-person outside quotes not allowed
     if rules.get("allow_first_person_in_quotes_only", False):
