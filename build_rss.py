@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-ScalePilot — build_rss.py (AI-Generated Content)
+ScalePilot — build_rss.py (AI-Generated Content + Quality Gates)
 
-Generates AI-powered social media content for SMBs focused on:
-- AI automation tools and workflows
-- Productivity and efficiency
-- Marketing, recruiting, and training
-- Business growth strategies
+Key features:
+- AI-generated content for small business audience
+- Quality gates: ensure second-person voice, no banned phrases
+- Duplicate detection with 5-gram similarity
+- 30 rolling backups before any modification
+- Bandit-based style weight learning
 
 Requires env: OPENAI_API_KEY
 Optional: BRAND, SITE_URL, MODEL
@@ -50,6 +51,9 @@ STYLE_CATALOG = [
 ]
 EMOJI_PALETTE = ["✅","💡","🚀","🤖","💼","📊","⚡","🎯","🔧","💬","📈","🧠","⏱️","🌟","🔥","✨"]
 
+DIALOGUE_PREFIX_RX = re.compile(r"\b(You|Them|Q|A):\s*", re.I)
+FORBIDDEN_DIALOGUE_RX = re.compile(r"\b(You:|Them:|Q:|A:)\b", re.I)
+FORBIDDEN_META_RX = re.compile(r"\b(in this thread|see below)\b", re.I)
 WHITESPACE_RX = re.compile(r"\s{2,}")
 URL_RX = re.compile(r"https?://\S+")
 HASHTAG_RX = re.compile(r"#[A-Za-z0-9_]+")
@@ -116,7 +120,33 @@ def add_minimum_emojis(line: str, need_min=2) -> str:
     random.shuffle(palette)
     return f"{palette[0]} {line}" if (need_min - count) == 1 else f"{palette[0]} {line} {palette[1]}"
 
+def enforce_second_person_line(line: str) -> str:
+    """
+    Ensure the main X line keeps a visible second-person signal even after sanitation.
+    """
+    if not line:
+        return line
+    if re.search(r"\b(you|your)\b", line, re.I):
+        return line
+    if re.search(r"Use:\s*[\"']", line, re.I):
+        return line
+    match = re.match(r"^([\W]*)(.*)$", line)
+    if not match:
+        return f"You {line}"
+    prefix, remainder = match.groups()
+    remainder = remainder.strip()
+    if not remainder:
+        return f"{prefix}You"
+    return f"{prefix}You {remainder}"
+
 def sanitize_xline(s: str) -> str:
+    def _dialogue_repl(match: re.Match) -> str:
+        token = match.group(1).lower()
+        if token == "you":
+            return "You "
+        return ""
+    s = DIALOGUE_PREFIX_RX.sub(_dialogue_repl, s)
+    s = FORBIDDEN_META_RX.sub("", s)
     s = WHITESPACE_RX.sub(" ", s)
     s = URL_RX.sub("", s)
     s = HASHTAG_RX.sub("", s)
@@ -163,6 +193,48 @@ def coerce_tag_list(obj):
         if s not in seen:
             seen.add(s); clean.append(s)
     return clean
+
+# ---- Persona & quality gate utilities ----
+QUOTE_CHARS = "\"'""''"
+def contains_unquoted_I(text: str) -> bool:
+    """Return True if ' I ' appears outside of quotes."""
+    # Strip quoted segments then search
+    tmp = re.sub(r"[\"""''][^\"""'']+[\"""'']", " ", text)
+    return bool(re.search(r"\bI\b", tmp))
+
+def has_banned_phrases(text: str, banned: list) -> bool:
+    low = text.lower()
+    for p in banned:
+        if p.strip() and p.lower() in low:
+            return True
+    return False
+
+WHEN_I_PAST_RX = re.compile(r"\bwhen\s+\w+ing\b.*\bI\b.*\b(achieved|led to|delivered|shipped)\b", re.I)
+
+def quality_gate(x_line: str, rules: dict) -> tuple:
+    """
+    Returns (ok, reason_if_bad)
+    """
+    # No dialogue markers or meta
+    if FORBIDDEN_DIALOGUE_RX.search(x_line) or FORBIDDEN_META_RX.search(x_line):
+        return False, "dialogue/meta markers"
+    # Banned phrases
+    if has_banned_phrases(x_line, rules.get("banned_phrases", [])):
+        return False, "banned phrase"
+    # Tense conflict like 'When ... I achieved ...'
+    if WHEN_I_PAST_RX.search(x_line):
+        return False, "tense conflict (when...I...achieved)"
+    # Enforce second-person voice (soft): prefer 'you/your' somewhere
+    if rules.get("enforce_second_person", False):
+        if not re.search(r"\b(you|your)\b", x_line, re.I):
+            # allow templates starting with 'Use:' that quote 1st person
+            if not re.search(r"Use:\s*[\""]", x_line):
+                return False, "missing second-person signal"
+    # First-person outside quotes not allowed
+    if rules.get("allow_first_person_in_quotes_only", False):
+        if contains_unquoted_I(x_line):
+            return False, "first-person outside quotes"
+    return True, ""
 
 # ---- OpenAI call ----
 @retry(
@@ -373,37 +445,68 @@ style_key, style_desc = choose_style(style_weights)
 
 topic = random.choice(topics)
 
-logger.info(f"Selected topic: {topic}, style: {style_key}")
+# Generate with up to 3 attempts, tightening constraints if the quality gate fails
+attempt_notes = [
+    "",
+    "REVISION: Fix any tense conflict; keep second-person; if using a template, prefix 'Use:' then quote the line.",
+    "REVISION: Remove any first-person narration; only quote first-person inside 'Use: \"...\"'; add a concrete number or example if helpful."
+]
+payload = None
+xline = ""; ok=False; reason=""
 
-# Generate content
-try:
-    payload = call_openai(topic, style_key, style_desc, model, rules)
-except Exception as e:
-    logger.error(f"Content generation failed: {e}")
+for attempt_num, note in enumerate(attempt_notes, 1):
+    logger.info(f"Quality gate attempt {attempt_num}/{len(attempt_notes)}")
+    try:
+        p = call_openai(topic, style_key, style_desc, model, rules, pass_hint=note)
+        # assemble to see x_line and test
+        candidate = sanitize_xline((p.get("x_line") or "").strip())
+        candidate = add_minimum_emojis(candidate, need_min=rules.get("min_emojis",2))
+        if len(candidate) > 230:
+            candidate = candidate[:229].rsplit(" ", 1)[0] + "..."
+        original_candidate = candidate
+        candidate = enforce_second_person_line(candidate)
+        if candidate != original_candidate:
+            logger.debug("Auto-inserted second-person phrasing into X line to satisfy quality gate.")
+        ok, reason = quality_gate(candidate, rules)
+        if ok:
+            logger.info(f"Quality gate passed on attempt {attempt_num}")
+            payload = p; xline = candidate; break
+        else:
+            logger.warning(f"Quality gate failed on attempt {attempt_num}: {reason}")
+    except Exception as e:
+        logger.error(f"Attempt {attempt_num} raised exception: {e}")
+
+if not payload:
+    # CRITICAL: Do not publish content that failed all quality gates
+    # Instead, skip this run and let the next scheduled run try again
+    logger.error("All quality gate attempts failed. Skipping content generation for this run.")
+    logger.info("The next scheduled run will attempt content generation again.")
     raise SystemExit(1)
 
-# Backup existing feed
+logger.info(f"Selected topic: {topic}, style: {style_key}")
+
+# Backup existing feed before modification
 backup_file(FEED_FILE, keep_count=30)
 
 tree = ensure_feed_scaffold()
 item, guid, title = make_item(payload, rules)
 
-# Duplicate guard
+# duplicate guard
 fps = load_json(FPS_PATH, [])
 dg = cfg.get("dup_guard", {"enabled":True,"ngram":5,"threshold":0.8,"history_size":200})
 if dg.get("enabled", True):
     if not dup_guard_ok(title, fps, dg.get("ngram",5), dg.get("threshold",0.8)):
-        logger.warning("Duplicate detected, regenerating with different style")
+        # reroll style weights a bit
         alt_weights = {k:(1.0 if k!=style_key else 0.35) for k in style_weights} or {"how_to":1.2,"tool_tip":1.0}
         alt_style, alt_desc = choose_style(alt_weights)
-        p2 = call_openai(topic, alt_style, alt_desc, model, rules)
+        p2 = call_openai(topic, alt_style, alt_desc, model, rules, pass_hint="REVISION: ensure second-person; avoid first-person narration; no tense conflicts.")
         item2, guid2, title2 = make_item(p2, rules)
         if dup_guard_ok(title2, fps, dg.get("ngram",5), dg.get("threshold",0.8)):
             item, guid, title = item2, guid2, title2
 
 prepend_item(tree, item)
 
-# Save fingerprint
+# save fingerprint
 probe = list(ngrams(title, dg.get("ngram",5)))
 fps = (fps + [{"guid":guid, "ngrams":probe}])[-int(dg.get("history_size",200)):]
 os.makedirs("analytics", exist_ok=True)

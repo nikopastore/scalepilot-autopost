@@ -3,15 +3,19 @@
   "forbid_dialogue": true,
   "require_number_in_title": false,
   "voice": "business_friendly",
-  "enforce_second_person": false,
-  "allow_first_person_in_quotes_only": false,
+  "enforce_second_person": true,
+  "allow_first_person_in_quotes_only": true,
   "banned_phrases": [
     "click here",
     "buy now",
     "limited time",
     "act fast",
+    "sign up now",
     "crypto scam",
-    "get rich quick"
+    "get rich quick",
+    "I say,",
+    "I'd say",
+    "I would say"
   ],
   "style_weights": {
     "how_to": 1.5,

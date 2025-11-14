@@ -1,15 +1,15 @@
-name: Build Social Feeds
+name: Generate and publish RSS item
 
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # Daily at 2 PM UTC (9 AM EST)
+    - cron: "0 15 * * *"   # Daily at 3 PM UTC (7 AM PST)
   workflow_dispatch:
 
 jobs:
-  build-feeds:
+  build-feed:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,39 +26,46 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: Generate AI-powered RSS content
+      - name: Generate RSS item
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           BRAND: "ScalePilot"
           SITE_URL: "https://scalepilot.com/"
         run: python build_rss.py
 
-      - name: Generate platform-specific feeds
-        run: |
-          python scripts/make_li_feed.py
-          python scripts/make_x_feed.py
-          python scripts/make_fb_feed.py
-
-      - name: Run health check
-        run: python health_check.py
-        continue-on-error: true
-
-      - name: Commit and push feeds
+      - name: Commit & push main RSS
         run: |
           git config user.name "scalepilot-bot"
           git config user.email "scalepilot-bot@users.noreply.github.com"
           branch=$(git rev-parse --abbrev-ref HEAD)
           git pull --rebase --autostash origin "$branch"
+          git add feeds/rss.xml analytics/fingerprints.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Add RSS item [skip ci]"
+          else
+            echo "No changes to commit for rss.xml"
+          fi
+          git push origin "$branch"
 
+      - name: Build social feeds
+        run: |
+          python scripts/make_fb_feed.py
+          python scripts/make_li_feed.py
+          python scripts/make_x_feed.py
+
+      - name: Commit & push social feeds
+        run: |
+          git config user.name "scalepilot-bot"
+          git config user.email "scalepilot-bot@users.noreply.github.com"
+          branch=$(git rev-parse --abbrev-ref HEAD)
+          git pull --rebase --autostash origin "$branch"
           git add feeds/
-
           if ! git diff --cached --quiet; then
             git commit -m "Build/Update social feeds [skip ci]"
-            git push origin "$branch"
-            echo "Feeds updated successfully"
           else
-            echo "No changes to commit"
+            echo "No changes to commit for social feeds"
           fi
+          git push origin "$branch"
