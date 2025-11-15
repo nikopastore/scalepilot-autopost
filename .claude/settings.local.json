@@ -9,7 +9,11 @@
       "Bash(git commit:*)",
       "Bash(git pull:*)",
       "Bash(git stash:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(python content_director.py:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(gh workflow run:*)"
     ],
     "deny": [],
     "ask": []
