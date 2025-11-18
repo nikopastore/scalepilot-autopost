@@ -30,13 +30,102 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate RSS item
+        id: generate_rss
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           BRAND: "ScalePilot"
           SITE_URL: "https://scalepilot.com/"
-        run: python build_rss.py
+        continue-on-error: true
+        run: |
+          python build_rss.py
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+
+      - name: Check for quota error
+        if: steps.generate_rss.outcome == 'failure'
+        run: |
+          echo "::error::RSS generation failed. Check the logs above for details."
+          if grep -q "quota exceeded" <<< "${{ steps.generate_rss.outputs.exit_code }}"; then
+            echo "::error::OpenAI API quota exceeded!"
+          fi
+
+      - name: Create issue on quota error
+        if: steps.generate_rss.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // Check if there's already an open issue about quota
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'openai-quota-exceeded'
+            });
+
+            if (issues.data.length === 0) {
+              // Create a new issue
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '🚨 OpenAI API Quota Exceeded - Action Required',
+                body: `## OpenAI API Quota Exceeded
+
+            The automated content generation failed because your OpenAI API account has run out of credits.
+
+            ### 📊 Details
+            - **Workflow Run**: [${context.runId}](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
+            - **Time**: ${new Date().toISOString()}
+            - **Branch**: ${context.ref}
+
+            ### ✅ How to Fix
+
+            1. **Add Credits to OpenAI Account**
+               - Visit: https://platform.openai.com/account/billing
+               - Add credits or upgrade your plan
+               - Minimum recommended: $5-10 for testing
+
+            2. **Verify API Key**
+               - Go to: https://github.com/${context.repo.owner}/${context.repo.repo}/settings/secrets/actions
+               - Ensure \`OPENAI_API_KEY\` is set correctly
+               - Get a new key if needed: https://platform.openai.com/api-keys
+
+            3. **Test the Fix**
+               - Once credits are added, manually trigger the workflow:
+               - Go to [Actions](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/workflows/build.yml)
+               - Click "Run workflow"
+
+            ### 📝 What's Happening Now
+            - RSS feeds are not being updated with new content
+            - Fallback content is being used (duplicate posts)
+            - Zapier → Buffer flow is blocked because content is the same
+
+            ---
+            *This issue was automatically created by the build workflow. Close it once you've added credits and verified the fix works.*`,
+                labels: ['openai-quota-exceeded', 'automation', 'bug']
+              });
+
+              console.log('Created issue for OpenAI quota exceeded');
+            } else {
+              console.log('Issue already exists for OpenAI quota exceeded');
+
+              // Add a comment to the existing issue
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues.data[0].number,
+                body: `⚠️ OpenAI API quota is still exceeded. Failed again at ${new Date().toISOString()}.\n\n[View workflow run](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`
+              });
+            }
+
+      - name: Stop workflow on quota error
+        if: steps.generate_rss.outcome == 'failure'
+        run: |
+          echo "::error::Workflow stopped due to OpenAI API quota error. Please check the issue created above."
+          exit 1
 
       - name: Commit & push main RSS
+        if: steps.generate_rss.outcome == 'success'
         run: |
           git config user.name "scalepilot-bot"
           git config user.email "scalepilot-bot@users.noreply.github.com"
@@ -51,12 +140,14 @@ jobs:
           git push origin "$branch"
 
       - name: Build social feeds
+        if: steps.generate_rss.outcome == 'success'
         run: |
           python scripts/make_fb_feed.py
           python scripts/make_li_feed.py
           python scripts/make_x_feed.py
 
       - name: Commit & push social feeds
+        if: steps.generate_rss.outcome == 'success'
         run: |
           git config user.name "scalepilot-bot"
           git config user.email "scalepilot-bot@users.noreply.github.com"

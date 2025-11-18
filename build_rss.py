@@ -13,7 +13,7 @@ Requires env: OPENAI_API_KEY
 Optional: BRAND, SITE_URL, MODEL
 """
 
-import os, re, json, hashlib, random
+import os, re, json, hashlib, random, sys
 from datetime import datetime, timezone
 import xml.etree.ElementTree as ET
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
@@ -243,6 +243,10 @@ def quality_gate(x_line: str, rules: dict) -> tuple:
     retry=retry_if_exception_type((ConnectionError, TimeoutError)),
     reraise=True
 )
+class QuotaExceededError(Exception):
+    """Raised when OpenAI API quota is exceeded"""
+    pass
+
 def call_openai(topic, style_key, style_desc, model, rules, pass_hint=""):
     """
     Generate AI content for ScalePilot SMB audience
@@ -303,6 +307,7 @@ OUTPUT RULES
 
         attempts = [model or "gpt-4o", "gpt-4o", "gpt-4o-mini"]
 
+        quota_exceeded = False
         for mdl in attempts:
             try:
                 logger.info(f"Attempting content generation with model: {mdl}")
@@ -322,7 +327,16 @@ OUTPUT RULES
             except json.JSONDecodeError as e:
                 logger.warning(f"Model {mdl} returned invalid JSON: {e}")
             except Exception as e:
-                logger.warning(f"Model {mdl} failed: {e}")
+                error_msg = str(e)
+                if "429" in error_msg or "quota" in error_msg.lower() or "insufficient_quota" in error_msg.lower():
+                    quota_exceeded = True
+                    logger.error(f"QUOTA EXCEEDED for model {mdl}: {e}")
+                else:
+                    logger.warning(f"Model {mdl} failed: {e}")
+
+        # If all attempts failed due to quota, raise specific error
+        if quota_exceeded and not payload:
+            raise QuotaExceededError("OpenAI API quota exceeded for all models")
     except ImportError as e:
         logger.error(f"Failed to import OpenAI library: {e}")
         raise
@@ -473,6 +487,18 @@ for attempt_num, note in enumerate(attempt_notes, 1):
             payload = p; xline = candidate; break
         else:
             logger.warning(f"Quality gate failed on attempt {attempt_num}: {reason}")
+    except QuotaExceededError as e:
+        logger.error("=" * 80)
+        logger.error("CRITICAL ERROR: OpenAI API Quota Exceeded!")
+        logger.error("=" * 80)
+        logger.error("Your OpenAI API account has run out of credits.")
+        logger.error("To fix this issue:")
+        logger.error("  1. Visit https://platform.openai.com/account/billing")
+        logger.error("  2. Add credits to your account or upgrade your plan")
+        logger.error("  3. Verify your GitHub secret OPENAI_API_KEY is correct")
+        logger.error("=" * 80)
+        print("\n❌ ERROR: OpenAI API quota exceeded. Please add credits to your OpenAI account.\n", file=sys.stderr)
+        raise SystemExit(2)  # Exit code 2 = quota error
     except Exception as e:
         logger.error(f"Attempt {attempt_num} raised exception: {e}")
 
