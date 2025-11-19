@@ -1,59 +1,59 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2025-11-18T15:37:38.093614+00:00_
+_Generated: 2025-11-19T15:36:36.300652+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **Streamline your billing with AI! 🤖🧾 Automate invoices and payments to save time and reduce errors.**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-19T15:24:12+00:00 | style=unspecified | cta=question
+- **Streamline your admin tasks effortlessly with an AI assistant! 🤖📋**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-18T19:13:18+00:00 | style=unspecified | cta=question
+- **Avoid automation pitfalls: Start small, tweak often, and celebrate wins! 🚀📊**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-18T17:38:38+00:00 | style=unspecified | cta=question
+- **✅ AI can transform your business, but start small! 🤖✨ Test and learn, don't rush in.**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-14T20:06:56+00:00 | style=unspecified | cta=question
 - **🤖 AI can automate 70% of repetitive tasks in your business. Start with one workflow this week. 🚀**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-18T15:25:11+00:00 | style=quick_win | cta=question
-- **🤖 AI can automate 70% of repetitive tasks in your business. Start with one workflow this week. 🚀**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-18T14:53:08+00:00 | style=framework | cta=question
-- **🤖 AI can automate 70% of repetitive tasks in your business. Start with one workflow this week. 🚀**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-17T15:25:34+00:00 | style=tool_tip | cta=question
-- **🤖 AI can automate 70% of repetitive tasks in your business. Start with one workflow this week. 🚀**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-16T15:19:30+00:00 | style=stats_insight | cta=question
-- **🤖 AI can automate 70% of repetitive tasks in your business. Start with one workflow this week. 🚀**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-16T01:59:45+00:00 | style=stats_insight | cta=question
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-14T14:20:07+00:00 | style=how_to | cta=question
 
 ## Performance by Style
 
-- framework: avg_score=0.0 (n=3)
 - how_to: avg_score=0.0 (n=1)
-- mistake_avoid: avg_score=0.0 (n=3)
-- quick_win: avg_score=0.0 (n=2)
-- stats_insight: avg_score=0.0 (n=2)
-- tool_tip: avg_score=0.0 (n=3)
+- mistake_avoid: avg_score=0.0 (n=2)
+- tool_tip: avg_score=0.0 (n=2)
+- unspecified: avg_score=0.0 (n=4)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=14)
+- question: avg_score=0.0 (n=9)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=14)
+- 2: avg_score=0.0 (n=8)
+- 3+: avg_score=0.0 (n=1)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=14)
+- <= 120: avg_score=0.0 (n=9)
 
 ## Numbers / % / $ Present
 
-- yes: avg_score=0.0 (n=14)
+- no: avg_score=0.0 (n=4)
+- yes: avg_score=0.0 (n=5)
 
 ## Question Mark Present
 
-- yes: avg_score=0.0 (n=14)
+- yes: avg_score=0.0 (n=9)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=14)
+- 1+: avg_score=0.0 (n=9)
 
 ## Local Post Time Bucket
 
-- early-afternoon: avg_score=0.0 (n=2)
-- evening: avg_score=0.0 (n=5)
-- late-afternoon: avg_score=0.0 (n=4)
-- night: avg_score=0.0 (n=3)
+- early-afternoon: avg_score=0.0 (n=1)
+- evening: avg_score=0.0 (n=4)
+- late-afternoon: avg_score=0.0 (n=2)
+- night: avg_score=0.0 (n=2)
 
 ## Next experiments
 
