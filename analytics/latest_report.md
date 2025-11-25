@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2025-11-24T15:36:47.091123+00:00_
+_Generated: 2025-11-25T15:35:56.846885+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **Use AI to transform your data into growth strategies! 📊🚀 Discover insights that drive smart decisions.**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-25T15:25:27+00:00 | style=unspecified | cta=question
 - **Boost your marketing with AI workflows for seamless automation! 🚀📈**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-24T15:26:18+00:00 | style=unspecified | cta=question
 - **Boost customer service with Voice AI! 📞🤖 Automate calls and free up your team for more complex tasks.**  
@@ -12,47 +14,45 @@ _Generated: 2025-11-24T15:36:47.091123+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-22T15:19:45+00:00 | style=unspecified | cta=question
 - **Boost skills with AI! Train your team using AI platforms for smarter growth. 🚀🤖**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-21T15:20:05+00:00 | style=unspecified | cta=question
-- **Boost your biz with automated reviews! Gather, showcase, and grow effortlessly! 🚀🌟**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-20T15:24:15+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=9)
+- unspecified: avg_score=0.0 (n=10)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=14)
+- question: avg_score=0.0 (n=15)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=12)
+- 2: avg_score=0.0 (n=13)
 - 3+: avg_score=0.0 (n=2)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=14)
+- <= 120: avg_score=0.0 (n=15)
 
 ## Numbers / % / $ Present
 
-- no: avg_score=0.0 (n=9)
+- no: avg_score=0.0 (n=10)
 - yes: avg_score=0.0 (n=5)
 
 ## Question Mark Present
 
-- yes: avg_score=0.0 (n=14)
+- yes: avg_score=0.0 (n=15)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=14)
+- 1+: avg_score=0.0 (n=15)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
 - evening: avg_score=0.0 (n=4)
-- late-afternoon: avg_score=0.0 (n=7)
+- late-afternoon: avg_score=0.0 (n=8)
 - night: avg_score=0.0 (n=2)
 
 ## Next experiments
