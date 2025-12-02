@@ -316,5 +316,20 @@
       "tedious tasks and hello to",
       "boost efficiency by automating data"
     ]
+  },
+  {
+    "guid": "33c56ece9c04589b309b851a4a1dc700b105a786",
+    "ngrams": [
+      "your sales today with ai",
+      "boost your sales today with",
+      "your website s conversion rate",
+      "that optimize your website s",
+      "tools that optimize your website",
+      "optimize your website s conversion",
+      "today with ai tools that",
+      "ai tools that optimize your",
+      "with ai tools that optimize",
+      "sales today with ai tools"
+    ]
   }
 ]
