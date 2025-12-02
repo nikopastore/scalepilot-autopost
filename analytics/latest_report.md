@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2025-12-01T15:36:33.734237+00:00_
+_Generated: 2025-12-02T15:39:41.811981+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **Boost your sales today with AI tools that optimize your website's conversion rate! 🚀📈**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-12-02T15:27:02+00:00 | style=unspecified | cta=question
 - **Boost efficiency by automating data entry and reporting! 🚀📊 Say goodbye to tedious tasks and hello to more productive days!**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-12-01T15:25:54+00:00 | style=unspecified | cta=question
 - **Boost your customer support with AI! 🤖📈 Discover how one small biz went from chaos to clarity. 🌟**  
@@ -12,48 +14,46 @@ _Generated: 2025-12-01T15:36:33.734237+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-29T15:20:39+00:00 | style=unspecified | cta=question
 - **Ready to boost your small business with AI? 🚀 Start small, think big, and automate smartly to thrive! 🤖**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-28T15:22:53+00:00 | style=unspecified | cta=question
-- **Boost employee onboarding with AI-powered chatbots! 🚀🤖 Quick setup, long-term benefits.**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-11-27T15:23:15+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=16)
+- unspecified: avg_score=0.0 (n=17)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=21)
+- question: avg_score=0.0 (n=22)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=17)
+- 2: avg_score=0.0 (n=18)
 - 3+: avg_score=0.0 (n=4)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=20)
+- <= 120: avg_score=0.0 (n=21)
 - <= 160: avg_score=0.0 (n=1)
 
 ## Numbers / % / $ Present
 
-- no: avg_score=0.0 (n=13)
+- no: avg_score=0.0 (n=14)
 - yes: avg_score=0.0 (n=8)
 
 ## Question Mark Present
 
-- yes: avg_score=0.0 (n=21)
+- yes: avg_score=0.0 (n=22)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=21)
+- 1+: avg_score=0.0 (n=22)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
 - evening: avg_score=0.0 (n=4)
-- late-afternoon: avg_score=0.0 (n=14)
+- late-afternoon: avg_score=0.0 (n=15)
 - night: avg_score=0.0 (n=2)
 
 ## Next experiments
