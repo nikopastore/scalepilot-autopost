@@ -1,6 +1,6 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2025-12-17T15:40:26.045758+00:00_
+_Generated: 2025-12-18T15:38:46.901512+00:00_
 
 ## Top 5 Posts (by engagement score)
 
