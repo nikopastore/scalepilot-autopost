@@ -1,0 +1,33 @@
+{
+  "structure": [
+    {
+      "section": "The Hook",
+      "purpose": "Start with hard-hitting statistic or relatable frustration",
+      "examples": [
+        "Why are you still spending 20 hours a week on initial screenings?",
+        "The true cost of a vacant seat isn't what you think",
+        "73% of top candidates ghost companies with poor communication"
+      ]
+    },
+    {
+      "section": "The Bottleneck",
+      "purpose": "Briefly explain why this issue persists (1-2 sentences)",
+      "approach": "Point to systemic issues: outdated tech, generic platforms, manual processes"
+    },
+    {
+      "section": "The Strategic Solution",
+      "purpose": "Provide WHAT to do (high-level), NOT HOW to do it",
+      "constraint": "Never provide step-by-step tutorials",
+      "approach": "Focus on value of outcomes, not mechanics of process"
+    },
+    {
+      "section": "The Pivot",
+      "purpose": "Frame HirePriority as the partner that handles this complexity",
+      "approach": "Subtle transition from general advice to specific solution"
+    }
+  ],
+  "mandatory_ending": {
+    "cta": "Stop the hiring leak today at https://hirepriority.scalepilotlabs.com/",
+    "hashtags_count": "3-5 relevant hashtags per platform"
+  }
+}

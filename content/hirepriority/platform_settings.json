@@ -1,0 +1,59 @@
+{
+  "linkedin": {
+    "tone": "Professional, data-driven, authoritative",
+    "length": { "min": 150, "max": 200 },
+    "style_notes": [
+      "Lead with compelling statistics",
+      "Use industry terminology",
+      "Formal CTA: 'Discover how HirePriority transforms recruitment at [URL]'",
+      "Include line breaks for scannability",
+      "Professional but not stuffy"
+    ],
+    "hashtags": [
+      "#RecruitmentROI",
+      "#TalentAcquisition",
+      "#HiringStrategy",
+      "#HirePriority",
+      "#InsuranceRecruitment",
+      "#HRTech",
+      "#RecruitmentAutomation"
+    ]
+  },
+  "x": {
+    "tone": "Punchy, provocative, direct",
+    "length": { "min": 100, "max": 150 },
+    "style_notes": [
+      "Sharp, attention-grabbing hooks",
+      "One core pain point per post",
+      "Conversational CTA: 'Stop the hiring leak: [URL]'",
+      "Short paragraphs, high impact",
+      "Slightly provocative to drive engagement"
+    ],
+    "hashtags": [
+      "#Hiring",
+      "#RecruitmentTech",
+      "#HirePriority",
+      "#TalentStrategy",
+      "#HRAutomation"
+    ]
+  },
+  "facebook": {
+    "tone": "Engaging, relatable, conversational",
+    "length": { "min": 120, "max": 180 },
+    "style_notes": [
+      "Relatable frustration scenarios",
+      "Warmer, more approachable language",
+      "Friendly CTA: 'Ready to hire smarter? Visit [URL]'",
+      "Balance professional and personable",
+      "Story-driven when possible"
+    ],
+    "hashtags": [
+      "#SmartHiring",
+      "#RecruitmentSolutions",
+      "#HirePriority",
+      "#TalentManagement",
+      "#HRTech",
+      "#HiringMadeEasy"
+    ]
+  }
+}

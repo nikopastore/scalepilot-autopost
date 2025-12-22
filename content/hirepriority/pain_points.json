@@ -1,0 +1,64 @@
+{
+  "pain_points": [
+    {
+      "category": "Financial Cost",
+      "hook": "The average cost of a bad hire is 30% of their first-year salary",
+      "bottleneck": "Generic job boards flood you with unqualified resumes, paralyzing decision-making",
+      "solution": "Pre-qualification systems reduce noise by 80%, focusing only on high-intent candidates"
+    },
+    {
+      "category": "Time Waste",
+      "hook": "Why are you still spending 20 hours a week on initial screenings?",
+      "bottleneck": "Manual resume review is the biggest hiring bottleneck in modern recruitment",
+      "solution": "AI-powered scoring ranks candidates in seconds based on role-specific criteria"
+    },
+    {
+      "category": "Operational Roadblocks",
+      "hook": "Your average time-to-fill is 42 days. Your competitors are at 14.",
+      "bottleneck": "Outdated tech and manual processes extend vacancy timelines by weeks",
+      "solution": "Automated workflows compress hiring cycles without sacrificing quality"
+    },
+    {
+      "category": "Candidate Experience",
+      "hook": "73% of candidates ghost companies with poor communication",
+      "bottleneck": "Email-based outreach has less than 15% response rates",
+      "solution": "SMS-first engagement drives 5x higher responses and faster pipeline movement"
+    },
+    {
+      "category": "Strategic Solutions",
+      "hook": "Reactive hiring costs 3x more than proactive talent pipeline building",
+      "bottleneck": "Most companies only recruit when desperate, missing top talent",
+      "solution": "Continuous talent pool nurturing keeps high-quality candidates warm"
+    },
+    {
+      "category": "Candidate Bottlenecks",
+      "hook": "The myth of 'talent scarcity' is really a targeting problem",
+      "bottleneck": "Broad job postings attract volume, not quality",
+      "solution": "Niche-focused recruitment models surface pre-qualified specialists"
+    },
+    {
+      "category": "Financial Cost",
+      "hook": "Every day a critical role remains open, your revenue potential shrinks",
+      "bottleneck": "Traditional hiring processes extend time-to-fill by relying on reactive strategies",
+      "solution": "Proactive talent pipelines keep high-quality candidates ready when you need them"
+    },
+    {
+      "category": "Time Waste",
+      "hook": "Insurance agencies waste 15+ hours per hire verifying licenses manually",
+      "bottleneck": "Calling state registries one-by-one is inefficient and error-prone",
+      "solution": "Automated NIPR verification eliminates manual license checks entirely"
+    },
+    {
+      "category": "Candidate Experience",
+      "hook": "Top candidates are off the market in 10 days—but your process takes 6 weeks",
+      "bottleneck": "Slow communication and delayed interviews lose A-players to competitors",
+      "solution": "Instant SMS engagement and streamlined workflows capture talent before they're gone"
+    },
+    {
+      "category": "Operational Roadblocks",
+      "hook": "Can't assess sales ability until the interview? You've already wasted 3 hours.",
+      "bottleneck": "Traditional screening can't evaluate soft skills like sales confidence remotely",
+      "solution": "Voice AI analyzes sales capability in 10 seconds, before you invest interview time"
+    }
+  ]
+}
