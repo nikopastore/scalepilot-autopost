@@ -13,6 +13,12 @@ import os
 from email.utils import parsedate_to_datetime
 from datetime import datetime, timezone
 
+# X/Twitter platform configuration
+PLATFORM = "x"
+PLATFORM_TONE = "Punchy, provocative, direct"
+WORD_COUNT_MIN = 100
+WORD_COUNT_MAX = 150
+
 # File paths
 IN_FEED = "feeds/rss.xml"
 OUT_ALL = "feeds/rss_x.xml"

@@ -11,6 +11,12 @@ import html
 import os
 import sys
 
+# LinkedIn platform configuration
+PLATFORM = "linkedin"
+PLATFORM_TONE = "Professional, data-driven, authoritative"
+WORD_COUNT_MIN = 150
+WORD_COUNT_MAX = 200
+
 # File paths
 IN_FEED = "feeds/rss.xml"
 OUT_ALL = "feeds/rss_li.xml"

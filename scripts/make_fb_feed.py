@@ -11,6 +11,12 @@ import html
 import os
 import sys
 
+# Facebook platform configuration
+PLATFORM = "facebook"
+PLATFORM_TONE = "Engaging, relatable, conversational"
+WORD_COUNT_MIN = 120
+WORD_COUNT_MAX = 180
+
 # File paths
 IN_FEED = "feeds/rss.xml"
 OUT_ALL = "feeds/rss_fb.xml"
