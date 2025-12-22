@@ -32,6 +32,12 @@ FPS_PATH    = "analytics/fingerprints.json"
 TOPICS_FILE = "content/seeds_topics.txt"
 FEED_FILE   = "feeds/rss.xml"
 
+# HirePriority paths
+HP_FEATURES_PATH = "content/hirepriority/features.json"
+HP_PAIN_POINTS_PATH = "content/hirepriority/pain_points.json"
+HP_RECIPE_PATH = "content/hirepriority/content_recipe.json"
+HP_PLATFORM_SETTINGS_PATH = "content/hirepriority/platform_settings.json"
+
 # ---------- Branding ----------
 BRAND = os.getenv("BRAND", "ScalePilot")
 SITE_URL = os.getenv("SITE_URL", "https://scalepilot.com/")
@@ -104,6 +110,78 @@ def choose_style(weights):
         c += w
         if r <= c: return key, desc
     return pool[0][0], pool[0][1]
+
+def select_pain_point(pain_points_data):
+    """Select a pain point based on daily rotation"""
+    import hashlib
+    from datetime import datetime
+
+    pain_points = pain_points_data.get("pain_points", [])
+    if not pain_points:
+        return {
+            "category": "General",
+            "hook": "Hiring inefficiencies cost companies thousands per role",
+            "bottleneck": "Manual processes slow down recruitment",
+            "solution": "Automation streamlines candidate selection"
+        }
+
+    # Daily rotation based on date
+    day_index = datetime.now().timetuple().tm_yday
+    selected = pain_points[day_index % len(pain_points)]
+    return selected
+
+def build_hirepriority_prompt(pain_point, platform, platform_settings, features):
+    """Build AI prompt for HirePriority content following the content recipe"""
+
+    platform_config = platform_settings.get(platform, {})
+    tone = platform_config.get("tone", "Professional, authoritative")
+    length = platform_config.get("length", {"min": 100, "max": 200})
+    style_notes = platform_config.get("style_notes", [])
+    hashtags = platform_config.get("hashtags", ["#HirePriority"])
+
+    cta_url = features.get("cta_url", "https://hirepriority.scalepilotlabs.com/")
+
+    prompt = f"""You are a Senior Talent Acquisition Strategist and Recruitment ROI Expert for HirePriority.
+
+TODAY'S PAIN POINT:
+- Category: {pain_point['category']}
+- Hook: {pain_point['hook']}
+- Bottleneck: {pain_point['bottleneck']}
+- Solution: {pain_point['solution']}
+
+PLATFORM: {platform}
+TONE: {tone}
+LENGTH: {length['min']}-{length['max']} words
+
+PLATFORM STYLE NOTES:
+{chr(10).join('- ' + note for note in style_notes)}
+
+CONTENT RECIPE (MANDATORY STRUCTURE):
+1. THE HOOK: Start with the pain point hook or similar hard-hitting stat/frustration
+2. THE BOTTLENECK: Explain why this persists in 1-2 sentences (use the bottleneck context)
+3. THE STRATEGIC SOLUTION: Provide WHAT to do (high-level), NOT HOW to do it (use solution context)
+4. THE PIVOT: Position HirePriority as the partner that handles this complexity
+
+CRITICAL CONSTRAINTS:
+- NEVER provide step-by-step how-to guides
+- Focus on value of outcomes, not mechanics of process
+- Authoritative, professional, slightly provocative tone
+- NO phrases like "Step 1", "Here's how", "Follow these steps"
+
+CONTENT MIX:
+- 70% General recruitment pain points (applicable to any industry)
+- 30% Insurance-specific scenarios (mention features like NIPR verification, Voice AI when relevant)
+
+HIREPRIORITY FEATURES (use subtly when relevant):
+{chr(10).join('- ' + f['name'] + ': ' + f['benefit'] for f in features.get('features', []))}
+
+MANDATORY ENDING FORMAT:
+- CTA: "Stop the hiring leak today at {cta_url}"
+- Hashtags: {' '.join(hashtags[:5])} (use 3-5 tags)
+
+Create engaging {platform} content following this exact structure."""
+
+    return prompt
 
 def slugify(text, n=60):
     text = re.sub(r"[^\w\s-]", "", (text or "")).strip().lower()
@@ -210,6 +288,32 @@ def has_banned_phrases(text: str, banned: list) -> bool:
     return False
 
 WHEN_I_PAST_RX = re.compile(r"\bwhen\s+\w+ing\b.*\bI\b.*\b(achieved|led to|delivered|shipped)\b", re.I)
+
+def validate_content_recipe(content):
+    """Validate that content follows the Hook → Bottleneck → Solution → Pivot structure"""
+
+    # Check for how-to indicators (banned)
+    how_to_patterns = [
+        r'\bstep\s+\d+\b',
+        r'\bhere\'s\s+how\b',
+        r'\bfollow\s+these\s+steps\b',
+        r'\bfirst,\s+.*second,\s+.*third\b'
+    ]
+
+    content_lower = content.lower()
+    for pattern in how_to_patterns:
+        if re.search(pattern, content_lower, re.IGNORECASE):
+            return False, f"Content contains how-to pattern: {pattern}"
+
+    # Check for CTA presence
+    if "hirepriority.scalepilotlabs.com" not in content.lower():
+        return False, "Missing required CTA URL"
+
+    # Check for hashtag presence
+    if "#HirePriority" not in content:
+        return False, "Missing required #HirePriority hashtag"
+
+    return True, "Content recipe validated"
 
 def quality_gate(x_line: str, rules: dict) -> tuple:
     """
@@ -447,17 +551,31 @@ band  = load_json(BANDIT_PATH, {})
 if cfg.get("paused"):
     print("Paused by ops/config.json"); raise SystemExit(0)
 
-topics = read_topics(TOPICS_FILE)
+# Load HirePriority configurations
+hp_features = load_json(HP_FEATURES_PATH, {})
+hp_pain_points = load_json(HP_PAIN_POINTS_PATH, {"pain_points": []})
+hp_platform_settings = load_json(HP_PLATFORM_SETTINGS_PATH, {})
+
+# Select today's pain point
+pain_point = select_pain_point(hp_pain_points)
+
+# Determine platform (default to generic for now, will be platform-specific in feed scripts)
+platform = "linkedin"  # This will be overridden by platform-specific scripts
+
+# Build HirePriority prompt
+user_prompt = build_hirepriority_prompt(pain_point, platform, hp_platform_settings, hp_features)
+
+# OLD SCALEPILOT LOGIC (archived)
+# topics = read_topics(TOPICS_FILE)
+# topic = random.choice(topics) if topics else "AI automation for small business"
+# style_weights = band.get("style_weights", {
+#     "how_to":1.5, "tool_tip":1.4, "case_study":1.2, "quick_win":1.3,
+#     "stats_insight":1.1, "framework":1.0, "mistake_avoid":1.1
+# })
+# style_key, style_desc = choose_style(style_weights)
+
 random.seed(int(datetime.now(timezone.utc).strftime("%Y%m%d%H")))
 model  = os.getenv("MODEL") or cfg.get("model") or "gpt-4o"
-
-style_weights = band.get("style_weights", {
-    "how_to":1.5, "tool_tip":1.4, "case_study":1.2, "quick_win":1.3,
-    "stats_insight":1.1, "framework":1.0, "mistake_avoid":1.1
-})
-style_key, style_desc = choose_style(style_weights)
-
-topic = random.choice(topics)
 
 # Generate with up to 3 attempts, tightening constraints if the quality gate fails
 attempt_notes = [
@@ -471,7 +589,11 @@ xline = ""; ok=False; reason=""
 for attempt_num, note in enumerate(attempt_notes, 1):
     logger.info(f"Quality gate attempt {attempt_num}/{len(attempt_notes)}")
     try:
-        p = call_openai(topic, style_key, style_desc, model, rules, pass_hint=note)
+        # Use archived logic temporarily (will be replaced with HirePriority-specific call)
+        # For now using user_prompt directly in call_openai
+        # TODO: Refactor call_openai to accept raw user_prompt instead of topic/style
+        p = call_openai("HirePriority pain point content", "hirepriority", user_prompt, model, rules, pass_hint=note)
+
         # assemble to see x_line and test
         candidate = sanitize_xline((p.get("x_line") or "").strip())
         candidate = add_minimum_emojis(candidate, need_min=rules.get("min_emojis",2))
@@ -481,6 +603,14 @@ for attempt_num, note in enumerate(attempt_notes, 1):
         candidate = enforce_second_person_line(candidate)
         if candidate != original_candidate:
             logger.debug("Auto-inserted second-person phrasing into X line to satisfy quality gate.")
+
+        # Content recipe validation
+        full_content = candidate
+        recipe_valid, recipe_msg = validate_content_recipe(full_content)
+        if not recipe_valid:
+            logger.warning(f"Content recipe validation failed: {recipe_msg}")
+            continue  # Retry generation
+
         ok, reason = quality_gate(candidate, rules)
         if ok:
             logger.info(f"Quality gate passed on attempt {attempt_num}")
@@ -509,7 +639,7 @@ if not payload:
     logger.info("The next scheduled run will attempt content generation again.")
     raise SystemExit(1)
 
-logger.info(f"Selected topic: {topic}, style: {style_key}")
+logger.info(f"Selected pain point: {pain_point.get('category', 'Unknown')} - {pain_point.get('hook', '')[:50]}...")
 
 # Backup existing feed before modification
 backup_file(FEED_FILE, keep_count=30)
@@ -522,10 +652,9 @@ fps = load_json(FPS_PATH, [])
 dg = cfg.get("dup_guard", {"enabled":True,"ngram":5,"threshold":0.8,"history_size":200})
 if dg.get("enabled", True):
     if not dup_guard_ok(title, fps, dg.get("ngram",5), dg.get("threshold",0.8)):
-        # reroll style weights a bit
-        alt_weights = {k:(1.0 if k!=style_key else 0.35) for k in style_weights} or {"how_to":1.2,"tool_tip":1.0}
-        alt_style, alt_desc = choose_style(alt_weights)
-        p2 = call_openai(topic, alt_style, alt_desc, model, rules, pass_hint="REVISION: ensure second-person; avoid first-person narration; no tense conflicts.")
+        # Regenerate with different approach (HirePriority uses same pain point but different angle)
+        logger.warning("Duplicate detected, regenerating with different approach")
+        p2 = call_openai("HirePriority pain point content", "hirepriority", user_prompt, model, rules, pass_hint="REVISION: Use different wording and angle while maintaining the pain point focus.")
         item2, guid2, title2 = make_item(p2, rules)
         if dup_guard_ok(title2, fps, dg.get("ngram",5), dg.get("threshold",0.8)):
             item, guid, title = item2, guid2, title2
