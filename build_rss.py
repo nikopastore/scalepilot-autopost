@@ -179,6 +179,19 @@ MANDATORY ENDING FORMAT:
 - CTA: "Stop the hiring leak today at {cta_url}"
 - Hashtags: {' '.join(hashtags[:5])} (use 3-5 tags)
 
+OUTPUT FORMAT (STRICT JSON REQUIRED):
+{{
+  "x_line": "Single line for X/Twitter (<= 230 chars), {tone}, 2-4 emojis, no hashtags/links. Focus on the pain point hook.",
+  "desc_title": "Catchy hook (<= 80 chars) + 1-2 emojis",
+  "desc_points": ["3-5 bullets with actionable insights (<= 80 chars each, max 1 emoji each)"],
+  "desc_cta": "Stop the hiring leak today at {cta_url} #HirePriority {' '.join(hashtags[1:5])}",
+  "tags": ["hirepriority", "recruitment"]
+}}
+
+CRITICAL: The desc_cta MUST include the exact CTA URL '{cta_url}' and the #HirePriority hashtag.
+
+Return ONLY valid JSON. No other text before or after the JSON object.
+
 Create engaging {platform} content following this exact structure."""
 
     return prompt
