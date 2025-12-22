@@ -51,3 +51,6 @@ test_*.py
 # Temporary files
 *.tmp
 *.bak
+
+# Worktrees
+.worktrees/
