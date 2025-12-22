@@ -1,0 +1,38 @@
+{
+  "product_name": "HirePriority",
+  "tagline": "AI-Powered Recruiting for Insurance Agencies",
+  "cta_url": "https://hirepriority.scalepilotlabs.com/",
+  "features": [
+    {
+      "name": "NIPR Auto-Verification",
+      "benefit": "Eliminate unlicensed candidates automatically",
+      "use_case": "Insurance agencies wasting time on unqualified applicants"
+    },
+    {
+      "name": "Voice Confidence AI",
+      "benefit": "Assess sales capability in 10 seconds",
+      "use_case": "Identifying top performers before interviews"
+    },
+    {
+      "name": "One-Click SMS Invites",
+      "benefit": "85% response rate vs. traditional emails",
+      "use_case": "Engaging passive candidates quickly"
+    },
+    {
+      "name": "Resume Scoring & Ranking",
+      "benefit": "AI-powered candidate filtering in seconds",
+      "use_case": "Cutting screening time from 20 hours to 2"
+    },
+    {
+      "name": "AES-256 Encryption",
+      "benefit": "Secure resume handling and data protection",
+      "use_case": "Compliance and candidate privacy"
+    }
+  ],
+  "value_props": [
+    "Save 15-20 hours per role",
+    "Fill positions in 2 weeks instead of 2 months",
+    "Pre-qualified candidates only",
+    "85% SMS response rate"
+  ]
+}
