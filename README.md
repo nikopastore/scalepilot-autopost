@@ -1,8 +1,8 @@
 # ScalePilot Social Media Automation
 
-AI-powered social media content generation for ScalePilot - AI tools and solutions for SMBs.
+AI-powered social media content generation for HirePriority - Recruitment solutions for insurance agencies.
 
-This system uses OpenAI to automatically generate original, engaging content about AI automation, productivity tools, SMB marketing, recruiting, training, and business growth. Content is delivered via RSS feeds that you can connect to your social media management tools.
+This system uses OpenAI to automatically generate original, engaging content about recruitment ROI, hiring bottlenecks, and talent acquisition strategies. Content is delivered via RSS feeds that you can connect to your social media management tools.
 
 ## Features
 
@@ -73,15 +73,20 @@ Use these RSS feed URLs with tools like:
 
 ## Customization
 
-### Adjusting Content Topics
+### Adjusting Content Strategy
 
-Edit [content/seeds_topics.txt](content/seeds_topics.txt) to add or modify AI generation topics:
+Edit HirePriority pain points in `content/hirepriority/pain_points.json`:
 
+```json
+{
+  "category": "Your Category",
+  "hook": "Your compelling hook",
+  "bottleneck": "Why this problem persists",
+  "solution": "High-level strategic solution"
+}
 ```
-AI automation tools for small business workflows
-ChatGPT prompts for marketing and customer service
-How to use AI to automate recruiting and hiring
-```
+
+Customize platform tone in `content/hirepriority/platform_settings.json`.
 
 ### Adjusting Posting Frequency
 
