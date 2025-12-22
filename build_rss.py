@@ -353,22 +353,32 @@ class QuotaExceededError(Exception):
 
 def call_openai(topic, style_key, style_desc, model, rules, pass_hint=""):
     """
-    Generate AI content for ScalePilot SMB audience
+    Generate AI content for ScalePilot SMB audience or HirePriority content
     """
     payload = None
-    sys = (
-        "You are an AI automation expert and small business consultant. "
-        "You write friendly, practical advice for SMB owners and operators. "
-        "Focus on actionable insights about AI tools, automation, and business growth. "
-        "Keep it approachable, concrete, and jargon-free. "
-        "Every post must be self-contained (no 'in this thread', no external links)."
-    )
 
-    min_emojis = int(rules.get("min_emojis", 2))
-    require_number = bool(rules.get("require_number_in_title", False))
-    banned_join = "; ".join(rules.get("banned_phrases", []))
+    # Use HirePriority prompt directly if provided
+    if topic == "HirePriority pain point content":
+        # For HirePriority, use the custom prompt directly
+        sys = "You are a professional content creator following strict guidelines."
+        user = style_desc  # This contains the full HirePriority prompt
+        if pass_hint:
+            user += f"\n\n{pass_hint}"
+    else:
+        # Old ScalePilot logic (archived but functional)
+        sys = (
+            "You are an AI automation expert and small business consultant. "
+            "You write friendly, practical advice for SMB owners and operators. "
+            "Focus on actionable insights about AI tools, automation, and business growth. "
+            "Keep it approachable, concrete, and jargon-free. "
+            "Every post must be self-contained (no 'in this thread', no external links)."
+        )
 
-    user = f"""
+        min_emojis = int(rules.get("min_emojis", 2))
+        require_number = bool(rules.get("require_number_in_title", False))
+        banned_join = "; ".join(rules.get("banned_phrases", []))
+
+        user = f"""
 STYLE: {style_key}
 STYLE_DESC: {style_desc}
 TOPIC_SEED: "{topic}"
@@ -605,7 +615,13 @@ for attempt_num, note in enumerate(attempt_notes, 1):
             logger.debug("Auto-inserted second-person phrasing into X line to satisfy quality gate.")
 
         # Content recipe validation
-        full_content = candidate
+        # Extract description fields where CTA appears
+        desc_title = (p.get("desc_title") or "").strip()
+        desc_points = "\n".join([str(pt).strip() for pt in (p.get("desc_points") or [])])
+        desc_cta = (p.get("desc_cta") or "").strip()
+
+        # Validate full content including description where CTA appears
+        full_content = desc_title + "\n" + desc_points + "\n" + desc_cta
         recipe_valid, recipe_msg = validate_content_recipe(full_content)
         if not recipe_valid:
             logger.warning(f"Content recipe validation failed: {recipe_msg}")
