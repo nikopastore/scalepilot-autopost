@@ -706,5 +706,19 @@
       "30 of their first year",
       "bad hire 30 of their"
     ]
+  },
+  {
+    "guid": "2124e7f090e4cb41c3a30910a05716d39ee4986a",
+    "ngrams": [
+      "when ai can do it",
+      "screenings when ai can do",
+      "why spend 20 hours on",
+      "ai can do it in",
+      "can do it in seconds",
+      "on screenings when ai can",
+      "hours on screenings when ai",
+      "20 hours on screenings when",
+      "spend 20 hours on screenings"
+    ]
   }
 ]
