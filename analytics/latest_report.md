@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2026-01-01T15:34:45.934695+00:00_
+_Generated: 2026-01-02T15:35:39.643999+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **🤖 Is your hiring process stuck at 42 days? Competitors manage it in 14! ⏳ 📊**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-01-02T15:24:54+00:00 | style=unspecified | cta=question
 - **🎯 Spending 20 hours weekly on resume screenings? 🚫 AI can do it in seconds!**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-01-01T15:24:04+00:00 | style=unspecified | cta=question
 - **The myth of 'talent scarcity' is actually a targeting issue. Are your job postings too broad? 🎯🔍**  
@@ -12,49 +14,47 @@ _Generated: 2026-01-01T15:34:45.934695+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-12-30T15:25:21+00:00 | style=unspecified | cta=question
 - **💬 73% of candidates ghost companies with poor communication. Are your emails being ignored? 📉**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-12-29T15:26:06+00:00 | style=unspecified | cta=question
-- **💼 🚨 Average time-to-fill is 42 days. Competitors are at 14! Let's fix this.**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2025-12-28T15:22:36+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=48)
+- unspecified: avg_score=0.0 (n=49)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=53)
+- question: avg_score=0.0 (n=54)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=44)
+- 2: avg_score=0.0 (n=45)
 - 3+: avg_score=0.0 (n=9)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=50)
+- <= 120: avg_score=0.0 (n=51)
 - <= 160: avg_score=0.0 (n=3)
 
 ## Numbers / % / $ Present
 
 - no: avg_score=0.0 (n=31)
-- yes: avg_score=0.0 (n=22)
+- yes: avg_score=0.0 (n=23)
 
 ## Question Mark Present
 
 - no: avg_score=0.0 (n=5)
-- yes: avg_score=0.0 (n=48)
+- yes: avg_score=0.0 (n=49)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=53)
+- 1+: avg_score=0.0 (n=54)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
 - evening: avg_score=0.0 (n=6)
-- late-afternoon: avg_score=0.0 (n=44)
+- late-afternoon: avg_score=0.0 (n=45)
 - night: avg_score=0.0 (n=2)
 
 ## Next experiments
