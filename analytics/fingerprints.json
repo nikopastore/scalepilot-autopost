@@ -791,5 +791,19 @@
       "20 hours weekly on resume",
       "ai can do it in"
     ]
+  },
+  {
+    "guid": "bac804987de9b53a29dec87313fc208e5b67a211",
+    "ngrams": [
+      "hiring process stuck at 42",
+      "stuck at 42 days competitors",
+      "competitors manage it in 14",
+      "your hiring process stuck at",
+      "is your hiring process stuck",
+      "days competitors manage it in",
+      "42 days competitors manage it",
+      "process stuck at 42 days",
+      "at 42 days competitors manage"
+    ]
   }
 ]
