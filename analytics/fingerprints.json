@@ -1078,5 +1078,19 @@
       "a bad hire costs 30",
       "30 of their salary are"
     ]
+  },
+  {
+    "guid": "082609890debc7fef549173a19934ae23ff71dce",
+    "ngrams": [
+      "let ai rank candidates in",
+      "screenings let ai rank candidates",
+      "on screenings let ai rank",
+      "ai rank candidates in seconds",
+      "waste 20 hours weekly on",
+      "hours weekly on screenings let",
+      "weekly on screenings let ai",
+      "why waste 20 hours weekly",
+      "20 hours weekly on screenings"
+    ]
   }
 ]
