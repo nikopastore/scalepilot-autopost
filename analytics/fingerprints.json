@@ -1198,5 +1198,20 @@
       "insurance agencies waste 15 hours",
       "per hire verifying licenses manually"
     ]
+  },
+  {
+    "guid": "1ee02c8a66cddd97280d30f02da3a0557bad3ad6",
+    "ngrams": [
+      "leave the market in 10",
+      "market in 10 days but",
+      "your hiring takes 6 weeks",
+      "the market in 10 days",
+      "but your hiring takes 6",
+      "in 10 days but your",
+      "candidates leave the market in",
+      "top candidates leave the market",
+      "days but your hiring takes",
+      "10 days but your hiring"
+    ]
   }
 ]
