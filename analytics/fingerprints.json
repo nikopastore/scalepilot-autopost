@@ -1402,5 +1402,20 @@
       "know a bad hire can",
       "bad hire can cost 30"
     ]
+  },
+  {
+    "guid": "f3c1c88075265110d76831308ac098aff8c122e5",
+    "ngrams": [
+      "why spend 20 hours a",
+      "a week on screenings let",
+      "let ai do it in",
+      "on screenings let ai do",
+      "ai do it in seconds",
+      "20 hours a week on",
+      "week on screenings let ai",
+      "screenings let ai do it",
+      "spend 20 hours a week",
+      "hours a week on screenings"
+    ]
   }
 ]
