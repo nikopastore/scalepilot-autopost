@@ -1803,5 +1803,26 @@
       "determines sales confidence in 10",
       "sales confidence in 10 seconds"
     ]
+  },
+  {
+    "guid": "9541622efb911ed64207f5c555e03e8333209829",
+    "ngrams": [
+      "hires cost 30 of salary",
+      "job boards focus on high",
+      "of salary stop wasting time",
+      "high intent candidates with hirepriority",
+      "on high intent candidates with",
+      "wasting time on generic job",
+      "cost 30 of salary stop",
+      "30 of salary stop wasting",
+      "time on generic job boards",
+      "on generic job boards focus",
+      "salary stop wasting time on",
+      "bad hires cost 30 of",
+      "stop wasting time on generic",
+      "focus on high intent candidates",
+      "boards focus on high intent",
+      "generic job boards focus on"
+    ]
   }
 ]
