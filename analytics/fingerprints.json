@@ -2071,5 +2071,17 @@
       "it s a targeting problem",
       "targeting problem broad job postings"
     ]
+  },
+  {
+    "guid": "6aa7bf97b7e26e5db14d065ad6c3d065dcae2a8f",
+    "ngrams": [
+      "role stays unfilled potential revenue",
+      "unfilled potential revenue slips away",
+      "stays unfilled potential revenue slips",
+      "day a key role stays",
+      "every day a key role",
+      "a key role stays unfilled",
+      "key role stays unfilled potential"
+    ]
   }
 ]
