@@ -2099,5 +2099,21 @@
       "agencies waste 15 hours per",
       "hire on manual license checks"
     ]
+  },
+  {
+    "guid": "c65db10589dc4d01812c28f3c2d2a31326000252",
+    "ngrams": [
+      "candidates leave the market in",
+      "your process takes 6 weeks",
+      "top candidates leave the market",
+      "the market in just 10",
+      "10 days while your process",
+      "while your process takes 6",
+      "just 10 days while your",
+      "days while your process takes",
+      "leave the market in just",
+      "in just 10 days while",
+      "market in just 10 days"
+    ]
   }
 ]
