@@ -2221,5 +2221,16 @@
       "just a targeting issue broad",
       "postings bring quantity not quality"
     ]
+  },
+  {
+    "guid": "8d9101deee5ecd4ce5f2edae00ccc51246fd8257",
+    "ngrams": [
+      "every day a critical role",
+      "role stays open your revenue",
+      "day a critical role stays",
+      "stays open your revenue shrinks",
+      "a critical role stays open",
+      "critical role stays open your"
+    ]
   }
 ]
