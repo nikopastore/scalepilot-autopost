@@ -4,24 +4,24 @@ We generate self-contained, emoji-forward posts daily. Below are feature average
 
 ## Feature Summary (averages)
 
-- bullets :: 1+ => avg_score=0.0 (n=151)
-- cta :: question => avg_score=0.0 (n=151)
-- emoji :: 2 => avg_score=0.0 (n=137)
+- bullets :: 1+ => avg_score=0.0 (n=152)
+- cta :: question => avg_score=0.0 (n=152)
+- emoji :: 2 => avg_score=0.0 (n=138)
 - emoji :: 3+ => avg_score=0.0 (n=14)
-- len :: <= 120 => avg_score=0.0 (n=137)
+- len :: <= 120 => avg_score=0.0 (n=138)
 - len :: <= 160 => avg_score=0.0 (n=13)
 - len :: <= 200 => avg_score=0.0 (n=1)
-- number :: no => avg_score=0.0 (n=49)
+- number :: no => avg_score=0.0 (n=50)
 - number :: yes => avg_score=0.0 (n=102)
 - question :: no => avg_score=0.0 (n=46)
-- question :: yes => avg_score=0.0 (n=105)
+- question :: yes => avg_score=0.0 (n=106)
 - style :: how_to => avg_score=0.0 (n=1)
 - style :: mistake_avoid => avg_score=0.0 (n=2)
 - style :: tool_tip => avg_score=0.0 (n=2)
-- style :: unspecified => avg_score=0.0 (n=146)
+- style :: unspecified => avg_score=0.0 (n=147)
 - time :: early-afternoon => avg_score=0.0 (n=1)
 - time :: evening => avg_score=0.0 (n=6)
-- time :: late-afternoon => avg_score=0.0 (n=142)
+- time :: late-afternoon => avg_score=0.0 (n=143)
 - time :: night => avg_score=0.0 (n=2)
 
 ## Ask ChatGPT
@@ -30,8 +30,8 @@ Using the summary and top posts, propose 5 editing rules to maximize engagement,
 
 ## Top Posts (samples)
 
+- 💼 The myth of 'talent scarcity' is a targeting issue. Broad job postings flood you with volume, not quality. 🎯  | score=0.0 | emojis=2 | len=110 | style=unspecified | cta=question
 - 📈 Reactive hiring costs 3x more than proactive talent pipeline building! 🤯 Are you missing out on top talent? Stay ahead with a continuous talent pool.  | score=0.0 | emojis=2 | len=151 | style=unspecified | cta=question
 - 🧠 73% of candidates ghost companies due to poor communication! 📉 Is your outreach strategy effective enough?  | score=0.0 | emojis=2 | len=108 | style=unspecified | cta=question
 - Is your time-to-fill lagging at 42 days? Competitors are at 14. 🚀🔍  | score=0.0 | emojis=2 | len=66 | style=unspecified | cta=question
 - 📈 Why waste 20 hours a week on resume screenings? ⏱️ Let AI rank candidates in seconds. 🤖  | score=0.0 | emojis=3 | len=89 | style=unspecified | cta=question
-- 🎯 A bad hire can cost you 30% of their salary. Reduce noise, focus on high-intent candidates. 🎯  | score=0.0 | emojis=2 | len=95 | style=unspecified | cta=question
