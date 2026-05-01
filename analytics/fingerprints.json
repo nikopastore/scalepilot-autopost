@@ -2486,5 +2486,19 @@
       "bad hire costs 30 of",
       "their first year salary is"
     ]
+  },
+  {
+    "guid": "23d49cdb641ac4fc811f25a083fc620cc02bb086",
+    "ngrams": [
+      "on screenings ai ranks candidates",
+      "ai ranks candidates in seconds",
+      "spend 20 hours a week",
+      "a week on screenings ai",
+      "screenings ai ranks candidates in",
+      "why spend 20 hours a",
+      "hours a week on screenings",
+      "20 hours a week on",
+      "week on screenings ai ranks"
+    ]
   }
 ]
