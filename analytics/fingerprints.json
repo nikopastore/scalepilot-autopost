@@ -2599,5 +2599,18 @@
       "insurance agencies waste 15 hours",
       "hours per hire on manual"
     ]
+  },
+  {
+    "guid": "cf553b24429aecba3418fbf6ecf8dd3936b2e357",
+    "ngrams": [
+      "10 days yet your hiring",
+      "top candidates vanish in 10",
+      "your hiring takes 6 weeks",
+      "yet your hiring takes 6",
+      "days yet your hiring takes",
+      "vanish in 10 days yet",
+      "in 10 days yet your",
+      "candidates vanish in 10 days"
+    ]
   }
 ]
