@@ -2694,5 +2694,21 @@
       "did you know 73 of",
       "you know 73 of candidates"
     ]
+  },
+  {
+    "guid": "882b0411462c76fdb60f36e18d4cc7df1d0eb56d",
+    "ngrams": [
+      "hiring is costly building a",
+      "proactive talent pipeline is key",
+      "pipeline is key to reducing",
+      "building a proactive talent pipeline",
+      "is key to reducing recruitment",
+      "key to reducing recruitment expenses",
+      "is costly building a proactive",
+      "a proactive talent pipeline is",
+      "reactive hiring is costly building",
+      "talent pipeline is key to",
+      "costly building a proactive talent"
+    ]
   }
 ]
