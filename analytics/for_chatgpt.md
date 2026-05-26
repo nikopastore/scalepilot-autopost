@@ -4,24 +4,24 @@ We generate self-contained, emoji-forward posts daily. Below are feature average
 
 ## Feature Summary (averages)
 
-- bullets :: 1+ => avg_score=0.0 (n=182)
-- cta :: question => avg_score=0.0 (n=182)
-- emoji :: 2 => avg_score=0.0 (n=166)
+- bullets :: 1+ => avg_score=0.0 (n=183)
+- cta :: question => avg_score=0.0 (n=183)
+- emoji :: 2 => avg_score=0.0 (n=167)
 - emoji :: 3+ => avg_score=0.0 (n=16)
-- len :: <= 120 => avg_score=0.0 (n=164)
+- len :: <= 120 => avg_score=0.0 (n=165)
 - len :: <= 160 => avg_score=0.0 (n=17)
 - len :: <= 200 => avg_score=0.0 (n=1)
-- number :: no => avg_score=0.0 (n=56)
+- number :: no => avg_score=0.0 (n=57)
 - number :: yes => avg_score=0.0 (n=126)
-- question :: no => avg_score=0.0 (n=57)
+- question :: no => avg_score=0.0 (n=58)
 - question :: yes => avg_score=0.0 (n=125)
 - style :: how_to => avg_score=0.0 (n=1)
 - style :: mistake_avoid => avg_score=0.0 (n=2)
 - style :: tool_tip => avg_score=0.0 (n=2)
-- style :: unspecified => avg_score=0.0 (n=177)
+- style :: unspecified => avg_score=0.0 (n=178)
 - time :: early-afternoon => avg_score=0.0 (n=1)
 - time :: evening => avg_score=0.0 (n=6)
-- time :: late-afternoon => avg_score=0.0 (n=173)
+- time :: late-afternoon => avg_score=0.0 (n=174)
 - time :: night => avg_score=0.0 (n=2)
 
 ## Ask ChatGPT
@@ -30,8 +30,8 @@ Using the summary and top posts, propose 5 editing rules to maximize engagement,
 
 ## Top Posts (samples)
 
+- ⚡ Every day a critical role stays open, your revenue potential shrinks. Proactive talent pipelines are key! 🎯  | score=0.0 | emojis=2 | len=109 | style=unspecified | cta=question
 - 💡 Is 'talent scarcity' real, or are we just targeting wrong? 🔎 Let's rethink recruitment strategies!  | score=0.0 | emojis=2 | len=100 | style=unspecified | cta=question
 - Reactive hiring triples your costs! Build a proactive talent pipeline for savings and success. 🎯📈  | score=0.0 | emojis=2 | len=97 | style=unspecified | cta=question
 - 🚨 Did you know 73% of candidates ghost due to poor communication? Shift to SMS-first outreach for 5x better responses! 📈  | score=0.0 | emojis=2 | len=120 | style=unspecified | cta=question
 - 🌟 Is your time-to-fill 42 days while competitors hit 14? ⏳🤔 Upgrade your hiring tech to close the gap!  | score=0.0 | emojis=2 | len=102 | style=unspecified | cta=question
-- 💡 Why spend 20 hours a week on initial screenings when AI ranks candidates in seconds? ⏱️🤖  | score=0.0 | emojis=3 | len=90 | style=unspecified | cta=question
