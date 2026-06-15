@@ -1,22 +1,5 @@
 [
   {
-    "guid": "7f165d80ee781598e800bcb9bcb6cd8293ad6a58",
-    "ngrams": [
-      "your business start with one",
-      "start with one workflow this",
-      "ai can automate 70 of",
-      "70 of repetitive tasks in",
-      "repetitive tasks in your business",
-      "can automate 70 of repetitive",
-      "tasks in your business start",
-      "automate 70 of repetitive tasks",
-      "in your business start with",
-      "with one workflow this week",
-      "business start with one workflow",
-      "of repetitive tasks in your"
-    ]
-  },
-  {
     "guid": "044d7a8a02b1e4909dead0bbdc3ff3e06985539b",
     "ngrams": [
       "with one workflow this week",
@@ -3201,6 +3184,17 @@
       "s a targeting problem discover",
       "a targeting problem discover why",
       "think talent scarcity is real"
+    ]
+  },
+  {
+    "guid": "9354a3ed52eb0d09d8fc08d5445b90c335c77fa9",
+    "ngrams": [
+      "every day a critical role",
+      "role stays open revenue potential",
+      "stays open revenue potential shrinks",
+      "a critical role stays open",
+      "critical role stays open revenue",
+      "day a critical role stays"
     ]
   }
 ]
