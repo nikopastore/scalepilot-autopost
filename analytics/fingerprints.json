@@ -1,22 +1,5 @@
 [
   {
-    "guid": "044d7a8a02b1e4909dead0bbdc3ff3e06985539b",
-    "ngrams": [
-      "with one workflow this week",
-      "of repetitive tasks in your",
-      "ai can automate 70 of",
-      "automate 70 of repetitive tasks",
-      "in your business start with",
-      "your business start with one",
-      "repetitive tasks in your business",
-      "start with one workflow this",
-      "business start with one workflow",
-      "can automate 70 of repetitive",
-      "70 of repetitive tasks in",
-      "tasks in your business start"
-    ]
-  },
-  {
     "guid": "eafe63fffe1adab65af67f31abc924c40b4691a6",
     "ngrams": [
       "automate 70 of repetitive tasks",
@@ -3195,6 +3178,19 @@
       "a critical role stays open",
       "critical role stays open revenue",
       "day a critical role stays"
+    ]
+  },
+  {
+    "guid": "934668695fee8b16e4c834e1f78d2824c1dc7794",
+    "ngrams": [
+      "15 hours verifying licenses manually",
+      "licenses manually automate this with",
+      "hours verifying licenses manually automate",
+      "agencies waste 15 hours verifying",
+      "insurance agencies waste 15 hours",
+      "waste 15 hours verifying licenses",
+      "manually automate this with hirepriority",
+      "verifying licenses manually automate this"
     ]
   }
 ]
