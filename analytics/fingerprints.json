@@ -1,22 +1,5 @@
 [
   {
-    "guid": "eafe63fffe1adab65af67f31abc924c40b4691a6",
-    "ngrams": [
-      "automate 70 of repetitive tasks",
-      "business start with one workflow",
-      "your business start with one",
-      "repetitive tasks in your business",
-      "70 of repetitive tasks in",
-      "in your business start with",
-      "can automate 70 of repetitive",
-      "tasks in your business start",
-      "of repetitive tasks in your",
-      "start with one workflow this",
-      "ai can automate 70 of",
-      "with one workflow this week"
-    ]
-  },
-  {
     "guid": "392f03daf8845f6f029e6aa8d30857ccbc57cf03",
     "ngrams": [
       "start with one workflow this",
@@ -3191,6 +3174,22 @@
       "waste 15 hours verifying licenses",
       "manually automate this with hirepriority",
       "verifying licenses manually automate this"
+    ]
+  },
+  {
+    "guid": "7bd7f0feedb0f5113f52e775cf28aa592eecca0c",
+    "ngrams": [
+      "days but your lengthy process",
+      "10 days but your lengthy",
+      "candidates leave the market in",
+      "the market in 10 days",
+      "leave the market in 10",
+      "but your lengthy process takes",
+      "lengthy process takes 6 weeks",
+      "your lengthy process takes 6",
+      "in 10 days but your",
+      "market in 10 days but",
+      "top candidates leave the market"
     ]
   }
 ]
