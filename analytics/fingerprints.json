@@ -1,15 +1,5 @@
 [
   {
-    "guid": "15cd6d519f764c720ae411b24366a8f096638708",
-    "ngrams": [
-      "tasks effortlessly with an ai",
-      "your admin tasks effortlessly with",
-      "streamline your admin tasks effortlessly",
-      "effortlessly with an ai assistant",
-      "admin tasks effortlessly with an"
-    ]
-  },
-  {
     "guid": "bb54ec33e38bc5fa888618c76732b134c20756c6",
     "ngrams": [
       "ai automate invoices and payments",
@@ -3200,6 +3190,18 @@
       "you 30 of their salary",
       "of their salary stop sifting",
       "cost you 30 of their"
+    ]
+  },
+  {
+    "guid": "c082fe94a3cd774ea896eb90544e7b5620b62e1f",
+    "ngrams": [
+      "on screenings automate with ai",
+      "week on screenings automate with",
+      "a week on screenings automate",
+      "why spend 20 hours a",
+      "20 hours a week on",
+      "hours a week on screenings",
+      "spend 20 hours a week"
     ]
   }
 ]
