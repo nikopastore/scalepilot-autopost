@@ -1,21 +1,5 @@
 [
   {
-    "guid": "bb54ec33e38bc5fa888618c76732b134c20756c6",
-    "ngrams": [
-      "ai automate invoices and payments",
-      "your billing with ai automate",
-      "save time and reduce errors",
-      "streamline your billing with ai",
-      "billing with ai automate invoices",
-      "automate invoices and payments to",
-      "to save time and reduce",
-      "invoices and payments to save",
-      "with ai automate invoices and",
-      "payments to save time and",
-      "and payments to save time"
-    ]
-  },
-  {
     "guid": "07cf703d2dbfea7ba076fe05ffa478db4d3a1c3f",
     "ngrams": [
       "boost your biz with automated",
@@ -3202,6 +3186,24 @@
       "20 hours a week on",
       "hours a week on screenings",
       "spend 20 hours a week"
+    ]
+  },
+  {
+    "guid": "b680cd4870d46143874a980d067426bb29ab1158",
+    "ngrams": [
+      "to fill is 42 days",
+      "at 14 is outdated tech",
+      "is outdated tech holding you",
+      "outdated tech holding you back",
+      "days competitors are at 14",
+      "competitors are at 14 is",
+      "time to fill is 42",
+      "is 42 days competitors are",
+      "fill is 42 days competitors",
+      "are at 14 is outdated",
+      "your time to fill is",
+      "14 is outdated tech holding",
+      "42 days competitors are at"
     ]
   }
 ]
