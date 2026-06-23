@@ -1,19 +1,5 @@
 [
   {
-    "guid": "d82c527bc173b3a7ad2dab9bb3c874d6abff9764",
-    "ngrams": [
-      "ai platforms for smarter growth",
-      "using ai platforms for smarter",
-      "ai train your team using",
-      "with ai train your team",
-      "skills with ai train your",
-      "your team using ai platforms",
-      "team using ai platforms for",
-      "boost skills with ai train",
-      "train your team using ai"
-    ]
-  },
-  {
     "guid": "69e72717d25780cb48eb94d522a394a2fc03a0e9",
     "ngrams": [
       "document processing automate tedious tasks",
@@ -3212,6 +3198,23 @@
       "communication switch to sms first",
       "to sms first engagement and",
       "poor communication switch to sms"
+    ]
+  },
+  {
+    "guid": "54a1ac3a1f9d59b40465bc85cfe478bdf6f2e646",
+    "ngrams": [
+      "reactive hiring costs 3x more",
+      "3x more build a proactive",
+      "stay ahead of the game",
+      "build a proactive talent pipeline",
+      "to stay ahead of the",
+      "a proactive talent pipeline to",
+      "pipeline to stay ahead of",
+      "talent pipeline to stay ahead",
+      "costs 3x more build a",
+      "more build a proactive talent",
+      "proactive talent pipeline to stay",
+      "hiring costs 3x more build"
     ]
   }
 ]
