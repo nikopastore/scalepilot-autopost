@@ -1,17 +1,5 @@
 [
   {
-    "guid": "a104de77bdfd79aa17dbca123c0cddae7c77cbd3",
-    "ngrams": [
-      "your accounting with ai tools",
-      "automate your accounting with ai",
-      "tools and save hours each",
-      "with ai tools and save",
-      "ai tools and save hours",
-      "accounting with ai tools and",
-      "and save hours each week"
-    ]
-  },
-  {
     "guid": "0788a3e3d59fb1e4e8cc34da1c50b0e1c0c06849",
     "ngrams": [
       "your customer support with ai",
@@ -3240,6 +3228,20 @@
       "on resume screenings let ai",
       "spending 20 hours a week",
       "screenings let ai cut through"
+    ]
+  },
+  {
+    "guid": "e7a38f0f19fb9d543b5d68f07861daf641201b8e",
+    "ngrams": [
+      "day time to fill competitors",
+      "fill competitors do it in",
+      "to fill competitors do it",
+      "struggling with a 42 day",
+      "with a 42 day time",
+      "42 day time to fill",
+      "time to fill competitors do",
+      "a 42 day time to",
+      "competitors do it in 14"
     ]
   }
 ]
