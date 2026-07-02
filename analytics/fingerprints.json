@@ -1,22 +1,5 @@
 [
   {
-    "guid": "0788a3e3d59fb1e4e8cc34da1c50b0e1c0c06849",
-    "ngrams": [
-      "your customer support with ai",
-      "one small biz went from",
-      "customer support with ai discover",
-      "biz went from chaos to",
-      "went from chaos to clarity",
-      "ai discover how one small",
-      "how one small biz went",
-      "small biz went from chaos",
-      "boost your customer support with",
-      "support with ai discover how",
-      "discover how one small biz",
-      "with ai discover how one"
-    ]
-  },
-  {
     "guid": "8e57cb38e9eff4b55364214020f40acf7ddad9a3",
     "ngrams": [
       "efficiency by automating data entry",
@@ -3242,6 +3225,23 @@
       "time to fill competitors do",
       "a 42 day time to",
       "competitors do it in 14"
+    ]
+  },
+  {
+    "guid": "1f275b264b65f92cb0fd0b681a7a2c482ad83de2",
+    "ngrams": [
+      "73 of candidates ghost due",
+      "of candidates ghost due to",
+      "poor communication shift to sms",
+      "shift to sms first for",
+      "sms first for 5x better",
+      "to sms first for 5x",
+      "first for 5x better responses",
+      "to poor communication shift to",
+      "due to poor communication shift",
+      "candidates ghost due to poor",
+      "communication shift to sms first",
+      "ghost due to poor communication"
     ]
   }
 ]
