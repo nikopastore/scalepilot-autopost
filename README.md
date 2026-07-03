@@ -113,6 +113,22 @@ Platform-specific formatting scripts:
 - [scripts/make_x_feed.py](scripts/make_x_feed.py) - X/Twitter (280 char limit)
 - [scripts/make_fb_feed.py](scripts/make_fb_feed.py) - Facebook (friendly, engaging)
 
+### Xquik or TweetClaw Trend Signals
+
+Reviewed Xquik/TweetClaw exports can be added to `content/trends.json`, which
+`build_rss.py` already reads when selecting feed topics:
+
+```bash
+python scripts/import_xquik_trends.py \
+  --input path/to/xquik-export.jsonl \
+  --output content/trends.json \
+  --limit 10
+```
+
+The importer accepts CSV, JSON, and JSONL rows. It skips rows marked
+`unreviewed`, `needs_review`, `not_approved`, `pending`, or `rejected` by
+default so draft social data does not enter the automated RSS topic pool.
+
 ## How It Works
 
 1. **AI Content Generation**: OpenAI GPT-4 creates original posts from topic seeds
