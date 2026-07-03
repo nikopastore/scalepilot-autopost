@@ -1,25 +1,5 @@
 [
   {
-    "guid": "8e57cb38e9eff4b55364214020f40acf7ddad9a3",
-    "ngrams": [
-      "efficiency by automating data entry",
-      "by automating data entry and",
-      "to tedious tasks and hello",
-      "reporting say goodbye to tedious",
-      "and hello to more productive",
-      "data entry and reporting say",
-      "and reporting say goodbye to",
-      "hello to more productive days",
-      "automating data entry and reporting",
-      "goodbye to tedious tasks and",
-      "tasks and hello to more",
-      "entry and reporting say goodbye",
-      "say goodbye to tedious tasks",
-      "tedious tasks and hello to",
-      "boost efficiency by automating data"
-    ]
-  },
-  {
     "guid": "33c56ece9c04589b309b851a4a1dc700b105a786",
     "ngrams": [
       "your sales today with ai",
@@ -3242,6 +3222,18 @@
       "candidates ghost due to poor",
       "communication shift to sms first",
       "ghost due to poor communication"
+    ]
+  },
+  {
+    "guid": "8a8b11772aea6041a5a758438f043dc46a86e69b",
+    "ngrams": [
+      "is 3x costlier than building",
+      "reactive hiring is 3x costlier",
+      "building a proactive talent pipeline",
+      "3x costlier than building a",
+      "than building a proactive talent",
+      "hiring is 3x costlier than",
+      "costlier than building a proactive"
     ]
   }
 ]
