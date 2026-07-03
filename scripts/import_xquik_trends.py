@@ -11,6 +11,9 @@ from typing import Any
 
 
 TEXT_FIELDS = (
+    "name",
+    "query",
+    "title",
     "text",
     "full_text",
     "tweetText",
@@ -72,7 +75,7 @@ def flatten_items(value: Any) -> list[dict[str, Any]]:
     if isinstance(value, list):
         return [item for item in value if isinstance(item, dict)]
     if isinstance(value, dict):
-        for key in ("items", "tweets", "results", "data"):
+        for key in ("items", "trends", "tweets", "results", "data"):
             nested = value.get(key)
             if isinstance(nested, list):
                 return [item for item in nested if isinstance(item, dict)]
