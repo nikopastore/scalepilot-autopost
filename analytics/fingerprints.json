@@ -1,20 +1,5 @@
 [
   {
-    "guid": "80675ccaccb795e2ff616833d21d5661f2f43117",
-    "ngrams": [
-      "want to outsmart your competition",
-      "sharper insights and a winning",
-      "ai for sharper insights and",
-      "to outsmart your competition use",
-      "use ai for sharper insights",
-      "for sharper insights and a",
-      "your competition use ai for",
-      "insights and a winning edge",
-      "competition use ai for sharper",
-      "outsmart your competition use ai"
-    ]
-  },
-  {
     "guid": "0f7b76bce2ab29c47a7a33883d49992ef69f2133",
     "ngrams": [
       "with ai document processing automate",
@@ -3231,6 +3216,19 @@
       "your process takes 6 weeks",
       "talent is gone in 10",
       "top talent is gone in"
+    ]
+  },
+  {
+    "guid": "93db2a7f8337371b9c7f05962a7497d115d4e7ef",
+    "ngrams": [
+      "before interviews voice ai can",
+      "struggling to gauge sales skills",
+      "to gauge sales skills before",
+      "sales skills before interviews voice",
+      "voice ai can save hours",
+      "gauge sales skills before interviews",
+      "skills before interviews voice ai",
+      "interviews voice ai can save"
     ]
   }
 ]
