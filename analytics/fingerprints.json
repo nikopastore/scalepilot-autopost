@@ -1,17 +1,5 @@
 [
   {
-    "guid": "56a292c70e316edcea2853fb281cd47231f3ae4c",
-    "ngrams": [
-      "your email game with ai",
-      "with ai automate personalize for",
-      "game with ai automate personalize",
-      "ai automate personalize for better",
-      "boost your email game with",
-      "automate personalize for better results",
-      "email game with ai automate"
-    ]
-  },
-  {
     "guid": "5c7a205018e16a1cc15f70d3c4152dccf322b5c8",
     "ngrams": [
       "your biz with ai analytics",
@@ -3231,6 +3219,21 @@
       "hours a week on screenings",
       "why spend 20 hours a",
       "screenings ai scores candidates in"
+    ]
+  },
+  {
+    "guid": "7ad137b19530fd97c61b161f891643f7a06b2483",
+    "ngrams": [
+      "fill competitors are doing it",
+      "a 42 day time to",
+      "to fill competitors are doing",
+      "with a 42 day time",
+      "42 day time to fill",
+      "struggling with a 42 day",
+      "competitors are doing it in",
+      "are doing it in 14",
+      "day time to fill competitors",
+      "time to fill competitors are"
     ]
   }
 ]
