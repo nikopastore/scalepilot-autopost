@@ -1,16 +1,5 @@
 [
   {
-    "guid": "54fb66952225bd5fa6855ccb89d0300761de0777",
-    "ngrams": [
-      "boost engagement by automating your",
-      "automating your social media posts",
-      "your social media posts with",
-      "social media posts with ai",
-      "engagement by automating your social",
-      "by automating your social media"
-    ]
-  },
-  {
     "guid": "81b5850979f58f4d1100a470268087d47d60e8ab",
     "ngrams": [
       "avoid ai chaos start small",
@@ -3235,6 +3224,20 @@
       "upgrade your engagement strategy for",
       "your engagement strategy for better",
       "with poor communication upgrade your"
+    ]
+  },
+  {
+    "guid": "4992d118e5f98a98d7220c4da59c8defea31dbda",
+    "ngrams": [
+      "reactive hiring costs 3x more",
+      "costs 3x more than proactive",
+      "than proactive talent pipeline building",
+      "did you know reactive hiring",
+      "hiring costs 3x more than",
+      "3x more than proactive talent",
+      "more than proactive talent pipeline",
+      "know reactive hiring costs 3x",
+      "you know reactive hiring costs"
     ]
   }
 ]
