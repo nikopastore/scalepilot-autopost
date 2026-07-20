@@ -1,16 +1,5 @@
 [
   {
-    "guid": "685d5f379224e6766748eba0c2cf2114ce264a19",
-    "ngrams": [
-      "with predictive analytics transform data",
-      "transform data into decisions today",
-      "insights with predictive analytics transform",
-      "predictive analytics transform data into",
-      "unlock insights with predictive analytics",
-      "analytics transform data into decisions"
-    ]
-  },
-  {
     "guid": "8a51db606837fd6187a8a322360330970bb01bdc",
     "ngrams": [
       "automate reviews without losing authenticity",
@@ -3241,6 +3230,21 @@
       "with hirepriority s pre qualification",
       "cost of a bad hire",
       "of their salary reduce noise"
+    ]
+  },
+  {
+    "guid": "29efba6d66f85c38052fa2d6c78bbe613fa86fdd",
+    "ngrams": [
+      "ai speed up your hiring",
+      "let ai speed up your",
+      "20 hours week on screenings",
+      "hours week on screenings let",
+      "why spend 20 hours week",
+      "spend 20 hours week on",
+      "screenings let ai speed up",
+      "speed up your hiring process",
+      "on screenings let ai speed",
+      "week on screenings let ai"
     ]
   }
 ]
