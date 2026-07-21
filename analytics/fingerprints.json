@@ -1,14 +1,5 @@
 [
   {
-    "guid": "8a51db606837fd6187a8a322360330970bb01bdc",
-    "ngrams": [
-      "automate reviews without losing authenticity",
-      "avoiding ai pitfalls automate reviews",
-      "pitfalls automate reviews without losing",
-      "ai pitfalls automate reviews without"
-    ]
-  },
-  {
     "guid": "3133dfa84e2a05116ba83f4ad5a5207c433ee8a0",
     "ngrams": [
       "tasks streamline your schedule emails",
@@ -3245,6 +3236,19 @@
       "speed up your hiring process",
       "on screenings let ai speed",
       "week on screenings let ai"
+    ]
+  },
+  {
+    "guid": "bd21614500abc78ae2162194ca9aa4ef3544ec88",
+    "ngrams": [
+      "hiring process takes 42 days",
+      "days while competitors do it",
+      "while competitors do it in",
+      "takes 42 days while competitors",
+      "42 days while competitors do",
+      "process takes 42 days while",
+      "competitors do it in 14",
+      "your hiring process takes 42"
     ]
   }
 ]
