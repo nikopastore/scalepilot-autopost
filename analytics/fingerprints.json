@@ -1,19 +1,5 @@
 [
   {
-    "guid": "f3363daff78276e941af50bee6f0c154e4e00d55",
-    "ngrams": [
-      "a small business find top",
-      "how ai helped a small",
-      "ai helped a small business",
-      "business find top talent faster",
-      "find top talent faster and",
-      "small business find top talent",
-      "helped a small business find",
-      "top talent faster and smarter",
-      "discover how ai helped a"
-    ]
-  },
-  {
     "guid": "b23550a0052460478f8471073eae187dc4827585",
     "ngrams": [
       "streamline your hr with ai",
@@ -3246,6 +3232,16 @@
       "candidates ghost firms with poor",
       "73 of candidates ghost firms",
       "firms with poor communication boost"
+    ]
+  },
+  {
+    "guid": "2628539d6d7aee838e1d8bdd8d3e72d32d2460cb",
+    "ngrams": [
+      "compared to proactive pipeline building",
+      "triple compared to proactive pipeline",
+      "reactive hiring costs triple compared",
+      "hiring costs triple compared to",
+      "costs triple compared to proactive"
     ]
   }
 ]
