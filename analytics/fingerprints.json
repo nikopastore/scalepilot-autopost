@@ -1,22 +1,5 @@
 [
   {
-    "guid": "22618d6bb73837f662354622264965c5a1618111",
-    "ngrams": [
-      "shrinks proactive talent pipelines make",
-      "role stays open revenue potential",
-      "a critical role stays open",
-      "every day a critical role",
-      "potential shrinks proactive talent pipelines",
-      "stays open revenue potential shrinks",
-      "revenue potential shrinks proactive talent",
-      "proactive talent pipelines make the",
-      "day a critical role stays",
-      "open revenue potential shrinks proactive",
-      "talent pipelines make the difference",
-      "critical role stays open revenue"
-    ]
-  },
-  {
     "guid": "18ca2a742d1280adf038d743822a7f95b6b8007c",
     "ngrams": [
       "manually verifying licenses let s",
@@ -3251,6 +3234,20 @@
       "attract volume not quality discover",
       "s a targeting issue broad",
       "scarcity a myth it s"
+    ]
+  },
+  {
+    "guid": "e7d82c583e7672693c0c3208c570d39b9a50bea7",
+    "ngrams": [
+      "a key role is open",
+      "open your revenue potential slips",
+      "your revenue potential slips act",
+      "is open your revenue potential",
+      "day a key role is",
+      "role is open your revenue",
+      "every day a key role",
+      "key role is open your",
+      "revenue potential slips act now"
     ]
   }
 ]
