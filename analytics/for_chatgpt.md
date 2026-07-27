@@ -4,24 +4,24 @@ We generate self-contained, emoji-forward posts daily. Below are feature average
 
 ## Feature Summary (averages)
 
-- bullets :: 1+ => avg_score=0.0 (n=244)
-- cta :: question => avg_score=0.0 (n=244)
-- emoji :: 2 => avg_score=0.0 (n=225)
+- bullets :: 1+ => avg_score=0.0 (n=245)
+- cta :: question => avg_score=0.0 (n=245)
+- emoji :: 2 => avg_score=0.0 (n=226)
 - emoji :: 3+ => avg_score=0.0 (n=19)
-- len :: <= 120 => avg_score=0.0 (n=217)
+- len :: <= 120 => avg_score=0.0 (n=218)
 - len :: <= 160 => avg_score=0.0 (n=26)
 - len :: <= 200 => avg_score=0.0 (n=1)
 - number :: no => avg_score=0.0 (n=67)
-- number :: yes => avg_score=0.0 (n=177)
+- number :: yes => avg_score=0.0 (n=178)
 - question :: no => avg_score=0.0 (n=86)
-- question :: yes => avg_score=0.0 (n=158)
+- question :: yes => avg_score=0.0 (n=159)
 - style :: how_to => avg_score=0.0 (n=1)
 - style :: mistake_avoid => avg_score=0.0 (n=2)
 - style :: tool_tip => avg_score=0.0 (n=2)
-- style :: unspecified => avg_score=0.0 (n=239)
+- style :: unspecified => avg_score=0.0 (n=240)
 - time :: early-afternoon => avg_score=0.0 (n=1)
 - time :: evening => avg_score=0.0 (n=17)
-- time :: late-afternoon => avg_score=0.0 (n=224)
+- time :: late-afternoon => avg_score=0.0 (n=225)
 - time :: night => avg_score=0.0 (n=2)
 
 ## Ask ChatGPT
@@ -30,8 +30,8 @@ Using the summary and top posts, propose 5 editing rules to maximize engagement,
 
 ## Top Posts (samples)
 
+- ✅ Top candidates are gone in 10 days, but your process takes 6 weeks! 📉⏳  | score=0.0 | emojis=2 | len=72 | style=unspecified | cta=question
 - 🔧 Insurance agencies waste 15+ hours per hire on manual license checks. Automate with NIPR verification and reclaim your time! 🔍  | score=0.0 | emojis=2 | len=128 | style=unspecified | cta=question
 - 🚨 Every day a key role is open, your revenue potential slips. Act now! 🚀  | score=0.0 | emojis=2 | len=72 | style=unspecified | cta=question
 - 🌟 Is talent scarcity a myth? It's a targeting issue. Broad postings attract volume, not quality. Discover niche-focused recruitment solutions. 📊  | score=0.0 | emojis=2 | len=144 | style=unspecified | cta=question
 - 🌟 Reactive hiring costs triple compared to proactive pipeline building. 🎯  | score=0.0 | emojis=2 | len=73 | style=unspecified | cta=question
-- 73% of candidates ghost firms with poor communication. Boost responses with SMS-first engagement! 📈💬  | score=0.0 | emojis=2 | len=100 | style=unspecified | cta=question
