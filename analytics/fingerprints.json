@@ -1,31 +1,5 @@
 [
   {
-    "guid": "602527b8e9eeebabe3248f4f3b06541c65c24780",
-    "ngrams": [
-      "the market in 10 days",
-      "on for 6 weeks streamline",
-      "but your hiring process drags",
-      "6 weeks streamline communication and",
-      "top candidates are off the",
-      "drags on for 6 weeks",
-      "are off the market in",
-      "and capture a players now",
-      "weeks streamline communication and capture",
-      "streamline communication and capture a",
-      "your hiring process drags on",
-      "communication and capture a players",
-      "for 6 weeks streamline communication",
-      "days but your hiring process",
-      "process drags on for 6",
-      "in 10 days but your",
-      "hiring process drags on for",
-      "off the market in 10",
-      "market in 10 days but",
-      "10 days but your hiring",
-      "candidates are off the market"
-    ]
-  },
-  {
     "guid": "ac322d949476453ce35868858aa430b4f6ff8c05",
     "ngrams": [
       "interview you ve wasted 3",
@@ -3254,6 +3228,20 @@
       "on manual license checks automate",
       "license checks automate with nipr",
       "waste 15 hours per hire"
+    ]
+  },
+  {
+    "guid": "2e9ab9c0311b6f3981172de67c6f6fc320206983",
+    "ngrams": [
+      "candidates are gone in 10",
+      "top candidates are gone in",
+      "10 days but your process",
+      "in 10 days but your",
+      "but your process takes 6",
+      "your process takes 6 weeks",
+      "days but your process takes",
+      "gone in 10 days but",
+      "are gone in 10 days"
     ]
   }
 ]
