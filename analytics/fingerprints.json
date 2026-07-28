@@ -1,19 +1,5 @@
 [
   {
-    "guid": "ac322d949476453ce35868858aa430b4f6ff8c05",
-    "ngrams": [
-      "interview you ve wasted 3",
-      "t assess sales ability until",
-      "you ve wasted 3 hours",
-      "can t assess sales ability",
-      "ability until the interview you",
-      "assess sales ability until the",
-      "until the interview you ve",
-      "the interview you ve wasted",
-      "sales ability until the interview"
-    ]
-  },
-  {
     "guid": "2d31531f7c93d4517e7ee9389b7c134966fc8f37",
     "ngrams": [
       "cost of a bad hire",
@@ -3242,6 +3228,22 @@
       "days but your process takes",
       "gone in 10 days but",
       "are gone in 10 days"
+    ]
+  },
+  {
+    "guid": "b791e09296e78f01b699b8f3c66588d61e476696",
+    "ngrams": [
+      "hours discover efficient solutions now",
+      "before interviews traditional methods waste",
+      "to assess sales skills before",
+      "struggling to assess sales skills",
+      "waste hours discover efficient solutions",
+      "skills before interviews traditional methods",
+      "assess sales skills before interviews",
+      "traditional methods waste hours discover",
+      "interviews traditional methods waste hours",
+      "sales skills before interviews traditional",
+      "methods waste hours discover efficient"
     ]
   }
 ]
