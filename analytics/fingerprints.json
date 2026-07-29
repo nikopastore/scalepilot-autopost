@@ -1,18 +1,5 @@
 [
   {
-    "guid": "2d31531f7c93d4517e7ee9389b7c134966fc8f37",
-    "ngrams": [
-      "cost of a bad hire",
-      "the cost of a bad",
-      "a bad hire 30 of",
-      "of a bad hire 30",
-      "hire 30 of their first",
-      "of their first year salary",
-      "30 of their first year",
-      "bad hire 30 of their"
-    ]
-  },
-  {
     "guid": "2124e7f090e4cb41c3a30910a05716d39ee4986a",
     "ngrams": [
       "when ai can do it",
@@ -3244,6 +3231,21 @@
       "interviews traditional methods waste hours",
       "sales skills before interviews traditional",
       "methods waste hours discover efficient"
+    ]
+  },
+  {
+    "guid": "e0e9d4c4e90295a8c4c110cd76949620ae58036b",
+    "ngrams": [
+      "salary don t drown in",
+      "their salary don t drown",
+      "don t drown in unqualified",
+      "30 of their salary don",
+      "costs 30 of their salary",
+      "bad hire costs 30 of",
+      "hire costs 30 of their",
+      "of their salary don t",
+      "t drown in unqualified resumes",
+      "a bad hire costs 30"
     ]
   }
 ]
