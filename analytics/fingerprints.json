@@ -1,21 +1,5 @@
 [
   {
-    "guid": "e2282d866d80828e94d0405850b5cb5026367264",
-    "ngrams": [
-      "to fill is 42 days",
-      "competitors are at 14 let",
-      "42 days competitors are at",
-      "days competitors are at 14",
-      "are at 14 let s",
-      "time to fill is 42",
-      "14 let s fix this",
-      "average time to fill is",
-      "fill is 42 days competitors",
-      "at 14 let s fix",
-      "is 42 days competitors are"
-    ]
-  },
-  {
     "guid": "5e6736f20fb11656e055f2018b14e7ed51910f43",
     "ngrams": [
       "poor communication are your emails",
@@ -3246,6 +3230,18 @@
       "on screenings let ai do",
       "hours weekly on screenings let",
       "20 hours weekly on screenings"
+    ]
+  },
+  {
+    "guid": "f92b944c1d4a16b673004662f0616b171d02c7fc",
+    "ngrams": [
+      "42 days competitors hit 14",
+      "your hiring process lagging at",
+      "at 42 days competitors hit",
+      "is your hiring process lagging",
+      "process lagging at 42 days",
+      "hiring process lagging at 42",
+      "lagging at 42 days competitors"
     ]
   }
 ]
