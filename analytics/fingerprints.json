@@ -1,15 +1,5 @@
 [
   {
-    "guid": "82993273c602360d28109796811ebd5874a50af9",
-    "ngrams": [
-      "costs 3x more than proactive",
-      "reactive hiring costs 3x more",
-      "3x more than proactive pipeline",
-      "more than proactive pipeline building",
-      "hiring costs 3x more than"
-    ]
-  },
-  {
     "guid": "1b5bcd8ba414ed5a91e0201a7dc4a1f5286c279a",
     "ngrams": [
       "your job postings too broad",
@@ -3244,6 +3234,16 @@
       "better engagement try sms first",
       "of candidates ghost companies with",
       "candidates ghost companies with poor"
+    ]
+  },
+  {
+    "guid": "2e1c80a9fec90e1420e8da4df092f9f2137a9b5e",
+    "ngrams": [
+      "more than proactive talent pipelines",
+      "3x more than proactive talent",
+      "reactive hiring costs 3x more",
+      "hiring costs 3x more than",
+      "costs 3x more than proactive"
     ]
   }
 ]
