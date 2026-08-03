@@ -1,22 +1,5 @@
 [
   {
-    "guid": "1b5bcd8ba414ed5a91e0201a7dc4a1f5286c279a",
-    "ngrams": [
-      "your job postings too broad",
-      "scarcity is actually a targeting",
-      "the myth of talent scarcity",
-      "are your job postings too",
-      "of talent scarcity is actually",
-      "a targeting issue are your",
-      "is actually a targeting issue",
-      "targeting issue are your job",
-      "actually a targeting issue are",
-      "issue are your job postings",
-      "talent scarcity is actually a",
-      "myth of talent scarcity is"
-    ]
-  },
-  {
     "guid": "042f7e4580d6d97a802c9d7acc78eea83c5b0a06",
     "ngrams": [
       "weekly on resume screenings ai",
@@ -3244,6 +3227,20 @@
       "reactive hiring costs 3x more",
       "hiring costs 3x more than",
       "costs 3x more than proactive"
+    ]
+  },
+  {
+    "guid": "079dffad1ac692094fd44df565e857123514dbb5",
+    "ngrams": [
+      "talent scarcity is a myth",
+      "all about targeting the right",
+      "scarcity is a myth it",
+      "myth it s all about",
+      "is a myth it s",
+      "it s all about targeting",
+      "s all about targeting the",
+      "about targeting the right candidates",
+      "a myth it s all"
     ]
   }
 ]
