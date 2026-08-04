@@ -1,19 +1,5 @@
 [
   {
-    "guid": "042f7e4580d6d97a802c9d7acc78eea83c5b0a06",
-    "ngrams": [
-      "weekly on resume screenings ai",
-      "screenings ai can do it",
-      "spending 20 hours weekly on",
-      "on resume screenings ai can",
-      "resume screenings ai can do",
-      "hours weekly on resume screenings",
-      "can do it in seconds",
-      "20 hours weekly on resume",
-      "ai can do it in"
-    ]
-  },
-  {
     "guid": "bac804987de9b53a29dec87313fc208e5b67a211",
     "ngrams": [
       "hiring process stuck at 42",
@@ -3241,6 +3227,17 @@
       "s all about targeting the",
       "about targeting the right candidates",
       "a myth it s all"
+    ]
+  },
+  {
+    "guid": "b75530484a05743d219d2b99227d0e39255e4497",
+    "ngrams": [
+      "every day a key role",
+      "key role stays empty revenue",
+      "stays empty revenue potential declines",
+      "a key role stays empty",
+      "day a key role stays",
+      "role stays empty revenue potential"
     ]
   }
 ]
