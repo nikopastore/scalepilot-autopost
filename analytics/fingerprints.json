@@ -1,19 +1,5 @@
 [
   {
-    "guid": "bac804987de9b53a29dec87313fc208e5b67a211",
-    "ngrams": [
-      "hiring process stuck at 42",
-      "stuck at 42 days competitors",
-      "competitors manage it in 14",
-      "your hiring process stuck at",
-      "is your hiring process stuck",
-      "days competitors manage it in",
-      "42 days competitors manage it",
-      "process stuck at 42 days",
-      "at 42 days competitors manage"
-    ]
-  },
-  {
     "guid": "c733fe9d135d2e3f2acf9497dd49cbe73193b690",
     "ngrams": [
       "of candidates ghost companies with",
@@ -3238,6 +3224,25 @@
       "a key role stays empty",
       "day a key role stays",
       "role stays empty revenue potential"
+    ]
+  },
+  {
+    "guid": "39752d2fa60b7134a0c5ad661c7ec232a76255a0",
+    "ngrams": [
+      "per hire on manual license",
+      "hire on manual license checks",
+      "with hirepriority and reclaim your",
+      "license checks automate with hirepriority",
+      "insurance agencies waste 15 hours",
+      "manual license checks automate with",
+      "hours per hire on manual",
+      "15 hours per hire on",
+      "automate with hirepriority and reclaim",
+      "checks automate with hirepriority and",
+      "waste 15 hours per hire",
+      "hirepriority and reclaim your time",
+      "on manual license checks automate",
+      "agencies waste 15 hours per"
     ]
   }
 ]
