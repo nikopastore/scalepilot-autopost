@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2026-08-05T16:53:20.941645+00:00_
+_Generated: 2026-08-07T16:09:00.376371+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **Struggling to assess sales skills before interviews? You've already lost 3 hours. Voice AI can change that. 🎯📈**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-07T15:57:16+00:00 | style=unspecified | cta=question
 - **⏱️ Insurance agencies waste 15+ hours per hire on manual license checks. ⏳ Automate with HirePriority and reclaim your time! 🚀**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-05T16:42:59+00:00 | style=unspecified | cta=question
 - **Every day a key role stays empty, revenue potential declines! 🔍💼**  
@@ -12,50 +14,48 @@ _Generated: 2026-08-05T16:53:20.941645+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-03T17:09:18+00:00 | style=unspecified | cta=question
 - **📊 Reactive hiring costs 3x more than proactive talent pipelines! 🚀**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-02T16:01:46+00:00 | style=unspecified | cta=question
-- **73% of candidates ghost companies with poor communication. 📉 Want better engagement? Try SMS-first outreach! 🚀**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-01T16:02:00+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=249)
+- unspecified: avg_score=0.0 (n=250)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=254)
+- question: avg_score=0.0 (n=255)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=235)
+- 2: avg_score=0.0 (n=236)
 - 3+: avg_score=0.0 (n=19)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=225)
+- <= 120: avg_score=0.0 (n=226)
 - <= 160: avg_score=0.0 (n=28)
 - <= 200: avg_score=0.0 (n=1)
 
 ## Numbers / % / $ Present
 
 - no: avg_score=0.0 (n=68)
-- yes: avg_score=0.0 (n=186)
+- yes: avg_score=0.0 (n=187)
 
 ## Question Mark Present
 
 - no: avg_score=0.0 (n=91)
-- yes: avg_score=0.0 (n=163)
+- yes: avg_score=0.0 (n=164)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=254)
+- 1+: avg_score=0.0 (n=255)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
 - evening: avg_score=0.0 (n=17)
-- late-afternoon: avg_score=0.0 (n=234)
+- late-afternoon: avg_score=0.0 (n=235)
 - night: avg_score=0.0 (n=2)
 
 ## Next experiments
