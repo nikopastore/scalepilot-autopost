@@ -1,22 +1,5 @@
 [
   {
-    "guid": "dc8c344ff5f14b46d5b38e3e3bd69972b994f910",
-    "ngrams": [
-      "hiring costs 3x more than",
-      "building are you missing out",
-      "more than proactive pipeline building",
-      "proactive pipeline building are you",
-      "3x more than proactive pipeline",
-      "than proactive pipeline building are",
-      "you missing out on top",
-      "pipeline building are you missing",
-      "reactive hiring costs 3x more",
-      "costs 3x more than proactive",
-      "are you missing out on",
-      "missing out on top talent"
-    ]
-  },
-  {
     "guid": "4958863c42284839e36ae7ac3e3b0bfc38535a3d",
     "ngrams": [
       "it s time to rethink",
@@ -3247,6 +3230,22 @@
       "3 hours voice ai can",
       "ve already lost 3 hours",
       "struggling to assess sales skills"
+    ]
+  },
+  {
+    "guid": "0310e0f25f94baa9abcb70909db288257761c2c6",
+    "ngrams": [
+      "bad hire 30 of their",
+      "30 of their salary reduce",
+      "the cost of a bad",
+      "cost of a bad hire",
+      "salary reduce noise with pre",
+      "their salary reduce noise with",
+      "of a bad hire 30",
+      "hire 30 of their salary",
+      "reduce noise with pre qualification",
+      "of their salary reduce noise",
+      "a bad hire 30 of"
     ]
   }
 ]
