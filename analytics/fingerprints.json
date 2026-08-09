@@ -1,19 +1,5 @@
 [
   {
-    "guid": "4958863c42284839e36ae7ac3e3b0bfc38535a3d",
-    "ngrams": [
-      "it s time to rethink",
-      "a myth it s time",
-      "to rethink your recruitment strategy",
-      "talent scarcity a myth it",
-      "myth it s time to",
-      "time to rethink your recruitment",
-      "s time to rethink your",
-      "scarcity a myth it s",
-      "is talent scarcity a myth"
-    ]
-  },
-  {
     "guid": "78e13c097537d4f10f2b5ebbf6a0a4d8018853cd",
     "ngrams": [
       "a critical role remains open",
@@ -3246,6 +3232,22 @@
       "reduce noise with pre qualification",
       "of their salary reduce noise",
       "a bad hire 30 of"
+    ]
+  },
+  {
+    "guid": "ccfa8ec6849a4b460ee6d6a0bebeea9a54fd1827",
+    "ngrams": [
+      "hours a week on initial",
+      "week on initial screenings let",
+      "still spending 20 hours a",
+      "let ai handle it in",
+      "screenings let ai handle it",
+      "ai handle it in seconds",
+      "on initial screenings let ai",
+      "20 hours a week on",
+      "a week on initial screenings",
+      "initial screenings let ai handle",
+      "spending 20 hours a week"
     ]
   }
 ]
