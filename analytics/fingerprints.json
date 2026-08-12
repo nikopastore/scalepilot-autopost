@@ -1,20 +1,5 @@
 [
   {
-    "guid": "1f06a2e1ab2281f25fc01ffef40f9b496c312f88",
-    "ngrams": [
-      "vanish in 10 days your",
-      "days your 6 week process",
-      "process can t keep up",
-      "your 6 week process can",
-      "top candidates vanish in 10",
-      "6 week process can t",
-      "10 days your 6 week",
-      "candidates vanish in 10 days",
-      "week process can t keep",
-      "in 10 days your 6"
-    ]
-  },
-  {
     "guid": "0d2616387e2f2488de57d9afb2f6685375d11a63",
     "ngrams": [
       "assess sales ability until the",
@@ -3239,6 +3224,23 @@
       "companies with poor communication is",
       "is your outreach strategy up",
       "ghost companies with poor communication"
+    ]
+  },
+  {
+    "guid": "c2459c38ea564aad09f846ea12dca7471972a500",
+    "ngrams": [
+      "reactive hiring costs 3x more",
+      "missing out on top talent",
+      "3x more than proactive talent",
+      "pipelines are you missing out",
+      "you missing out on top",
+      "are you missing out on",
+      "costs 3x more than proactive",
+      "more than proactive talent pipelines",
+      "hiring costs 3x more than",
+      "proactive talent pipelines are you",
+      "talent pipelines are you missing",
+      "than proactive talent pipelines are"
     ]
   }
 ]
