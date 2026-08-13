@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2026-08-12T16:09:38.200083+00:00_
+_Generated: 2026-08-13T16:10:06.780852+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **🌟 The myth of 'talent scarcity' is a targeting problem, not a shortage issue. 🎯 Are your job postings too broad?**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-13T15:59:41+00:00 | style=unspecified | cta=question
 - **🎯 Reactive hiring costs 3x more than proactive talent pipelines! 🚀 Are you missing out on top talent?**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-12T15:59:18+00:00 | style=unspecified | cta=question
 - **🤖 73% of candidates ghost companies with poor communication. 📉 Is your outreach strategy up to the challenge?**  
@@ -12,50 +14,48 @@ _Generated: 2026-08-12T16:09:38.200083+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-10T16:00:53+00:00 | style=unspecified | cta=question
 - **🔧 Still spending 20 hours a week on initial screenings? ⏳ Let AI handle it in seconds! 🚀**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-09T15:32:51+00:00 | style=unspecified | cta=question
-- **The cost of a bad hire? 30% of their salary! Reduce noise with pre-qualification. 🎯💼**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-08-08T15:31:18+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=255)
+- unspecified: avg_score=0.0 (n=256)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=260)
+- question: avg_score=0.0 (n=261)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=240)
+- 2: avg_score=0.0 (n=241)
 - 3+: avg_score=0.0 (n=20)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=231)
+- <= 120: avg_score=0.0 (n=232)
 - <= 160: avg_score=0.0 (n=28)
 - <= 200: avg_score=0.0 (n=1)
 
 ## Numbers / % / $ Present
 
-- no: avg_score=0.0 (n=68)
+- no: avg_score=0.0 (n=69)
 - yes: avg_score=0.0 (n=192)
 
 ## Question Mark Present
 
 - no: avg_score=0.0 (n=91)
-- yes: avg_score=0.0 (n=169)
+- yes: avg_score=0.0 (n=170)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=260)
+- 1+: avg_score=0.0 (n=261)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
 - evening: avg_score=0.0 (n=17)
-- late-afternoon: avg_score=0.0 (n=240)
+- late-afternoon: avg_score=0.0 (n=241)
 - night: avg_score=0.0 (n=2)
 
 ## Next experiments
