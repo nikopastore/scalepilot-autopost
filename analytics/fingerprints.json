@@ -1,19 +1,5 @@
 [
   {
-    "guid": "0d2616387e2f2488de57d9afb2f6685375d11a63",
-    "ngrams": [
-      "assess sales ability until the",
-      "t assess sales ability until",
-      "ability until the interview that",
-      "the interview that s 3",
-      "interview that s 3 hours",
-      "that s 3 hours wasted",
-      "sales ability until the interview",
-      "until the interview that s",
-      "can t assess sales ability"
-    ]
-  },
-  {
     "guid": "3369a09ad036eed06da260ff7d5623f1846d5c5d",
     "ngrams": [
       "hire costs 30 of their",
@@ -3241,6 +3227,26 @@
       "proactive talent pipelines are you",
       "talent pipelines are you missing",
       "than proactive talent pipelines are"
+    ]
+  },
+  {
+    "guid": "f8bb1f481cc5a8a81e8c7affe55bad81a3b44144",
+    "ngrams": [
+      "a shortage issue are your",
+      "not a shortage issue are",
+      "are your job postings too",
+      "of talent scarcity is a",
+      "a targeting problem not a",
+      "the myth of talent scarcity",
+      "shortage issue are your job",
+      "talent scarcity is a targeting",
+      "myth of talent scarcity is",
+      "problem not a shortage issue",
+      "scarcity is a targeting problem",
+      "targeting problem not a shortage",
+      "issue are your job postings",
+      "your job postings too broad",
+      "is a targeting problem not"
     ]
   }
 ]
