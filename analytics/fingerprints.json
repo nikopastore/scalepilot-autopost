@@ -1,19 +1,5 @@
 [
   {
-    "guid": "0d156ca74135be1f989c508a16f55e2b46f35f2b",
-    "ngrams": [
-      "on resume screenings let ai",
-      "20 hours a week on",
-      "hours a week on resume",
-      "screenings let ai handle it",
-      "waste 20 hours a week",
-      "why waste 20 hours a",
-      "resume screenings let ai handle",
-      "a week on resume screenings",
-      "week on resume screenings let"
-    ]
-  },
-  {
     "guid": "2a1b7584e8d54385e248b2a4efa65a51bb6a904b",
     "ngrams": [
       "fill is 42 days competitors",
@@ -3243,6 +3229,25 @@
       "your revenue proactive pipelines are",
       "shrinks your revenue proactive pipelines",
       "revenue proactive pipelines are key"
+    ]
+  },
+  {
+    "guid": "d1791fbf4d9303db47382ce25539410a78466f93",
+    "ngrams": [
+      "agencies waste 15 hours per",
+      "insurance agencies waste 15 hours",
+      "per hire verifying licenses manually",
+      "nipr verification and reclaim your",
+      "hire verifying licenses manually automate",
+      "verifying licenses manually automate with",
+      "waste 15 hours per hire",
+      "automate with nipr verification and",
+      "verification and reclaim your time",
+      "manually automate with nipr verification",
+      "hours per hire verifying licenses",
+      "licenses manually automate with nipr",
+      "15 hours per hire verifying",
+      "with nipr verification and reclaim"
     ]
   }
 ]
