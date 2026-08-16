@@ -1,18 +1,5 @@
 [
   {
-    "guid": "2a1b7584e8d54385e248b2a4efa65a51bb6a904b",
-    "ngrams": [
-      "fill is 42 days competitors",
-      "42 days competitors are at",
-      "is 42 days competitors are",
-      "average time to fill is",
-      "time to fill is 42",
-      "days competitors are at 14",
-      "your average time to fill",
-      "to fill is 42 days"
-    ]
-  },
-  {
     "guid": "b0c94266d6c8f7185f3709570e84066ca3913e03",
     "ngrams": [
       "communication boost response rates 5x",
@@ -3248,6 +3235,24 @@
       "licenses manually automate with nipr",
       "15 hours per hire verifying",
       "with nipr verification and reclaim"
+    ]
+  },
+  {
+    "guid": "f39ba5bbeff14c452f2a2b9bad5c1856a6584b18",
+    "ngrams": [
+      "6 week process losing a",
+      "days is your 6 week",
+      "market in 10 days is",
+      "the market in 10 days",
+      "is your 6 week process",
+      "your 6 week process losing",
+      "in 10 days is your",
+      "week process losing a players",
+      "candidates are off the market",
+      "off the market in 10",
+      "10 days is your 6",
+      "top candidates are off the",
+      "are off the market in"
     ]
   }
 ]
