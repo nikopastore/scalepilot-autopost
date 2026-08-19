@@ -1,23 +1,5 @@
 [
   {
-    "guid": "fc20600c6264f8b3c8dbf1bdb20cb158c0191834",
-    "ngrams": [
-      "it s a targeting problem",
-      "quality candidates with niche recruitment",
-      "s a targeting problem shift",
-      "problem shift your focus and",
-      "find quality candidates with niche",
-      "shift your focus and find",
-      "a targeting problem shift your",
-      "focus and find quality candidates",
-      "and find quality candidates with",
-      "scarcity it s a targeting",
-      "talent scarcity it s a",
-      "your focus and find quality",
-      "targeting problem shift your focus"
-    ]
-  },
-  {
     "guid": "d80ad001e282d48a3138a0146f52d7be7658c421",
     "ngrams": [
       "every day a critical role",
@@ -3261,6 +3243,21 @@
       "their first year salary are",
       "cost 30 of their first",
       "a bad hire can cost"
+    ]
+  },
+  {
+    "guid": "aab150e89f735be5f47d6698409b9e2ddbd3d8bf",
+    "ngrams": [
+      "week on resume reviews let",
+      "let ai do the heavy",
+      "spending 20 hours a week",
+      "reviews let ai do the",
+      "20 hours a week on",
+      "a week on resume reviews",
+      "resume reviews let ai do",
+      "on resume reviews let ai",
+      "ai do the heavy lifting",
+      "hours a week on resume"
     ]
   }
 ]
