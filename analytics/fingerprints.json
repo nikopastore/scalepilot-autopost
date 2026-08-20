@@ -1,17 +1,5 @@
 [
   {
-    "guid": "d80ad001e282d48a3138a0146f52d7be7658c421",
-    "ngrams": [
-      "every day a critical role",
-      "stays open your revenue potential",
-      "critical role stays open your",
-      "day a critical role stays",
-      "open your revenue potential shrinks",
-      "role stays open your revenue",
-      "a critical role stays open"
-    ]
-  },
-  {
     "guid": "dc099a8eadaaed5ece01cb45b51d396f80e948eb",
     "ngrams": [
       "15 hours per hire manually",
@@ -3258,6 +3246,25 @@
       "on resume reviews let ai",
       "ai do the heavy lifting",
       "hours a week on resume"
+    ]
+  },
+  {
+    "guid": "93bc175dc902473851c9124eaf24b448f7bcbee5",
+    "ngrams": [
+      "days vs competitors 14 time",
+      "42 days vs competitors 14",
+      "time to reassess your recruitment",
+      "competitors 14 time to reassess",
+      "time to fill lagging at",
+      "vs competitors 14 time to",
+      "lagging at 42 days vs",
+      "14 time to reassess your",
+      "to reassess your recruitment strategy",
+      "fill lagging at 42 days",
+      "to fill lagging at 42",
+      "is your time to fill",
+      "at 42 days vs competitors",
+      "your time to fill lagging"
     ]
   }
 ]
