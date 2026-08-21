@@ -1,16 +1,5 @@
 [
   {
-    "guid": "dc099a8eadaaed5ece01cb45b51d396f80e948eb",
-    "ngrams": [
-      "15 hours per hire manually",
-      "per hire manually verifying licenses",
-      "hours per hire manually verifying",
-      "agencies waste 15 hours per",
-      "waste 15 hours per hire",
-      "insurance agencies waste 15 hours"
-    ]
-  },
-  {
     "guid": "322bcb4c8edfc58f13754ecbb32d6fc30bfa1e7e",
     "ngrams": [
       "market in 10 days is",
@@ -3265,6 +3254,24 @@
       "is your time to fill",
       "at 42 days vs competitors",
       "your time to fill lagging"
+    ]
+  },
+  {
+    "guid": "c9ce11d4cae89cef3965aff03ebaecb3c8de5185",
+    "ngrams": [
+      "5x with sms first engagement",
+      "response rates by 5x with",
+      "by 5x with sms first",
+      "73 of candidates ghost due",
+      "candidates ghost due to poor",
+      "communication boost response rates by",
+      "rates by 5x with sms",
+      "to poor communication boost response",
+      "boost response rates by 5x",
+      "due to poor communication boost",
+      "of candidates ghost due to",
+      "ghost due to poor communication",
+      "poor communication boost response rates"
     ]
   }
 ]
