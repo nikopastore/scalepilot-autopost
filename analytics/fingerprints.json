@@ -1,22 +1,5 @@
 [
   {
-    "guid": "322bcb4c8edfc58f13754ecbb32d6fc30bfa1e7e",
-    "ngrams": [
-      "market in 10 days is",
-      "candidates leave the market in",
-      "6 week process losing a",
-      "week process losing a players",
-      "your 6 week process losing",
-      "the market in 10 days",
-      "leave the market in 10",
-      "days is your 6 week",
-      "top candidates leave the market",
-      "10 days is your 6",
-      "is your 6 week process",
-      "in 10 days is your"
-    ]
-  },
-  {
     "guid": "4c3a874a11847e078fc4ea65e699c400a50c970a",
     "ngrams": [
       "sales ability until the interview",
@@ -3272,6 +3255,23 @@
       "of candidates ghost due to",
       "ghost due to poor communication",
       "poor communication boost response rates"
+    ]
+  },
+  {
+    "guid": "2026f5dfccfd6ede794d56f4f0be9278ad4c1248",
+    "ngrams": [
+      "hiring costs 3x more than",
+      "than proactive talent pipeline building",
+      "proactive talent pipeline building discover",
+      "talent pipeline building discover efficient",
+      "3x more than proactive talent",
+      "discover efficient strategies to stay",
+      "costs 3x more than proactive",
+      "efficient strategies to stay ahead",
+      "more than proactive talent pipeline",
+      "pipeline building discover efficient strategies",
+      "building discover efficient strategies to",
+      "reactive hiring costs 3x more"
     ]
   }
 ]
