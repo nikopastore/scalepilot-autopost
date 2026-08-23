@@ -1,20 +1,5 @@
 [
   {
-    "guid": "4c3a874a11847e078fc4ea65e699c400a50c970a",
-    "ngrams": [
-      "sales ability until the interview",
-      "interview you ve already wasted",
-      "you ve already wasted 3",
-      "assess sales ability until the",
-      "the interview you ve already",
-      "t assess sales ability until",
-      "ve already wasted 3 hours",
-      "ability until the interview you",
-      "until the interview you ve",
-      "can t assess sales ability"
-    ]
-  },
-  {
     "guid": "faa58abef8c34a47974a857553b4c45e989846af",
     "ngrams": [
       "hire costs 30 of their",
@@ -3272,6 +3257,24 @@
       "pipeline building discover efficient strategies",
       "building discover efficient strategies to",
       "reactive hiring costs 3x more"
+    ]
+  },
+  {
+    "guid": "78e44c5f9826bb0a708689da33f7bd3cd46b7bb3",
+    "ngrams": [
+      "issue broad job postings attract",
+      "often a targeting issue broad",
+      "targeting issue broad job postings",
+      "myth of talent scarcity is",
+      "job postings attract volume not",
+      "scarcity is often a targeting",
+      "of talent scarcity is often",
+      "is often a targeting issue",
+      "broad job postings attract volume",
+      "the myth of talent scarcity",
+      "postings attract volume not quality",
+      "a targeting issue broad job",
+      "talent scarcity is often a"
     ]
   }
 ]
