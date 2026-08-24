@@ -1,19 +1,5 @@
 [
   {
-    "guid": "faa58abef8c34a47974a857553b4c45e989846af",
-    "ngrams": [
-      "hire costs 30 of their",
-      "bad hire costs 30 of",
-      "are you paying the price",
-      "salary are you paying the",
-      "costs 30 of their salary",
-      "of their salary are you",
-      "their salary are you paying",
-      "a bad hire costs 30",
-      "30 of their salary are"
-    ]
-  },
-  {
     "guid": "082609890debc7fef549173a19934ae23ff71dce",
     "ngrams": [
       "let ai rank candidates in",
@@ -3275,6 +3261,25 @@
       "postings attract volume not quality",
       "a targeting issue broad job",
       "talent scarcity is often a"
+    ]
+  },
+  {
+    "guid": "ed637d05f78c9e140a3bfa811e89cc174c055f11",
+    "ngrams": [
+      "shrinks discover proactive hiring solutions",
+      "a role stays open your",
+      "revenue potential shrinks discover proactive",
+      "your revenue potential shrinks discover",
+      "hiring solutions to keep candidates",
+      "discover proactive hiring solutions to",
+      "proactive hiring solutions to keep",
+      "day a role stays open",
+      "stays open your revenue potential",
+      "every day a role stays",
+      "solutions to keep candidates ready",
+      "potential shrinks discover proactive hiring",
+      "role stays open your revenue",
+      "open your revenue potential shrinks"
     ]
   }
 ]
