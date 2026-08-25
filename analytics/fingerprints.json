@@ -1,19 +1,5 @@
 [
   {
-    "guid": "082609890debc7fef549173a19934ae23ff71dce",
-    "ngrams": [
-      "let ai rank candidates in",
-      "screenings let ai rank candidates",
-      "on screenings let ai rank",
-      "ai rank candidates in seconds",
-      "waste 20 hours weekly on",
-      "hours weekly on screenings let",
-      "weekly on screenings let ai",
-      "why waste 20 hours weekly",
-      "20 hours weekly on screenings"
-    ]
-  },
-  {
     "guid": "69c1ff6b9166d62c41915a7e53ddf03b71de8956",
     "ngrams": [
       "is 42 days competitors just",
@@ -3280,6 +3266,23 @@
       "potential shrinks discover proactive hiring",
       "role stays open your revenue",
       "open your revenue potential shrinks"
+    ]
+  },
+  {
+    "guid": "8143a93e17139b5a03208c11e6261585ad15325f",
+    "ngrams": [
+      "hours per hire on manual",
+      "license verifications automate with nipr",
+      "on manual license verifications automate",
+      "waste 15 hours per hire",
+      "verifications automate with nipr for",
+      "agencies waste 15 hours per",
+      "insurance agencies waste 15 hours",
+      "per hire on manual license",
+      "manual license verifications automate with",
+      "15 hours per hire on",
+      "hire on manual license verifications",
+      "automate with nipr for efficiency"
     ]
   }
 ]
