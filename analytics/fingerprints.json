@@ -1,17 +1,5 @@
 [
   {
-    "guid": "69c1ff6b9166d62c41915a7e53ddf03b71de8956",
-    "ngrams": [
-      "is 42 days competitors just",
-      "42 days competitors just 14",
-      "to fill is 42 days",
-      "average time to fill is",
-      "fill is 42 days competitors",
-      "time to fill is 42",
-      "your average time to fill"
-    ]
-  },
-  {
     "guid": "7e69cc60fe66e12181382fe2b84a800c7971a377",
     "ngrams": [
       "73 of candidates ghost companies",
@@ -3283,6 +3271,28 @@
       "15 hours per hire on",
       "hire on manual license verifications",
       "automate with nipr for efficiency"
+    ]
+  },
+  {
+    "guid": "02b2f8f60aba850d06c911b68f2b2214e001e4d1",
+    "ngrams": [
+      "days but your process drags",
+      "but your process drags for",
+      "for 6 weeks don t",
+      "your process drags for 6",
+      "weeks don t lose a",
+      "off the market in 10",
+      "top candidates are off the",
+      "in 10 days but your",
+      "6 weeks don t lose",
+      "don t lose a players",
+      "process drags for 6 weeks",
+      "drags for 6 weeks don",
+      "10 days but your process",
+      "are off the market in",
+      "market in 10 days but",
+      "candidates are off the market",
+      "the market in 10 days"
     ]
   }
 ]
