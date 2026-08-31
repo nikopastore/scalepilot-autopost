@@ -1,16 +1,5 @@
 [
   {
-    "guid": "c57996a30b478651dc4aff1f1fa4757a906888c6",
-    "ngrams": [
-      "agencies waste 15 hours per",
-      "15 hours per hire verifying",
-      "waste 15 hours per hire",
-      "hours per hire verifying licenses",
-      "insurance agencies waste 15 hours",
-      "per hire verifying licenses manually"
-    ]
-  },
-  {
     "guid": "1ee02c8a66cddd97280d30f02da3a0557bad3ad6",
     "ngrams": [
       "leave the market in 10",
@@ -3283,6 +3272,24 @@
       "competitors are at 14 streamline",
       "lags at 42 days competitors",
       "days competitors are at 14"
+    ]
+  },
+  {
+    "guid": "04a3323c96197fadc5fcf390185952b426b45a09",
+    "ngrams": [
+      "of candidates ghost companies with",
+      "poor communication enhance engagement with",
+      "enhance engagement with sms for",
+      "with sms for 5x higher",
+      "sms for 5x higher response",
+      "candidates ghost companies with poor",
+      "engagement with sms for 5x",
+      "communication enhance engagement with sms",
+      "for 5x higher response rates",
+      "73 of candidates ghost companies",
+      "with poor communication enhance engagement",
+      "ghost companies with poor communication",
+      "companies with poor communication enhance"
     ]
   }
 ]
