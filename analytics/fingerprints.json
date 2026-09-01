@@ -1,20 +1,5 @@
 [
   {
-    "guid": "1ee02c8a66cddd97280d30f02da3a0557bad3ad6",
-    "ngrams": [
-      "leave the market in 10",
-      "market in 10 days but",
-      "your hiring takes 6 weeks",
-      "the market in 10 days",
-      "but your hiring takes 6",
-      "in 10 days but your",
-      "candidates leave the market in",
-      "top candidates leave the market",
-      "days but your hiring takes",
-      "10 days but your hiring"
-    ]
-  },
-  {
     "guid": "76060f5ead2079d096adeda984fd1ba8f0454a9e",
     "ngrams": [
       "assesses it in 10 seconds",
@@ -3290,6 +3275,16 @@
       "with poor communication enhance engagement",
       "ghost companies with poor communication",
       "companies with poor communication enhance"
+    ]
+  },
+  {
+    "guid": "7786fef7bcdb55cd503d9c46f2c38afab015c081",
+    "ngrams": [
+      "3x more than proactive pipeline",
+      "reactive hiring costs 3x more",
+      "costs 3x more than proactive",
+      "more than proactive pipeline building",
+      "hiring costs 3x more than"
     ]
   }
 ]
