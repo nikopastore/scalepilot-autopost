@@ -1,23 +1,5 @@
 [
   {
-    "guid": "76060f5ead2079d096adeda984fd1ba8f0454a9e",
-    "ngrams": [
-      "assesses it in 10 seconds",
-      "confidence voice ai assesses it",
-      "screening misses sales confidence voice",
-      "10 seconds don t waste",
-      "sales confidence voice ai assesses",
-      "voice ai assesses it in",
-      "misses sales confidence voice ai",
-      "in 10 seconds don t",
-      "seconds don t waste interview",
-      "ai assesses it in 10",
-      "it in 10 seconds don",
-      "don t waste interview hours",
-      "traditional screening misses sales confidence"
-    ]
-  },
-  {
     "guid": "935f2aa714780969ce925a67ad87d4bb29df864c",
     "ngrams": [
       "on screenings let ai handle",
@@ -3285,6 +3267,23 @@
       "costs 3x more than proactive",
       "more than proactive pipeline building",
       "hiring costs 3x more than"
+    ]
+  },
+  {
+    "guid": "1afcc33dc79e7fdd5645246a38edbf46cfbb2443",
+    "ngrams": [
+      "is a targeting problem broad",
+      "postings bring volume not quality",
+      "myth of talent scarcity is",
+      "talent scarcity is a targeting",
+      "scarcity is a targeting problem",
+      "job postings bring volume not",
+      "of talent scarcity is a",
+      "targeting problem broad job postings",
+      "problem broad job postings bring",
+      "the myth of talent scarcity",
+      "a targeting problem broad job",
+      "broad job postings bring volume"
     ]
   }
 ]
