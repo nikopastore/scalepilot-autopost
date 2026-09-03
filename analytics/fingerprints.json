@@ -1,20 +1,5 @@
 [
   {
-    "guid": "935f2aa714780969ce925a67ad87d4bb29df864c",
-    "ngrams": [
-      "on screenings let ai handle",
-      "why waste 20 hours a",
-      "hours a week on screenings",
-      "let ai handle resumes in",
-      "screenings let ai handle resumes",
-      "waste 20 hours a week",
-      "20 hours a week on",
-      "ai handle resumes in seconds",
-      "a week on screenings let",
-      "week on screenings let ai"
-    ]
-  },
-  {
     "guid": "7ac2c792ad0d69d5a99b61b38b7031e156875bb8",
     "ngrams": [
       "42 day time to fill",
@@ -3284,6 +3269,18 @@
       "the myth of talent scarcity",
       "a targeting problem broad job",
       "broad job postings bring volume"
+    ]
+  },
+  {
+    "guid": "74a038b09c3eae45f9757798692daa4b0aff5dd4",
+    "ngrams": [
+      "every day a critical role",
+      "day a critical role stays",
+      "a critical role stays open",
+      "role stays open your revenue",
+      "stays open your revenue potential",
+      "open your revenue potential shrinks",
+      "critical role stays open your"
     ]
   }
 ]
