@@ -1,29 +1,5 @@
 [
   {
-    "guid": "f774854b72d3779fa6b4cacfcbd1e6cb0589d8db",
-    "ngrams": [
-      "top talent by waiting too",
-      "hiring costs 3x more than",
-      "too long let s fix",
-      "are you missing top talent",
-      "long let s fix that",
-      "reactive hiring costs 3x more",
-      "than building a talent pipeline",
-      "building a talent pipeline are",
-      "talent pipeline are you missing",
-      "by waiting too long let",
-      "waiting too long let s",
-      "3x more than building a",
-      "talent by waiting too long",
-      "more than building a talent",
-      "you missing top talent by",
-      "missing top talent by waiting",
-      "pipeline are you missing top",
-      "a talent pipeline are you",
-      "costs 3x more than building"
-    ]
-  },
-  {
     "guid": "823eec7cd2e7c61cca7b313c8288e65321eb39e8",
     "ngrams": [
       "talent scarcity is often just",
@@ -3285,6 +3261,21 @@
       "in 10 days but your",
       "10 days but your process",
       "6 weeks speed up your"
+    ]
+  },
+  {
+    "guid": "9fa1e3a7f38db793cd2ee74b4cac0d4f5c7f7f67",
+    "ngrams": [
+      "t assess sales ability until",
+      "ve already wasted 3 hours",
+      "sales ability until the interview",
+      "interview you ve already wasted",
+      "the interview you ve already",
+      "you ve already wasted 3",
+      "ability until the interview you",
+      "until the interview you ve",
+      "can t assess sales ability",
+      "assess sales ability until the"
     ]
   }
 ]
