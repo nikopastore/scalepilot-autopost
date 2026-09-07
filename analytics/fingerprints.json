@@ -1,20 +1,5 @@
 [
   {
-    "guid": "823eec7cd2e7c61cca7b313c8288e65321eb39e8",
-    "ngrams": [
-      "talent scarcity is often just",
-      "just a targeting issue broad",
-      "is often just a targeting",
-      "issue broad postings bring volume",
-      "postings bring volume not quality",
-      "broad postings bring volume not",
-      "often just a targeting issue",
-      "a targeting issue broad postings",
-      "scarcity is often just a",
-      "targeting issue broad postings bring"
-    ]
-  },
-  {
     "guid": "15ff70205e35c566741cfe40021c19730c431e0b",
     "ngrams": [
       "day a critical role stays",
@@ -3276,6 +3261,19 @@
       "until the interview you ve",
       "can t assess sales ability",
       "assess sales ability until the"
+    ]
+  },
+  {
+    "guid": "093c8f4f3c051db3e8ea439a4f3b998662a97d50",
+    "ngrams": [
+      "stop wasting time on unqualified",
+      "of salary stop wasting time",
+      "bad hires cost 30 of",
+      "hires cost 30 of salary",
+      "30 of salary stop wasting",
+      "salary stop wasting time on",
+      "cost 30 of salary stop",
+      "wasting time on unqualified resumes"
     ]
   }
 ]
