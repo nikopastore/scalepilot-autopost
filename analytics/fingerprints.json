@@ -1,21 +1,5 @@
 [
   {
-    "guid": "15ff70205e35c566741cfe40021c19730c431e0b",
-    "ngrams": [
-      "day a critical role stays",
-      "open your revenue shrinks time",
-      "revenue shrinks time to rethink",
-      "a critical role stays open",
-      "your revenue shrinks time to",
-      "every day a critical role",
-      "role stays open your revenue",
-      "stays open your revenue shrinks",
-      "shrinks time to rethink hiring",
-      "time to rethink hiring strategies",
-      "critical role stays open your"
-    ]
-  },
-  {
     "guid": "f547a6ba242f58db9b3431cd85ba84c2adea73bd",
     "ngrams": [
       "hire verifying licenses manually time",
@@ -3274,6 +3258,20 @@
       "salary stop wasting time on",
       "cost 30 of salary stop",
       "wasting time on unqualified resumes"
+    ]
+  },
+  {
+    "guid": "8054a5bee994fbd77d28301c7aad948766ae678f",
+    "ngrams": [
+      "a week on resume screenings",
+      "hours a week on resume",
+      "screenings automate it with ai",
+      "week on resume screenings automate",
+      "spend 20 hours a week",
+      "resume screenings automate it with",
+      "on resume screenings automate it",
+      "20 hours a week on",
+      "why spend 20 hours a"
     ]
   }
 ]
