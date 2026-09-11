@@ -1,23 +1,5 @@
 [
   {
-    "guid": "66cc241d490b2cd7e7524aa7a70e9ebe5150f814",
-    "ngrams": [
-      "wasted voice ai evaluates in",
-      "assess sales ability until the",
-      "voice ai evaluates in 10",
-      "until the interview 3 hours",
-      "hours wasted voice ai evaluates",
-      "sales ability until the interview",
-      "t assess sales ability until",
-      "interview 3 hours wasted voice",
-      "can t assess sales ability",
-      "ability until the interview 3",
-      "the interview 3 hours wasted",
-      "3 hours wasted voice ai",
-      "ai evaluates in 10 seconds"
-    ]
-  },
-  {
     "guid": "046de0c1f26eb3d74f29d9f998f05147b5fd1ad9",
     "ngrams": [
       "cost 30 of their salary",
@@ -3267,6 +3249,17 @@
       "your outreach keeping them engaged",
       "73 of candidates ghost companies",
       "is your outreach keeping them"
+    ]
+  },
+  {
+    "guid": "ade6012f3f2c8eaeedc20a62ca065da57162987e",
+    "ngrams": [
+      "more than proactive talent pipeline",
+      "reactive hiring costs 3x more",
+      "than proactive talent pipeline building",
+      "hiring costs 3x more than",
+      "costs 3x more than proactive",
+      "3x more than proactive talent"
     ]
   }
 ]
