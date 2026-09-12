@@ -1,22 +1,5 @@
 [
   {
-    "guid": "046de0c1f26eb3d74f29d9f998f05147b5fd1ad9",
-    "ngrams": [
-      "cost 30 of their salary",
-      "30 of their salary let",
-      "of their salary let s",
-      "their salary let s fix",
-      "can cost 30 of their",
-      "you know a bad hire",
-      "did you know a bad",
-      "salary let s fix that",
-      "a bad hire can cost",
-      "hire can cost 30 of",
-      "know a bad hire can",
-      "bad hire can cost 30"
-    ]
-  },
-  {
     "guid": "f3c1c88075265110d76831308ac098aff8c122e5",
     "ngrams": [
       "why spend 20 hours a",
@@ -3260,6 +3243,19 @@
       "hiring costs 3x more than",
       "costs 3x more than proactive",
       "3x more than proactive talent"
+    ]
+  },
+  {
+    "guid": "c9f2d075bcdad76c039ef6e46c5f31900a15daa3",
+    "ngrams": [
+      "talent scarcity a myth it",
+      "s often just a targeting",
+      "scarcity a myth it s",
+      "myth it s often just",
+      "it s often just a",
+      "often just a targeting problem",
+      "is talent scarcity a myth",
+      "a myth it s often"
     ]
   }
 ]
