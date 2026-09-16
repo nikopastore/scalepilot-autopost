@@ -1,23 +1,5 @@
 [
   {
-    "guid": "2cc85697a74efe655d44dc9533f3e0bff181377d",
-    "ngrams": [
-      "don t let it happen",
-      "you 30 of their first",
-      "hire can cost you 30",
-      "their first year salary don",
-      "a bad hire can cost",
-      "salary don t let it",
-      "can cost you 30 of",
-      "first year salary don t",
-      "bad hire can cost you",
-      "of their first year salary",
-      "year salary don t let",
-      "cost you 30 of their",
-      "30 of their first year"
-    ]
-  },
-  {
     "guid": "f8554d4625fdaaffd4437b14c047a1707f522b97",
     "ngrams": [
       "on initial screenings let ai",
@@ -3263,6 +3245,26 @@
       "in 10 days but your",
       "vanish in 10 days but",
       "10 days but your hiring"
+    ]
+  },
+  {
+    "guid": "ae8e7df4651a977728b20217461a0221e4ff7dc9",
+    "ngrams": [
+      "ability until the interview you",
+      "the power of voice ai",
+      "sales ability until the interview",
+      "the interview you ve wasted",
+      "wasted 3 hours unlock the",
+      "ve wasted 3 hours unlock",
+      "3 hours unlock the power",
+      "hours unlock the power of",
+      "unlock the power of voice",
+      "interview you ve wasted 3",
+      "you ve wasted 3 hours",
+      "t assess sales ability until",
+      "assess sales ability until the",
+      "until the interview you ve",
+      "can t assess sales ability"
     ]
   }
 ]
