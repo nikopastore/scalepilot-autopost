@@ -1,15 +1,5 @@
 [
   {
-    "guid": "f6e0e20a0403dc531edd97d6c5837664dd02cdf6",
-    "ngrams": [
-      "more than proactive talent building",
-      "reactive hiring costs 3x more",
-      "costs 3x more than proactive",
-      "hiring costs 3x more than",
-      "3x more than proactive talent"
-    ]
-  },
-  {
     "guid": "f82c73c9236b2f9828658061c2136fcabe254463",
     "ngrams": [
       "talent scarcity is really a",
@@ -3263,6 +3253,21 @@
       "to fill dragging at 42",
       "is your time to fill",
       "42 days while competitors hit"
+    ]
+  },
+  {
+    "guid": "80d9b9ab745d2eb049a26e8ad45a24709710ff0c",
+    "ngrams": [
+      "of candidates ghost companies with",
+      "ghost companies with poor communication",
+      "communication boost response with sms",
+      "companies with poor communication boost",
+      "73 of candidates ghost companies",
+      "response with sms first engagement",
+      "with poor communication boost response",
+      "candidates ghost companies with poor",
+      "boost response with sms first",
+      "poor communication boost response with"
     ]
   }
 ]
