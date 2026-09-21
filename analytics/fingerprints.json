@@ -1,22 +1,5 @@
 [
   {
-    "guid": "f82c73c9236b2f9828658061c2136fcabe254463",
-    "ngrams": [
-      "talent scarcity is really a",
-      "is really a targeting problem",
-      "myth of talent scarcity is",
-      "a targeting problem broad postings",
-      "really a targeting problem broad",
-      "broad postings attract volume not",
-      "problem broad postings attract volume",
-      "postings attract volume not quality",
-      "of talent scarcity is really",
-      "scarcity is really a targeting",
-      "targeting problem broad postings attract",
-      "the myth of talent scarcity"
-    ]
-  },
-  {
     "guid": "ad220243e6a579c5dc9db8a67f7ddfebd9ab0a68",
     "ngrams": [
       "than building a talent pipeline",
@@ -3268,6 +3251,18 @@
       "candidates ghost companies with poor",
       "boost response with sms first",
       "poor communication boost response with"
+    ]
+  },
+  {
+    "guid": "2a9d6b396f1c3130d7dc9b1ced36ff45e4b5ac76",
+    "ngrams": [
+      "costs 3x more than building",
+      "reactive hiring costs 3x more",
+      "hiring costs 3x more than",
+      "building a proactive talent pipeline",
+      "3x more than building a",
+      "more than building a proactive",
+      "than building a proactive talent"
     ]
   }
 ]
