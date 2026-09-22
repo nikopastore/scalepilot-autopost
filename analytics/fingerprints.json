@@ -1,16 +1,5 @@
 [
   {
-    "guid": "ad220243e6a579c5dc9db8a67f7ddfebd9ab0a68",
-    "ngrams": [
-      "than building a talent pipeline",
-      "3x more than building a",
-      "costs 3x more than building",
-      "hiring costs 3x more than",
-      "reactive hiring costs 3x more",
-      "more than building a talent"
-    ]
-  },
-  {
     "guid": "b6223d1fb656bcd3c2e18cc7367c749bd013dd23",
     "ngrams": [
       "is actually a targeting problem",
@@ -3263,6 +3252,20 @@
       "3x more than building a",
       "more than building a proactive",
       "than building a proactive talent"
+    ]
+  },
+  {
+    "guid": "e85f31c85d47a3edad414b4885c8687b479985f5",
+    "ngrams": [
+      "it just a case of",
+      "is it just a case",
+      "just a case of misdirected",
+      "shortages real or is it",
+      "or is it just a",
+      "a case of misdirected focus",
+      "real or is it just",
+      "are talent shortages real or",
+      "talent shortages real or is"
     ]
   }
 ]
