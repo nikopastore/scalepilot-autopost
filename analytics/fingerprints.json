@@ -1,17 +1,5 @@
 [
   {
-    "guid": "6c9260aa792b1313f92687aa87c902f8023ca571",
-    "ngrams": [
-      "open your revenue potential shrinks",
-      "role remains open your revenue",
-      "critical role remains open your",
-      "every day a critical role",
-      "remains open your revenue potential",
-      "a critical role remains open",
-      "day a critical role remains"
-    ]
-  },
-  {
     "guid": "aa197e7b68323aef85ac427dd21e6e0cb290b6e9",
     "ngrams": [
       "15 hours per hire on",
@@ -3263,6 +3251,24 @@
       "revenue dwindles discover proactive solutions",
       "role stays vacant your revenue",
       "dwindles discover proactive solutions today"
+    ]
+  },
+  {
+    "guid": "95e561460a909b1712360d805de5af020626177e",
+    "ngrams": [
+      "license checks it s time",
+      "15 hours per hire on",
+      "hours per hire on manual",
+      "insurance agencies waste 15 hours",
+      "s time for a change",
+      "manual license checks it s",
+      "per hire on manual license",
+      "agencies waste 15 hours per",
+      "hire on manual license checks",
+      "checks it s time for",
+      "it s time for a",
+      "on manual license checks it",
+      "waste 15 hours per hire"
     ]
   }
 ]
