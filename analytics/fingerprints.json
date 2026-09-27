@@ -1,20 +1,5 @@
 [
   {
-    "guid": "fe14129739d20f54fa3330efdc9a500cdcabd0d5",
-    "ngrams": [
-      "t assess sales confidence until",
-      "confidence until the interview you",
-      "interview you ve already wasted",
-      "until the interview you ve",
-      "ve already wasted 3 hours",
-      "you ve already wasted 3",
-      "can t assess sales confidence",
-      "sales confidence until the interview",
-      "the interview you ve already",
-      "assess sales confidence until the"
-    ]
-  },
-  {
     "guid": "4a1b44c5345f1e4b3d08433178136eae179a6989",
     "ngrams": [
       "costs 30 of their salary",
@@ -3275,6 +3260,22 @@
       "interview you ve already wasted",
       "this process in 10 seconds",
       "you ve already wasted 3"
+    ]
+  },
+  {
+    "guid": "9f0f9c6f1c32eed557b8e4fc853cb6a5b91df1e7",
+    "ngrams": [
+      "can cost you 30 of",
+      "of their first year salary",
+      "cost you 30 of their",
+      "their first year salary discover",
+      "hire can cost you 30",
+      "first year salary discover smarter",
+      "you 30 of their first",
+      "a bad hire can cost",
+      "30 of their first year",
+      "year salary discover smarter solutions",
+      "bad hire can cost you"
     ]
   }
 ]
