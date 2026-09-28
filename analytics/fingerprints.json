@@ -1,20 +1,5 @@
 [
   {
-    "guid": "4a1b44c5345f1e4b3d08433178136eae179a6989",
-    "ngrams": [
-      "costs 30 of their salary",
-      "of their salary are your",
-      "a bad hire costs 30",
-      "bad hire costs 30 of",
-      "30 of their salary are",
-      "their salary are your job",
-      "hire costs 30 of their",
-      "are your job boards paralyzing",
-      "your job boards paralyzing decisions",
-      "salary are your job boards"
-    ]
-  },
-  {
     "guid": "b7fc18921d1d5a003bbb625cd67127dcf1ebdd10",
     "ngrams": [
       "why spend 20 hours on",
@@ -3276,6 +3261,24 @@
       "30 of their first year",
       "year salary discover smarter solutions",
       "bad hire can cost you"
+    ]
+  },
+  {
+    "guid": "343a533cb3cc28eba1a3428cce3170be612879d9",
+    "ngrams": [
+      "ai solutions that save time",
+      "on resume screenings discover ai",
+      "why waste 20 hours weekly",
+      "hours weekly on resume screenings",
+      "weekly on resume screenings discover",
+      "discover ai solutions that save",
+      "waste 20 hours weekly on",
+      "screenings discover ai solutions that",
+      "solutions that save time and",
+      "save time and enhance hiring",
+      "that save time and enhance",
+      "resume screenings discover ai solutions",
+      "20 hours weekly on resume"
     ]
   }
 ]
