@@ -1,20 +1,5 @@
 [
   {
-    "guid": "b7fc18921d1d5a003bbb625cd67127dcf1ebdd10",
-    "ngrams": [
-      "why spend 20 hours on",
-      "can do it in seconds",
-      "manual screenings when ai can",
-      "when ai can do it",
-      "hours on manual screenings when",
-      "ai can do it in",
-      "screenings when ai can do",
-      "20 hours on manual screenings",
-      "on manual screenings when ai",
-      "spend 20 hours on manual"
-    ]
-  },
-  {
     "guid": "a69c11325efc6325128077a60839b6de3d6d5282",
     "ngrams": [
       "fill is 42 days competitors",
@@ -3279,6 +3264,16 @@
       "that save time and enhance",
       "resume screenings discover ai solutions",
       "20 hours weekly on resume"
+    ]
+  },
+  {
+    "guid": "f1c5df6c2118eebb617e64423b8df24bdab08b0c",
+    "ngrams": [
+      "process is 3x longer than",
+      "hiring process is 3x longer",
+      "your hiring process is 3x",
+      "is 3x longer than your",
+      "3x longer than your competitors"
     ]
   }
 ]
