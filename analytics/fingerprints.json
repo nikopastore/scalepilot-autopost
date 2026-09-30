@@ -1,20 +1,5 @@
 [
   {
-    "guid": "a69c11325efc6325128077a60839b6de3d6d5282",
-    "ngrams": [
-      "fill is 42 days competitors",
-      "average time to fill is",
-      "to fill is 42 days",
-      "14 let s fix that",
-      "your average time to fill",
-      "days competitors 14 let s",
-      "is 42 days competitors 14",
-      "competitors 14 let s fix",
-      "42 days competitors 14 let",
-      "time to fill is 42"
-    ]
-  },
-  {
     "guid": "af2acfd53f3ce69d9672e42d950d4b031576162a",
     "ngrams": [
       "ghost companies with poor communication",
@@ -3274,6 +3259,20 @@
       "your hiring process is 3x",
       "is 3x longer than your",
       "3x longer than your competitors"
+    ]
+  },
+  {
+    "guid": "8531523990e2fba4c0a66cc3498a7ca2085b613b",
+    "ngrams": [
+      "73 of candidates ghost firms",
+      "with poor communication are you",
+      "ghost firms with poor communication",
+      "communication are you bridging the",
+      "candidates ghost firms with poor",
+      "are you bridging the gap",
+      "firms with poor communication are",
+      "of candidates ghost firms with",
+      "poor communication are you bridging"
     ]
   }
 ]
