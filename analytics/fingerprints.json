@@ -1,16 +1,5 @@
 [
   {
-    "guid": "af2acfd53f3ce69d9672e42d950d4b031576162a",
-    "ngrams": [
-      "ghost companies with poor communication",
-      "candidates ghost companies with poor",
-      "73 of candidates ghost companies",
-      "companies with poor communication upgrade",
-      "with poor communication upgrade now",
-      "of candidates ghost companies with"
-    ]
-  },
-  {
     "guid": "455e156b3cd8c394005be761c043879508fc7109",
     "ngrams": [
       "building a talent pipeline boost",
@@ -3273,6 +3262,17 @@
       "firms with poor communication are",
       "of candidates ghost firms with",
       "poor communication are you bridging"
+    ]
+  },
+  {
+    "guid": "305ba77ddb6e34fabaa542f4acb1c6a1a056fa77",
+    "ngrams": [
+      "more build a proactive talent",
+      "build a proactive talent pipeline",
+      "costs 3x more build a",
+      "3x more build a proactive",
+      "hiring costs 3x more build",
+      "reactive hiring costs 3x more"
     ]
   }
 ]
