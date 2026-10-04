@@ -1,20 +1,20 @@
 feature,bucket,avg_eng_score,n_posts
-bullets,1+,0.0,312
-cta,question,0.0,312
-emoji,2,0.0,289
+bullets,1+,0.0,313
+cta,question,0.0,313
+emoji,2,0.0,290
 emoji,3+,0.0,23
-len,<= 120,0.0,276
+len,<= 120,0.0,277
 len,<= 160,0.0,35
 len,<= 200,0.0,1
 number,no,0.0,78
-number,yes,0.0,234
-question,no,0.0,120
+number,yes,0.0,235
+question,no,0.0,121
 question,yes,0.0,192
 style,how_to,0.0,1
 style,mistake_avoid,0.0,2
 style,tool_tip,0.0,2
-style,unspecified,0.0,307
+style,unspecified,0.0,308
 time,early-afternoon,0.0,1
-time,evening,0.0,48
+time,evening,0.0,49
 time,late-afternoon,0.0,259
 time,night,0.0,4
