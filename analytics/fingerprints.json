@@ -1,26 +1,5 @@
 [
   {
-    "guid": "9541622efb911ed64207f5c555e03e8333209829",
-    "ngrams": [
-      "hires cost 30 of salary",
-      "job boards focus on high",
-      "of salary stop wasting time",
-      "high intent candidates with hirepriority",
-      "on high intent candidates with",
-      "wasting time on generic job",
-      "cost 30 of salary stop",
-      "30 of salary stop wasting",
-      "time on generic job boards",
-      "on generic job boards focus",
-      "salary stop wasting time on",
-      "bad hires cost 30 of",
-      "stop wasting time on generic",
-      "focus on high intent candidates",
-      "boards focus on high intent",
-      "generic job boards focus on"
-    ]
-  },
-  {
     "guid": "175616756e8c4cc1e1d317fd479da24e5f47d3b6",
     "ngrams": [
       "can do it in seconds",
@@ -3277,6 +3256,15 @@
       "of their salary stop sifting",
       "stop sifting through unqualified resumes",
       "hire costs 30 of their"
+    ]
+  },
+  {
+    "guid": "fc0d2b9a80961f4b9aca552ceb8caf79b872a803",
+    "ngrams": [
+      "spend 20 hours weekly on",
+      "hours weekly on initial screenings",
+      "why spend 20 hours weekly",
+      "20 hours weekly on initial"
     ]
   }
 ]
