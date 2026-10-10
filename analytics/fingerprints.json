@@ -1,22 +1,5 @@
 [
   {
-    "guid": "9cddd1d057df56b8883e570f55e040d6ec721077",
-    "ngrams": [
-      "42 is outdated tech the",
-      "at 42 is outdated tech",
-      "is outdated tech the bottleneck",
-      "re at 42 is outdated",
-      "fill roles in 14 days",
-      "you re at 42 is",
-      "competitors fill roles in 14",
-      "days you re at 42",
-      "14 days you re at",
-      "roles in 14 days you",
-      "your competitors fill roles in",
-      "in 14 days you re"
-    ]
-  },
-  {
     "guid": "1b7852a3f598bb1719c55c803a642c4ef50874e6",
     "ngrams": [
       "with poor communication elevate your",
@@ -3262,6 +3245,24 @@
       "time to fill lagging at",
       "42 days while competitors hit",
       "days while competitors hit 14"
+    ]
+  },
+  {
+    "guid": "b579908ee6efacf1788658723e3e3929178b7ed6",
+    "ngrams": [
+      "sms first for 5x the",
+      "to sms first for 5x",
+      "73 of candidates ghost due",
+      "ghost due to poor communication",
+      "communication shift to sms first",
+      "due to poor communication shift",
+      "for 5x the response rate",
+      "of candidates ghost due to",
+      "to poor communication shift to",
+      "shift to sms first for",
+      "candidates ghost due to poor",
+      "first for 5x the response",
+      "poor communication shift to sms"
     ]
   }
 ]
