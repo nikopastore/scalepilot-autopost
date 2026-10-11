@@ -1,18 +1,5 @@
 [
   {
-    "guid": "1b7852a3f598bb1719c55c803a642c4ef50874e6",
-    "ngrams": [
-      "with poor communication elevate your",
-      "communication elevate your outreach now",
-      "poor communication elevate your outreach",
-      "of candidates ghost companies with",
-      "candidates ghost companies with poor",
-      "ghost companies with poor communication",
-      "companies with poor communication elevate",
-      "73 of candidates ghost companies"
-    ]
-  },
-  {
     "guid": "38e61d755643614d553d890ba366b49dac518b6a",
     "ngrams": [
       "to rethink your recruitment approach",
@@ -3263,6 +3250,28 @@
       "candidates ghost due to poor",
       "first for 5x the response",
       "poor communication shift to sms"
+    ]
+  },
+  {
+    "guid": "69d439e4dc55e0960954e2eb8494be1b523f0c3a",
+    "ngrams": [
+      "hiring costs 3x more than",
+      "until it s too late",
+      "don t miss top talent",
+      "building don t miss top",
+      "reactive hiring costs 3x more",
+      "3x more than proactive talent",
+      "more than proactive talent building",
+      "talent by waiting until it",
+      "waiting until it s too",
+      "t miss top talent by",
+      "by waiting until it s",
+      "top talent by waiting until",
+      "miss top talent by waiting",
+      "talent building don t miss",
+      "proactive talent building don t",
+      "costs 3x more than proactive",
+      "than proactive talent building don"
     ]
   }
 ]
