@@ -1,19 +1,5 @@
 [
   {
-    "guid": "b0b2ce2be4a0d1c1ce27c13684cdaf0f882a6bee",
-    "ngrams": [
-      "problem not a talent problem",
-      "the myth of talent scarcity",
-      "a targeting problem not a",
-      "targeting problem not a talent",
-      "talent scarcity is a targeting",
-      "myth of talent scarcity is",
-      "of talent scarcity is a",
-      "scarcity is a targeting problem",
-      "is a targeting problem not"
-    ]
-  },
-  {
     "guid": "d7c1dd389a865ea1453d4b21194cbe21a0dd71f0",
     "ngrams": [
       "let traditional hiring hold you",
@@ -3283,6 +3269,16 @@
       "issue not a lack of",
       "time to focus on precision",
       "talent broad postings attract volume"
+    ]
+  },
+  {
+    "guid": "8855bfe4ddd0d78141908ddfbc7b56b85f72f747",
+    "ngrams": [
+      "day a critical role is",
+      "every day a critical role",
+      "critical role is open revenue",
+      "role is open revenue diminishes",
+      "a critical role is open"
     ]
   }
 ]
