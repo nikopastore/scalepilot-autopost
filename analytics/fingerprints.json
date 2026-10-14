@@ -1,25 +1,5 @@
 [
   {
-    "guid": "d7c1dd389a865ea1453d4b21194cbe21a0dd71f0",
-    "ngrams": [
-      "let traditional hiring hold you",
-      "revenue potential shrinks don t",
-      "traditional hiring hold you back",
-      "potential shrinks don t let",
-      "a critical role remains open",
-      "critical role remains open your",
-      "don t let traditional hiring",
-      "t let traditional hiring hold",
-      "remains open your revenue potential",
-      "open your revenue potential shrinks",
-      "role remains open your revenue",
-      "your revenue potential shrinks don",
-      "shrinks don t let traditional",
-      "every day a critical role",
-      "day a critical role remains"
-    ]
-  },
-  {
     "guid": "e8f674812f65248c3c679d5a1b16f35d2bf8a111",
     "ngrams": [
       "with nipr verification to reclaim",
@@ -3279,6 +3259,22 @@
       "critical role is open revenue",
       "role is open revenue diminishes",
       "a critical role is open"
+    ]
+  },
+  {
+    "guid": "640a662680b5ee94673367faf55eaab024ee3aee",
+    "ngrams": [
+      "insurance agencies waste 15 hours",
+      "per hire verifying licenses manually",
+      "waste 15 hours per hire",
+      "hours per hire verifying licenses",
+      "verifying licenses manually it s",
+      "licenses manually it s time",
+      "hire verifying licenses manually it",
+      "manually it s time to",
+      "15 hours per hire verifying",
+      "it s time to streamline",
+      "agencies waste 15 hours per"
     ]
   }
 ]
