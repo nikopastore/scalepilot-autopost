@@ -1,20 +1,5 @@
 [
   {
-    "guid": "eafbb232f07209e317b3a2606e15023a2f972a27",
-    "ngrams": [
-      "skills until the interview you",
-      "ve wasted 3 hours already",
-      "can t assess sales skills",
-      "the interview you ve wasted",
-      "t assess sales skills until",
-      "you ve wasted 3 hours",
-      "sales skills until the interview",
-      "assess sales skills until the",
-      "interview you ve wasted 3",
-      "until the interview you ve"
-    ]
-  },
-  {
     "guid": "8c9defa9f8abddbe0c1fca124f3a76f9923624f8",
     "ngrams": [
       "losing money with hirepriority s",
@@ -3273,6 +3258,29 @@
       "skills until the interview that",
       "until the interview that s",
       "interview that s 3 hours"
+    ]
+  },
+  {
+    "guid": "235563a610560706d0df23d5689cffe1268b89d7",
+    "ngrams": [
+      "hire can be 30 of",
+      "30 of their first year",
+      "be 30 of their first",
+      "their first year salary optimize",
+      "can be 30 of their",
+      "recruitment process with pre qualification",
+      "first year salary optimize your",
+      "optimize your recruitment process with",
+      "cost of a bad hire",
+      "of their first year salary",
+      "your recruitment process with pre",
+      "salary optimize your recruitment process",
+      "bad hire can be 30",
+      "a bad hire can be",
+      "year salary optimize your recruitment",
+      "process with pre qualification systems",
+      "the cost of a bad",
+      "of a bad hire can"
     ]
   }
 ]
