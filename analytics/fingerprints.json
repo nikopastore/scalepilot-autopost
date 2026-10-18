@@ -1,26 +1,5 @@
 [
   {
-    "guid": "8c9defa9f8abddbe0c1fca124f3a76f9923624f8",
-    "ngrams": [
-      "losing money with hirepriority s",
-      "bad hire costs 30 of",
-      "30 of their salary stop",
-      "of their salary stop losing",
-      "stop losing money with hirepriority",
-      "you know a bad hire",
-      "their salary stop losing money",
-      "with hirepriority s pre qualification",
-      "hire costs 30 of their",
-      "salary stop losing money with",
-      "did you know a bad",
-      "hirepriority s pre qualification systems",
-      "a bad hire costs 30",
-      "money with hirepriority s pre",
-      "know a bad hire costs",
-      "costs 30 of their salary"
-    ]
-  },
-  {
     "guid": "fed92a997057ec58f074bc234f53aaa9fe3161b9",
     "ngrams": [
       "why spend 20 hours on",
@@ -3281,6 +3260,23 @@
       "process with pre qualification systems",
       "the cost of a bad",
       "of a bad hire can"
+    ]
+  },
+  {
+    "guid": "731e8c4a606040c6382fe3cff2ea63777324f71d",
+    "ngrams": [
+      "ai can do it in",
+      "spend 20 hours a week",
+      "hours a week on resume",
+      "week on resume screening when",
+      "when ai can do it",
+      "why spend 20 hours a",
+      "screening when ai can do",
+      "can do it in seconds",
+      "a week on resume screening",
+      "on resume screening when ai",
+      "resume screening when ai can",
+      "20 hours a week on"
     ]
   }
 ]
