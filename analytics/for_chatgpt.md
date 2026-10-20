@@ -4,23 +4,23 @@ We generate self-contained, emoji-forward posts daily. Below are feature average
 
 ## Feature Summary (averages)
 
-- bullets :: 1+ => avg_score=0.0 (n=328)
-- cta :: question => avg_score=0.0 (n=328)
-- emoji :: 2 => avg_score=0.0 (n=304)
+- bullets :: 1+ => avg_score=0.0 (n=329)
+- cta :: question => avg_score=0.0 (n=329)
+- emoji :: 2 => avg_score=0.0 (n=305)
 - emoji :: 3+ => avg_score=0.0 (n=24)
 - len :: <= 120 => avg_score=0.0 (n=288)
-- len :: <= 160 => avg_score=0.0 (n=39)
+- len :: <= 160 => avg_score=0.0 (n=40)
 - len :: <= 200 => avg_score=0.0 (n=1)
 - number :: no => avg_score=0.0 (n=80)
-- number :: yes => avg_score=0.0 (n=248)
-- question :: no => avg_score=0.0 (n=128)
+- number :: yes => avg_score=0.0 (n=249)
+- question :: no => avg_score=0.0 (n=129)
 - question :: yes => avg_score=0.0 (n=200)
 - style :: how_to => avg_score=0.0 (n=1)
 - style :: mistake_avoid => avg_score=0.0 (n=2)
 - style :: tool_tip => avg_score=0.0 (n=2)
-- style :: unspecified => avg_score=0.0 (n=323)
+- style :: unspecified => avg_score=0.0 (n=324)
 - time :: early-afternoon => avg_score=0.0 (n=1)
-- time :: evening => avg_score=0.0 (n=61)
+- time :: evening => avg_score=0.0 (n=62)
 - time :: late-afternoon => avg_score=0.0 (n=261)
 - time :: night => avg_score=0.0 (n=5)
 
@@ -30,8 +30,8 @@ Using the summary and top posts, propose 5 editing rules to maximize engagement,
 
 ## Top Posts (samples)
 
+- 📈 73% of candidates ghost companies with poor communication! 📉 Discover how to enhance engagement and drive faster pipeline movement.  | score=0.0 | emojis=2 | len=133 | style=unspecified | cta=question
 - 🔥 Is your average time-to-fill dragging at 42 days? Competitors are at 14! ⏳📉  | score=0.0 | emojis=2 | len=77 | style=unspecified | cta=question
 - 📈 Why spend 20 hours a week on resume screening when AI can do it in seconds? 🌟  | score=0.0 | emojis=2 | len=79 | style=unspecified | cta=question
 - The cost of a bad hire can be 30% of their first-year salary. 😱 Optimize your recruitment process with pre-qualification systems. 🎯  | score=0.0 | emojis=2 | len=131 | style=unspecified | cta=question
 - 💡 Can't gauge sales skills until the interview? That's 3 hours lost. ⏱️ 📊  | score=0.0 | emojis=3 | len=73 | style=unspecified | cta=question
-- Top candidates are snapped up in 10 days, but your process drags on for 6 weeks! 🕒📉  | score=0.0 | emojis=2 | len=83 | style=unspecified | cta=question
