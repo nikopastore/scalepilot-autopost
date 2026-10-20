@@ -1,22 +1,5 @@
 [
   {
-    "guid": "c54d9f396031587da0bc40e7e981703620f0a9af",
-    "ngrams": [
-      "fill 42 days vs competitors",
-      "competitors 14 days outdated tech",
-      "average time to fill 42",
-      "tech is holding you back",
-      "to fill 42 days vs",
-      "days vs competitors 14 days",
-      "vs competitors 14 days outdated",
-      "days outdated tech is holding",
-      "time to fill 42 days",
-      "42 days vs competitors 14",
-      "14 days outdated tech is",
-      "outdated tech is holding you"
-    ]
-  },
-  {
     "guid": "1bf3948f5cf579fade58db227f8ddaef82f499b1",
     "ngrams": [
       "companies with poor communication is",
@@ -3277,6 +3260,25 @@
       "dragging at 42 days competitors",
       "average time to fill dragging",
       "time to fill dragging at"
+    ]
+  },
+  {
+    "guid": "b23caa3d4c8fa0dfbe66824bb0c4ad1407d7cfa1",
+    "ngrams": [
+      "discover how to enhance engagement",
+      "poor communication discover how to",
+      "to enhance engagement and drive",
+      "companies with poor communication discover",
+      "candidates ghost companies with poor",
+      "engagement and drive faster pipeline",
+      "communication discover how to enhance",
+      "with poor communication discover how",
+      "and drive faster pipeline movement",
+      "enhance engagement and drive faster",
+      "73 of candidates ghost companies",
+      "of candidates ghost companies with",
+      "how to enhance engagement and",
+      "ghost companies with poor communication"
     ]
   }
 ]
