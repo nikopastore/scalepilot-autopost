@@ -1,22 +1,5 @@
 [
   {
-    "guid": "5d448a221a87ac39169f7d0937946f496388475a",
-    "ngrams": [
-      "broad job postings bring volume",
-      "s a targeting problem broad",
-      "talent scarcity myth it s",
-      "problem broad job postings bring",
-      "job postings bring volume not",
-      "a targeting problem broad job",
-      "myth it s a targeting",
-      "postings bring volume not quality",
-      "the talent scarcity myth it",
-      "scarcity myth it s a",
-      "it s a targeting problem",
-      "targeting problem broad job postings"
-    ]
-  },
-  {
     "guid": "6aa7bf97b7e26e5db14d065ad6c3d065dcae2a8f",
     "ngrams": [
       "role stays unfilled potential revenue",
@@ -3281,6 +3264,18 @@
       "myth of talent scarcity is",
       "is really a targeting problem",
       "scarcity is really a targeting"
+    ]
+  },
+  {
+    "guid": "405e894e99a72db3f0074308ddc12d1e09f4372f",
+    "ngrams": [
+      "role remains open your revenue",
+      "a critical role remains open",
+      "open your revenue potential shrinks",
+      "critical role remains open your",
+      "remains open your revenue potential",
+      "every day a critical role",
+      "day a critical role remains"
     ]
   }
 ]
