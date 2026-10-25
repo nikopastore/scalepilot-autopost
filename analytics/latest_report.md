@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2026-10-24T18:10:34.373474+00:00_
+_Generated: 2026-10-25T18:24:35.416660+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **📊 Top candidates leave the market in 10 days, but your hiring takes 6 weeks! ⏳📉**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-25T18:13:37+00:00 | style=unspecified | cta=question
 - **📊 Insurance agencies waste 15+ hours per hire on manual license checks. Eliminate this inefficiency with automated NIPR verification! ⏱️🔍**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-24T17:55:52+00:00 | style=unspecified | cta=question
 - **Every day a critical role remains open, your revenue potential shrinks 📉💼**  
@@ -12,49 +14,47 @@ _Generated: 2026-10-24T18:10:34.373474+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-22T19:04:16+00:00 | style=unspecified | cta=question
 - **✨ Reactive hiring costs 3x more than proactive talent pipelines. 🔍 Discover why nurturing candidates is key!**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-21T19:09:11+00:00 | style=unspecified | cta=question
-- **📈 73% of candidates ghost companies with poor communication! 📉 Discover how to enhance engagement and drive faster pipeline movement.**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-20T19:00:17+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=328)
+- unspecified: avg_score=0.0 (n=329)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=333)
+- question: avg_score=0.0 (n=334)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=308)
+- 2: avg_score=0.0 (n=309)
 - 3+: avg_score=0.0 (n=25)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=291)
+- <= 120: avg_score=0.0 (n=292)
 - <= 160: avg_score=0.0 (n=41)
 - <= 200: avg_score=0.0 (n=1)
 
 ## Numbers / % / $ Present
 
 - no: avg_score=0.0 (n=82)
-- yes: avg_score=0.0 (n=251)
+- yes: avg_score=0.0 (n=252)
 
 ## Question Mark Present
 
-- no: avg_score=0.0 (n=131)
+- no: avg_score=0.0 (n=132)
 - yes: avg_score=0.0 (n=202)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=333)
+- 1+: avg_score=0.0 (n=334)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
-- evening: avg_score=0.0 (n=65)
+- evening: avg_score=0.0 (n=66)
 - late-afternoon: avg_score=0.0 (n=262)
 - night: avg_score=0.0 (n=5)
 
