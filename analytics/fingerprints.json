@@ -1,21 +1,5 @@
 [
   {
-    "guid": "c65db10589dc4d01812c28f3c2d2a31326000252",
-    "ngrams": [
-      "candidates leave the market in",
-      "your process takes 6 weeks",
-      "top candidates leave the market",
-      "the market in just 10",
-      "10 days while your process",
-      "while your process takes 6",
-      "just 10 days while your",
-      "days while your process takes",
-      "leave the market in just",
-      "in just 10 days while",
-      "market in just 10 days"
-    ]
-  },
-  {
     "guid": "7a6559f6bbb02a597af2ab9d3719112523f37aab",
     "ngrams": [
       "tired of wasting hours on",
@@ -3282,6 +3266,27 @@
       "but your hiring takes 6",
       "in 10 days but your",
       "market in 10 days but"
+    ]
+  },
+  {
+    "guid": "5a52512d0db6d237888c312068162cfed4ad0052",
+    "ngrams": [
+      "interview you ve already wasted",
+      "wasted 3 hours voice ai",
+      "3 hours voice ai evaluates",
+      "you ve already wasted 3",
+      "can t assess sales skills",
+      "skills until the interview you",
+      "sales skills until the interview",
+      "until the interview you ve",
+      "assess sales skills until the",
+      "t assess sales skills until",
+      "already wasted 3 hours voice",
+      "voice ai evaluates in 10",
+      "ai evaluates in 10 seconds",
+      "ve already wasted 3 hours",
+      "the interview you ve already",
+      "hours voice ai evaluates in"
     ]
   }
 ]
