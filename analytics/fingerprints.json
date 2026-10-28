@@ -1,25 +1,5 @@
 [
   {
-    "guid": "84fb7bfb67add8b483e740bb89910f7b7f0880fd",
-    "ngrams": [
-      "how to avoid this costly",
-      "to avoid this costly mistake",
-      "can cost 30 of their",
-      "did you know a bad",
-      "salary discover how to avoid",
-      "bad hire can cost 30",
-      "cost 30 of their salary",
-      "you know a bad hire",
-      "know a bad hire can",
-      "30 of their salary discover",
-      "of their salary discover how",
-      "their salary discover how to",
-      "discover how to avoid this",
-      "hire can cost 30 of",
-      "a bad hire can cost"
-    ]
-  },
-  {
     "guid": "203f013f65599667f7b414dcc2b8425419366baa",
     "ngrams": [
       "hours weekly on screenings let",
@@ -3296,6 +3276,18 @@
       "cost you 30 of their",
       "salary generic job boards overwhelm",
       "overwhelm with unqualified resumes discover"
+    ]
+  },
+  {
+    "guid": "9d64f1a7e4473022d5964720c5d70b8cec2636c5",
+    "ngrams": [
+      "resume screenings streamline with ai",
+      "on resume screenings streamline with",
+      "hours weekly on resume screenings",
+      "weekly on resume screenings streamline",
+      "why spend 20 hours weekly",
+      "20 hours weekly on resume",
+      "spend 20 hours weekly on"
     ]
   }
 ]
