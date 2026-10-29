@@ -1,19 +1,5 @@
 [
   {
-    "guid": "203f013f65599667f7b414dcc2b8425419366baa",
-    "ngrams": [
-      "hours weekly on screenings let",
-      "screenings let ai rank candidates",
-      "spend 20 hours weekly on",
-      "on screenings let ai rank",
-      "ai rank candidates in seconds",
-      "let ai rank candidates in",
-      "why spend 20 hours weekly",
-      "weekly on screenings let ai",
-      "20 hours weekly on screenings"
-    ]
-  },
-  {
     "guid": "4b8ead9a78cceef1598dc934d3aa8efb20be682a",
     "ngrams": [
       "time to fill your competitors",
@@ -3288,6 +3274,27 @@
       "why spend 20 hours weekly",
       "20 hours weekly on resume",
       "spend 20 hours weekly on"
+    ]
+  },
+  {
+    "guid": "886d606e9f55b64795fba719be4073a8047e2133",
+    "ngrams": [
+      "average time to fill is",
+      "to fill is 42 days",
+      "is 42 days competitors are",
+      "and manual processes cost you",
+      "competitors are at 14 outdated",
+      "manual processes cost you weeks",
+      "at 14 outdated tech and",
+      "tech and manual processes cost",
+      "your average time to fill",
+      "outdated tech and manual processes",
+      "14 outdated tech and manual",
+      "fill is 42 days competitors",
+      "days competitors are at 14",
+      "are at 14 outdated tech",
+      "time to fill is 42",
+      "42 days competitors are at"
     ]
   }
 ]
