@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2026-10-28T20:16:07.653161+00:00_
+_Generated: 2026-10-29T20:19:22.425984+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **Your average time-to-fill is 42 days, competitors are at 14. 🕒📉 Outdated tech and manual processes cost you weeks.**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-29T20:05:17+00:00 | style=unspecified | cta=question
 - **🌟 Why spend 20 hours weekly on resume screenings? ⏰ Streamline with AI! 🚀**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-28T20:07:07+00:00 | style=unspecified | cta=question
 - **🚀 A bad hire can cost you 30% of their salary! 🚨 Generic job boards overwhelm with unqualified resumes. Discover how to focus on high-intent candidates.**  
@@ -12,49 +14,47 @@ _Generated: 2026-10-28T20:16:07.653161+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-26T20:20:21+00:00 | style=unspecified | cta=question
 - **📊 Top candidates leave the market in 10 days, but your hiring takes 6 weeks! ⏳📉**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-25T18:13:37+00:00 | style=unspecified | cta=question
-- **📊 Insurance agencies waste 15+ hours per hire on manual license checks. Eliminate this inefficiency with automated NIPR verification! ⏱️🔍**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-24T17:55:52+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=332)
+- unspecified: avg_score=0.0 (n=333)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=337)
+- question: avg_score=0.0 (n=338)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=312)
+- 2: avg_score=0.0 (n=313)
 - 3+: avg_score=0.0 (n=25)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=294)
+- <= 120: avg_score=0.0 (n=295)
 - <= 160: avg_score=0.0 (n=42)
 - <= 200: avg_score=0.0 (n=1)
 
 ## Numbers / % / $ Present
 
 - no: avg_score=0.0 (n=82)
-- yes: avg_score=0.0 (n=255)
+- yes: avg_score=0.0 (n=256)
 
 ## Question Mark Present
 
-- no: avg_score=0.0 (n=133)
+- no: avg_score=0.0 (n=134)
 - yes: avg_score=0.0 (n=204)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=337)
+- 1+: avg_score=0.0 (n=338)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
-- evening: avg_score=0.0 (n=69)
+- evening: avg_score=0.0 (n=70)
 - late-afternoon: avg_score=0.0 (n=262)
 - night: avg_score=0.0 (n=5)
 
