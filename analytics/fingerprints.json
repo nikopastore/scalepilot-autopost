@@ -1,15 +1,5 @@
 [
   {
-    "guid": "0ea03b05f33a2b313ac8c8d1cff7c799f00ee36b",
-    "ngrams": [
-      "triples costs compared to strategic",
-      "costs compared to strategic talent",
-      "compared to strategic talent pipelines",
-      "reactive hiring triples costs compared",
-      "hiring triples costs compared to"
-    ]
-  },
-  {
     "guid": "f9cdcf387aa80b383faca315fbc9ed3af0e3b673",
     "ngrams": [
       "scarcity just a targeting issue",
@@ -3301,6 +3291,26 @@
       "talent pipeline building are you",
       "building are you missing top",
       "pipeline building are you missing"
+    ]
+  },
+  {
+    "guid": "85f1466f33e7a0aec1df535b5b28199b9ded75d8",
+    "ngrams": [
+      "the key to recruitment success",
+      "scarcity is a myth it",
+      "quality over quantity is the",
+      "talent scarcity is a myth",
+      "over quantity is the key",
+      "targeting quality over quantity is",
+      "all about targeting quality over",
+      "about targeting quality over quantity",
+      "is the key to recruitment",
+      "it s all about targeting",
+      "is a myth it s",
+      "quantity is the key to",
+      "s all about targeting quality",
+      "a myth it s all",
+      "myth it s all about"
     ]
   }
 ]
