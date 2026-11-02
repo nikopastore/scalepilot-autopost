@@ -1,9 +1,11 @@
 # ScalePilot — Analytics Report
 
-_Generated: 2026-11-01T19:42:15.338856+00:00_
+_Generated: 2026-11-02T23:06:32.614742+00:00_
 
 ## Top 5 Posts (by engagement score)
 
+- **Every day a critical role remains open, your revenue shrinks. 💼💡**  
+  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-11-02T23:00:23+00:00 | style=unspecified | cta=question
 - **⏱️ Talent scarcity is a myth; it's all about targeting! 🎯 Quality over quantity is the key to recruitment success.**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-11-01T19:24:04+00:00 | style=unspecified | cta=question
 - **Reactive hiring costs 3x more than proactive talent pipeline building. Are you missing top talent? 👥💡**  
@@ -12,51 +14,49 @@ _Generated: 2026-11-01T19:42:15.338856+00:00_
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-30T19:52:12+00:00 | style=unspecified | cta=question
 - **Your average time-to-fill is 42 days, competitors are at 14. 🕒📉 Outdated tech and manual processes cost you weeks.**  
   score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-29T20:05:17+00:00 | style=unspecified | cta=question
-- **🌟 Why spend 20 hours weekly on resume screenings? ⏰ Streamline with AI! 🚀**  
-  score=0.0 | likes=0 | replies=0 | reposts=0 | clicks=0 | saves=0 | time=2026-10-28T20:07:07+00:00 | style=unspecified | cta=question
 
 ## Performance by Style
 
 - how_to: avg_score=0.0 (n=1)
 - mistake_avoid: avg_score=0.0 (n=2)
 - tool_tip: avg_score=0.0 (n=2)
-- unspecified: avg_score=0.0 (n=336)
+- unspecified: avg_score=0.0 (n=337)
 
 ## Performance by CTA Type
 
-- question: avg_score=0.0 (n=341)
+- question: avg_score=0.0 (n=342)
 
 ## Emoji Count in Title
 
-- 2: avg_score=0.0 (n=316)
+- 2: avg_score=0.0 (n=317)
 - 3+: avg_score=0.0 (n=25)
 
 ## Title Length
 
-- <= 120: avg_score=0.0 (n=297)
+- <= 120: avg_score=0.0 (n=298)
 - <= 160: avg_score=0.0 (n=43)
 - <= 200: avg_score=0.0 (n=1)
 
 ## Numbers / % / $ Present
 
-- no: avg_score=0.0 (n=83)
+- no: avg_score=0.0 (n=84)
 - yes: avg_score=0.0 (n=258)
 
 ## Question Mark Present
 
 - no: avg_score=0.0 (n=136)
-- yes: avg_score=0.0 (n=205)
+- yes: avg_score=0.0 (n=206)
 
 ## Bullets Present in Description
 
-- 1+: avg_score=0.0 (n=341)
+- 1+: avg_score=0.0 (n=342)
 
 ## Local Post Time Bucket
 
 - early-afternoon: avg_score=0.0 (n=1)
 - evening: avg_score=0.0 (n=73)
 - late-afternoon: avg_score=0.0 (n=262)
-- night: avg_score=0.0 (n=5)
+- night: avg_score=0.0 (n=6)
 
 ## Next experiments
 
