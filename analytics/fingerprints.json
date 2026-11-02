@@ -1,20 +1,5 @@
 [
   {
-    "guid": "f9cdcf387aa80b383faca315fbc9ed3af0e3b673",
-    "ngrams": [
-      "scarcity just a targeting issue",
-      "a targeting issue broad job",
-      "talent scarcity just a targeting",
-      "targeting issue broad job postings",
-      "job postings bring quantity not",
-      "issue broad job postings bring",
-      "is talent scarcity just a",
-      "broad job postings bring quantity",
-      "just a targeting issue broad",
-      "postings bring quantity not quality"
-    ]
-  },
-  {
     "guid": "8d9101deee5ecd4ce5f2edae00ccc51246fd8257",
     "ngrams": [
       "every day a critical role",
@@ -3311,6 +3296,17 @@
       "s all about targeting quality",
       "a myth it s all",
       "myth it s all about"
+    ]
+  },
+  {
+    "guid": "2c70425f807727986942c38b8a668ef786bb3f16",
+    "ngrams": [
+      "critical role remains open your",
+      "role remains open your revenue",
+      "remains open your revenue shrinks",
+      "day a critical role remains",
+      "a critical role remains open",
+      "every day a critical role"
     ]
   }
 ]
