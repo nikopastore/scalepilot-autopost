@@ -1,16 +1,5 @@
 [
   {
-    "guid": "8d9101deee5ecd4ce5f2edae00ccc51246fd8257",
-    "ngrams": [
-      "every day a critical role",
-      "role stays open your revenue",
-      "day a critical role stays",
-      "stays open your revenue shrinks",
-      "a critical role stays open",
-      "critical role stays open your"
-    ]
-  },
-  {
     "guid": "ed27188357e9287d627691451782866f158dde43",
     "ngrams": [
       "insurance agencies waste 15 hours",
@@ -3307,6 +3296,25 @@
       "day a critical role remains",
       "a critical role remains open",
       "every day a critical role"
+    ]
+  },
+  {
+    "guid": "c1a2f6714b8a1d47be0c4437643feed11ddf4437",
+    "ngrams": [
+      "with nipr verification and save",
+      "nipr verification and save time",
+      "automate with nipr verification and",
+      "waste 15 hours per hire",
+      "agencies waste 15 hours per",
+      "insurance agencies waste 15 hours",
+      "on manual license checks automate",
+      "license checks automate with nipr",
+      "hire on manual license checks",
+      "15 hours per hire on",
+      "checks automate with nipr verification",
+      "per hire on manual license",
+      "hours per hire on manual",
+      "manual license checks automate with"
     ]
   }
 ]
