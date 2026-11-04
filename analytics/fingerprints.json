@@ -1,17 +1,5 @@
 [
   {
-    "guid": "ed27188357e9287d627691451782866f158dde43",
-    "ngrams": [
-      "insurance agencies waste 15 hours",
-      "hire on manual license checks",
-      "agencies waste 15 hours per",
-      "per hire on manual license",
-      "waste 15 hours per hire",
-      "15 hours per hire on",
-      "hours per hire on manual"
-    ]
-  },
-  {
     "guid": "5d8f5eab1ace9387fe411344fc23b94352a3cb69",
     "ngrams": [
       "6 week process losing out",
@@ -3315,6 +3303,26 @@
       "per hire on manual license",
       "hours per hire on manual",
       "manual license checks automate with"
+    ]
+  },
+  {
+    "guid": "e4a4ae528c9f57fcb86a275244c7c432ab946225",
+    "ngrams": [
+      "10 days but your hiring",
+      "takes 6 weeks let s",
+      "market in just 10 days",
+      "but your hiring takes 6",
+      "your hiring takes 6 weeks",
+      "hiring takes 6 weeks let",
+      "top candidates exit the market",
+      "candidates exit the market in",
+      "the market in just 10",
+      "in just 10 days but",
+      "just 10 days but your",
+      "days but your hiring takes",
+      "weeks let s change that",
+      "6 weeks let s change",
+      "exit the market in just"
     ]
   }
 ]
