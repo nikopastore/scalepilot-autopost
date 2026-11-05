@@ -1,25 +1,5 @@
 [
   {
-    "guid": "5d8f5eab1ace9387fe411344fc23b94352a3cb69",
-    "ngrams": [
-      "6 week process losing out",
-      "candidates are snapped up in",
-      "are snapped up in just",
-      "up in just 10 days",
-      "is your 6 week process",
-      "days is your 6 week",
-      "your 6 week process losing",
-      "just 10 days is your",
-      "top candidates are snapped up",
-      "in just 10 days is",
-      "losing out on a players",
-      "10 days is your 6",
-      "week process losing out on",
-      "process losing out on a",
-      "snapped up in just 10"
-    ]
-  },
-  {
     "guid": "d3f0427f7156ef10c43bd9323ca043b04c24c900",
     "ngrams": [
       "wasting hours interviewing without assessing",
@@ -3323,6 +3303,17 @@
       "weeks let s change that",
       "6 weeks let s change",
       "exit the market in just"
+    ]
+  },
+  {
+    "guid": "30c9f053f519b7c3f6a2eaf089c48b1b037dd995",
+    "ngrams": [
+      "struggling to assess sales skills",
+      "remotely traditional screening wastes hours",
+      "sales skills remotely traditional screening",
+      "to assess sales skills remotely",
+      "skills remotely traditional screening wastes",
+      "assess sales skills remotely traditional"
     ]
   }
 ]
