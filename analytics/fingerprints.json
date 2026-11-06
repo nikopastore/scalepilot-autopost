@@ -1,22 +1,5 @@
 [
   {
-    "guid": "d3f0427f7156ef10c43bd9323ca043b04c24c900",
-    "ngrams": [
-      "wasting hours interviewing without assessing",
-      "without assessing sales skills discover",
-      "to screen effectively in seconds",
-      "how to screen effectively in",
-      "interviewing without assessing sales skills",
-      "sales skills discover how to",
-      "skills discover how to screen",
-      "are you wasting hours interviewing",
-      "assessing sales skills discover how",
-      "you wasting hours interviewing without",
-      "hours interviewing without assessing sales",
-      "discover how to screen effectively"
-    ]
-  },
-  {
     "guid": "6ebed17c136187123e20d1ff39994cf14342637e",
     "ngrams": [
       "30 of their salary reduce",
@@ -3314,6 +3297,24 @@
       "to assess sales skills remotely",
       "skills remotely traditional screening wastes",
       "assess sales skills remotely traditional"
+    ]
+  },
+  {
+    "guid": "c0955b0dd5c99583feed6b6338d8bef48b5b7c90",
+    "ngrams": [
+      "their first year salary stop",
+      "first year salary stop decision",
+      "year salary stop decision paralysis",
+      "salary stop decision paralysis with",
+      "paralysis with targeted pre qualification",
+      "of their first year salary",
+      "stop decision paralysis with targeted",
+      "bad hire costs 30 of",
+      "a bad hire costs 30",
+      "hire costs 30 of their",
+      "30 of their first year",
+      "costs 30 of their first",
+      "decision paralysis with targeted pre"
     ]
   }
 ]
