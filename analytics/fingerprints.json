@@ -1,23 +1,5 @@
 [
   {
-    "guid": "6ebed17c136187123e20d1ff39994cf14342637e",
-    "ngrams": [
-      "30 of their salary reduce",
-      "salary reduce noise focus on",
-      "you 30 of their salary",
-      "of their salary reduce noise",
-      "focus on high intent candidates",
-      "bad hire can cost you",
-      "noise focus on high intent",
-      "can cost you 30 of",
-      "their salary reduce noise focus",
-      "hire can cost you 30",
-      "reduce noise focus on high",
-      "cost you 30 of their",
-      "a bad hire can cost"
-    ]
-  },
-  {
     "guid": "d962b6efe8160f058bf24be2ea6dd52375f7f499",
     "ngrams": [
       "waste 20 hours a week",
@@ -3315,6 +3297,19 @@
       "30 of their first year",
       "costs 30 of their first",
       "decision paralysis with targeted pre"
+    ]
+  },
+  {
+    "guid": "e22acd4040a92ae97c7cba3edfcbc944608ce01e",
+    "ngrams": [
+      "manual screenings discover ai s",
+      "screenings discover ai s efficiency",
+      "weekly on manual screenings discover",
+      "why spend 20 hours weekly",
+      "hours weekly on manual screenings",
+      "spend 20 hours weekly on",
+      "20 hours weekly on manual",
+      "on manual screenings discover ai"
     ]
   }
 ]
