@@ -1,19 +1,5 @@
 [
   {
-    "guid": "c53c44f0d22fe66175d499e249f9e52b14043e10",
-    "ngrams": [
-      "fill lagging at 42 days",
-      "lagging at 42 days competitors",
-      "days competitors are at 14",
-      "at 42 days competitors are",
-      "is your time to fill",
-      "to fill lagging at 42",
-      "your time to fill lagging",
-      "42 days competitors are at",
-      "time to fill lagging at"
-    ]
-  },
-  {
     "guid": "1b7b3b09a09095190a4a512cd98f0528bbfff0ef",
     "ngrams": [
       "73 of candidates ghost companies",
@@ -3307,6 +3293,27 @@
       "42 days to fill a",
       "a position your competitors are",
       "fill a position your competitors"
+    ]
+  },
+  {
+    "guid": "ac9d4d9ca96920c16ffb2ba152111247dd7e8632",
+    "ngrams": [
+      "discover why sms first engagement",
+      "falling flat discover why sms",
+      "ghost companies with poor communication",
+      "of candidates ghost companies with",
+      "is your outreach falling flat",
+      "why sms first engagement is",
+      "outreach falling flat discover why",
+      "poor communication is your outreach",
+      "with poor communication is your",
+      "your outreach falling flat discover",
+      "sms first engagement is key",
+      "communication is your outreach falling",
+      "flat discover why sms first",
+      "companies with poor communication is",
+      "candidates ghost companies with poor",
+      "73 of candidates ghost companies"
     ]
   }
 ]
