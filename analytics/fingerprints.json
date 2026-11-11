@@ -1,30 +1,5 @@
 [
   {
-    "guid": "e94a929ced23cf513c2a8b07920de19f1a579d82",
-    "ngrams": [
-      "missing out on top talent",
-      "are you missing out on",
-      "reactive hiring costs 3x more",
-      "with a continuous talent pool",
-      "costs 3x more than proactive",
-      "3x more than proactive talent",
-      "talent pipeline building are you",
-      "building are you missing out",
-      "hiring costs 3x more than",
-      "pipeline building are you missing",
-      "ahead with a continuous talent",
-      "stay ahead with a continuous",
-      "more than proactive talent pipeline",
-      "you missing out on top",
-      "top talent stay ahead with",
-      "talent stay ahead with a",
-      "out on top talent stay",
-      "proactive talent pipeline building are",
-      "on top talent stay ahead",
-      "than proactive talent pipeline building"
-    ]
-  },
-  {
     "guid": "b4bb231e3ef6c4fe1912338d69dcb139b7fdf3f5",
     "ngrams": [
       "job postings flood you with",
@@ -3310,6 +3285,24 @@
       "3x more than building a",
       "is costly 3x more than",
       "reactive hiring is costly 3x"
+    ]
+  },
+  {
+    "guid": "65ecef6d98dc20f20fb3d9fd9faaa66c04cc15dc",
+    "ngrams": [
+      "is really a targeting problem",
+      "of talent scarcity is really",
+      "a targeting problem broad job",
+      "the myth of talent scarcity",
+      "really a targeting problem broad",
+      "broad job postings attract volume",
+      "targeting problem broad job postings",
+      "problem broad job postings attract",
+      "job postings attract volume not",
+      "talent scarcity is really a",
+      "postings attract volume not quality",
+      "scarcity is really a targeting",
+      "myth of talent scarcity is"
     ]
   }
 ]
