@@ -1,24 +1,5 @@
 [
   {
-    "guid": "b4bb231e3ef6c4fe1912338d69dcb139b7fdf3f5",
-    "ngrams": [
-      "job postings flood you with",
-      "talent scarcity is a targeting",
-      "postings flood you with volume",
-      "the myth of talent scarcity",
-      "broad job postings flood you",
-      "flood you with volume not",
-      "scarcity is a targeting issue",
-      "you with volume not quality",
-      "of talent scarcity is a",
-      "myth of talent scarcity is",
-      "a targeting issue broad job",
-      "targeting issue broad job postings",
-      "issue broad job postings flood",
-      "is a targeting issue broad"
-    ]
-  },
-  {
     "guid": "e44c691f4c1c2426e29f31981b59ea1f65a25b8a",
     "ngrams": [
       "stays open your revenue shrinks",
@@ -3303,6 +3284,22 @@
       "postings attract volume not quality",
       "scarcity is really a targeting",
       "myth of talent scarcity is"
+    ]
+  },
+  {
+    "guid": "290f955bce889c28d0c156291c1f5f1a0e6f8f0b",
+    "ngrams": [
+      "shrinks proactive pipelines can fix",
+      "key role stays open your",
+      "stays open your revenue shrinks",
+      "proactive pipelines can fix this",
+      "open your revenue shrinks proactive",
+      "a key role stays open",
+      "your revenue shrinks proactive pipelines",
+      "day a key role stays",
+      "every day a key role",
+      "revenue shrinks proactive pipelines can",
+      "role stays open your revenue"
     ]
   }
 ]
