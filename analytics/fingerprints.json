@@ -1,24 +1,5 @@
 [
   {
-    "guid": "e2eee0618d88e061a7b946d5a7ba998d63127e4c",
-    "ngrams": [
-      "processes cost you a players",
-      "the market in just 10",
-      "candidates exit the market in",
-      "in just 10 days don",
-      "just 10 days don t",
-      "t let slow processes cost",
-      "let slow processes cost you",
-      "market in just 10 days",
-      "top candidates exit the market",
-      "exit the market in just",
-      "days don t let slow",
-      "10 days don t let",
-      "don t let slow processes",
-      "slow processes cost you a"
-    ]
-  },
-  {
     "guid": "8c4b1a8977142fb0dee1a6770bb66c658dc84a95",
     "ngrams": [
       "sales prowess before interviews save",
@@ -3292,6 +3273,20 @@
       "days yet your hiring takes",
       "yet your hiring takes 6",
       "market in 10 days yet"
+    ]
+  },
+  {
+    "guid": "6a29885dfb0e3ea6b593816dde491501cad1b5cb",
+    "ngrams": [
+      "sales ability until the interview",
+      "interview you ve wasted 3",
+      "the interview you ve wasted",
+      "can t assess sales ability",
+      "until the interview you ve",
+      "t assess sales ability until",
+      "you ve wasted 3 hours",
+      "assess sales ability until the",
+      "ability until the interview you"
     ]
   }
 ]
