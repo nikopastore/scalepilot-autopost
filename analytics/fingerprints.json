@@ -1,24 +1,5 @@
 [
   {
-    "guid": "5f6674bdfd87cbd91bfa550856e13d99c3932c27",
-    "ngrams": [
-      "first year salary is your",
-      "of their first year salary",
-      "30 of their first year",
-      "costs 30 of their first",
-      "is your recruitment strategy ready",
-      "recruitment strategy ready to prevent",
-      "salary is your recruitment strategy",
-      "strategy ready to prevent this",
-      "year salary is your recruitment",
-      "a bad hire costs 30",
-      "your recruitment strategy ready to",
-      "hire costs 30 of their",
-      "bad hire costs 30 of",
-      "their first year salary is"
-    ]
-  },
-  {
     "guid": "23d49cdb641ac4fc811f25a083fc620cc02bb086",
     "ngrams": [
       "on screenings ai ranks candidates",
@@ -3288,6 +3269,17 @@
       "cost you 30 of their",
       "can cost you 30 of",
       "you 30 of their first"
+    ]
+  },
+  {
+    "guid": "aa605978f73c462c9e98ca01ee0cf81fad21fb27",
+    "ngrams": [
+      "20 hours week on screenings",
+      "week on screenings streamline with",
+      "on screenings streamline with ai",
+      "why spend 20 hours week",
+      "spend 20 hours week on",
+      "hours week on screenings streamline"
     ]
   }
 ]
