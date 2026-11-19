@@ -1,19 +1,5 @@
 [
   {
-    "guid": "481944b6b22e340cb7b50867f13e5e00aa85bd78",
-    "ngrams": [
-      "your hiring process takes 42",
-      "days time for a change",
-      "14 days time for a",
-      "hiring process takes 42 days",
-      "days competitors 14 days time",
-      "competitors 14 days time for",
-      "42 days competitors 14 days",
-      "takes 42 days competitors 14",
-      "process takes 42 days competitors"
-    ]
-  },
-  {
     "guid": "37fbd53e33e34786d04a3d78757bed121a3ca932",
     "ngrams": [
       "candidates ghost companies with poor",
@@ -3289,6 +3275,21 @@
       "the bottleneck and transform your",
       "at 42 days while competitors",
       "thrive at 14 discover the"
+    ]
+  },
+  {
+    "guid": "d27199dfbce9aed6b2be4508edea8778da6570b7",
+    "ngrams": [
+      "responses with sms first engagement",
+      "with poor communication boost responses",
+      "companies with poor communication boost",
+      "candidates ghost companies with poor",
+      "ghost companies with poor communication",
+      "communication boost responses with sms",
+      "boost responses with sms first",
+      "poor communication boost responses with",
+      "73 of candidates ghost companies",
+      "of candidates ghost companies with"
     ]
   }
 ]
