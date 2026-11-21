@@ -1,20 +1,5 @@
 [
   {
-    "guid": "c1dfec1300c44e9f71021b79fd8594f7d48e5d8f",
-    "ngrams": [
-      "talent pipeline discover proactive strategies",
-      "3x more than nurturing a",
-      "hiring costs 3x more than",
-      "a talent pipeline discover proactive",
-      "pipeline discover proactive strategies today",
-      "than nurturing a talent pipeline",
-      "more than nurturing a talent",
-      "costs 3x more than nurturing",
-      "reactive hiring costs 3x more",
-      "nurturing a talent pipeline discover"
-    ]
-  },
-  {
     "guid": "986e00e705bcf1fa48f3449a0e4610d0bbafe312",
     "ngrams": [
       "scarcity is really a targeting",
@@ -3293,6 +3278,17 @@
       "hiring costs triple build a",
       "build a proactive talent pipeline",
       "triple build a proactive talent"
+    ]
+  },
+  {
+    "guid": "c1bc41375022891882f841559902c24572bcfe08",
+    "ngrams": [
+      "a myth it s more",
+      "myth it s more about",
+      "scarcity a myth it s",
+      "talent scarcity a myth it",
+      "it s more about targeting",
+      "is talent scarcity a myth"
     ]
   }
 ]
