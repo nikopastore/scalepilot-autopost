@@ -1,23 +1,5 @@
 [
   {
-    "guid": "986e00e705bcf1fa48f3449a0e4610d0bbafe312",
-    "ngrams": [
-      "scarcity is really a targeting",
-      "myth of talent scarcity is",
-      "talent scarcity is really a",
-      "postings fill inboxes not roles",
-      "the myth of talent scarcity",
-      "of talent scarcity is really",
-      "a targeting problem broad job",
-      "targeting problem broad job postings",
-      "is really a targeting problem",
-      "broad job postings fill inboxes",
-      "really a targeting problem broad",
-      "problem broad job postings fill",
-      "job postings fill inboxes not"
-    ]
-  },
-  {
     "guid": "b5b1bf5624a892a53f07d15c78816af901e2695c",
     "ngrams": [
       "open your revenue potential shrinks",
@@ -3289,6 +3271,23 @@
       "talent scarcity a myth it",
       "it s more about targeting",
       "is talent scarcity a myth"
+    ]
+  },
+  {
+    "guid": "ca05670fde701938ba1ab953ca69466b6733ec02",
+    "ngrams": [
+      "every day a critical role",
+      "day a critical role is",
+      "role is open revenue potential",
+      "proactive talent pipelines can change",
+      "open revenue potential shrinks proactive",
+      "talent pipelines can change this",
+      "potential shrinks proactive talent pipelines",
+      "shrinks proactive talent pipelines can",
+      "critical role is open revenue",
+      "is open revenue potential shrinks",
+      "revenue potential shrinks proactive talent",
+      "a critical role is open"
     ]
   }
 ]
