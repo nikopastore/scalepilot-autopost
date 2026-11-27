@@ -1,26 +1,5 @@
 [
   {
-    "guid": "0ef2b529ed748cfd99b543cefc38b54f8a5d31da",
-    "ngrams": [
-      "the average cost of a",
-      "to rethink your recruitment approach",
-      "a bad hire is 30",
-      "bad hire is 30 of",
-      "cost of a bad hire",
-      "of a bad hire is",
-      "30 of their first year",
-      "year salary time to rethink",
-      "of their first year salary",
-      "first year salary time to",
-      "hire is 30 of their",
-      "salary time to rethink your",
-      "their first year salary time",
-      "average cost of a bad",
-      "is 30 of their first",
-      "time to rethink your recruitment"
-    ]
-  },
-  {
     "guid": "f9ca282c41b77e9ced3e2831365b3a3d3c8ea3c6",
     "ngrams": [
       "still wasting 20 hours a",
@@ -3285,6 +3264,26 @@
       "resumes discover how to focus",
       "hires cost 30 of their",
       "to focus on top talent"
+    ]
+  },
+  {
+    "guid": "13a699b654f86da5f8767db0477e11ae2d30780e",
+    "ngrams": [
+      "screenings let ai rank candidates",
+      "why spend 20 hours a",
+      "20 hours a week on",
+      "week on initial screenings let",
+      "seconds and reclaim your time",
+      "rank candidates in seconds and",
+      "hours a week on initial",
+      "ai rank candidates in seconds",
+      "let ai rank candidates in",
+      "candidates in seconds and reclaim",
+      "on initial screenings let ai",
+      "a week on initial screenings",
+      "in seconds and reclaim your",
+      "initial screenings let ai rank",
+      "spend 20 hours a week"
     ]
   }
 ]
